@@ -1,5 +1,5 @@
-const usersRepo = require('./board.memory.repository');
+const boardsRepo = require('./board.memory.repository');
 
-const getAll = () => usersRepo.getAll();
+const getAll = () => boardsRepo.getAll();
 
 module.exports = { getAll };

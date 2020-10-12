@@ -1,7 +1,7 @@
+const DB = require('../../utils/inMemoryDB');
 const Board = require('./board.model');
 
 const getAll = async () => {
-  // TODO: mock implementation. should be replaced during task development
   return [];
 };
 
