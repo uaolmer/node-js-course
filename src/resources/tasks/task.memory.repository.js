@@ -5,4 +5,20 @@ const getAll = async () => {
   return [];
 };
 
-module.exports = { getAll };
+const create = async () => {
+
+};
+
+const read = async () => {
+
+};
+
+const update = async () => {
+
+};
+
+const remove = async () => {
+
+};
+
+module.exports = { getAll, create, read, update, remove };
