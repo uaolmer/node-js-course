@@ -5,7 +5,7 @@ const Column = require('../resources/columns/column.model');
 
 const database = {};
 
-const getAllEntities = async (table) => {};
+const getAllEntities = async table => {};
 
 const createEntity = async (table, entity) => {};
 

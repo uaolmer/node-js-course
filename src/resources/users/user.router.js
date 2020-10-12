@@ -9,17 +9,17 @@ router.route('/').get(async (req, res) => {
 
 router.route('/:id').get(async (req, res) => {
   const user = await usersService.read(req.params.id);
-  res.status(200).send(User.toResponse(user));
+  res.sendStatus(200).send(User.toResponse(user));
 });
 
 router.route('/').post(async (req, res) => {
   const user = await usersService.create(User.fromRequest(req.body));
-  res.status(200).send(User.toResponse(user));
+  res.sendStatus(200).send(User.toResponse(user));
 });
 
 router.route('/:id').put(async (req, res) => {
-  const user = await usersService.update(req.params.id, User.fromRequest(req.body));
-  res.status(200).send(User.toResponse(user));
+  const user = await usersService.update(User.fromRequest(req.body));
+  res.sendStatus(200).send(User.toResponse(user));
 });
 
 router.route('/:id').delete(async (req, res) => {
