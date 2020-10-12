@@ -24,7 +24,7 @@ router.route('/:id').put(async (req, res) => {
 
 router.route('/:id').delete(async (req, res) => {
   await usersService.remove(req.params.id);
-  res.sendStatus(200);
+  res.sendStatus(200).send('Item removed');
 });
 
 module.exports = router;
