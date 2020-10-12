@@ -5,24 +5,20 @@ const Column = require('../resources/columns/column.model');
 
 const database = {};
 
-const getAllEntities = async () => {
+const getAllEntities = async (table) => {};
 
+const createEntity = async (table, entity) => {};
+
+const readEntity = async (table, id) => {};
+
+const updateEntity = async (table, entity) => {};
+
+const removeEntity = async (table, id) => {};
+
+module.exports = {
+  getAllEntities,
+  createEntity,
+  readEntity,
+  updateEntity,
+  removeEntity
 };
-
-const createEntity = async () => {
-
-};
-
-const readEntity = async () => {
-
-};
-
-const updateEntity = async () => {
-
-};
-
-const removeEntity = async () => {
-
-};
-
-module.exports = { getAllEntities, createEntity, readEntity, updateEntity, removeEntity };
