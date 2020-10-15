@@ -13,12 +13,19 @@ router.route('/:id').get(async (req, res) => {
 });
 
 router.route('/').post(async (req, res) => {
-  const task = await tasksService.create({...req.body, boardId: req.params.boardId});
+  const task = await tasksService.create({
+    ...req.body,
+    boardId: req.params.boardId
+  });
   res.status(200).send(Task.toResponse(task));
 });
 
 router.route('/:id').put(async (req, res) => {
-  const task = await tasksService.update(req.params.id, req.body, req.params.boardId);
+  const task = await tasksService.update(
+    req.params.id,
+    req.body,
+    req.params.boardId
+  );
   res.status(200).send(Task.toResponse(task));
 });
 
