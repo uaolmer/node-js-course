@@ -9,22 +9,22 @@ router.route('/').get(async (req, res) => {
 
 router.route('/:id').get(async (req, res) => {
   const board = await boardsService.read(req.params.id);
-  res.sendStatus(200).send(Board.toResponse(board));
+  res.status(200).send(Board.toResponse(board));
 });
 
 router.route('/').post(async (req, res) => {
-  const board = await Board.create(Board.fromRequest(req.body));
-  res.sendStatus(200).send(Board.toResponse(board));
+  const board = await boardsService.create(req.body);
+  res.status(200).send(Board.toResponse(board));
 });
 
 router.route('/:id').put(async (req, res) => {
-  const board = await boardsService.update(Board.fromRequest(req.body));
-  res.sendStatus(200).send(Board.toResponse(board));
+  const board = await boardsService.update(req.params.id, req.body);
+  res.status(200).send(Board.toResponse(board));
 });
 
 router.route('/:id').delete(async (req, res) => {
   await boardsService.remove(req.params.id);
-  res.sendStatus(200).send('Item removed');
+  res.sendStatus(204);
 });
 
 module.exports = router;

@@ -24,7 +24,6 @@ app.use('/', (req, res, next) => {
 
 app.use('/users', userRouter);
 app.use('/boards', boardRouter);
-app.use('/tasks', taskRouter);
-app.use('/columns', columnRouter);
+boardRouter.use('/:boardId/tasks', taskRouter);
 
 module.exports = app;

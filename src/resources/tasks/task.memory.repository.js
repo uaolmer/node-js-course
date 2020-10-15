@@ -1,16 +1,14 @@
 const DB = require('../../utils/inMemoryDB');
-const Task = require('./task.model');
+const model = 'Tasks';
 
-const getAll = async () => {
-  return [];
-};
+const getAll = async id => await DB.getAllEntities(model, id);
 
-const create = async () => {};
+const create = async task => await DB.createEntity(model, task);
 
-const read = async () => {};
+const read = async (id, boardId) => await DB.readEntity(model, id, boardId);
 
-const update = async () => {};
+const update = async (id, task, boardId) => await DB.updateEntity(model, id, task, boardId);
 
-const remove = async () => {};
+const remove = async (id, boardId) => await DB.removeEntity(model, id, boardId);
 
 module.exports = { getAll, create, read, update, remove };
