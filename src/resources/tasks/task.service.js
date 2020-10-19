@@ -8,6 +8,6 @@ const read = (id, boardId) => tasksRepo.read(id, boardId);
 
 const update = (id, task, boardId) => tasksRepo.update(id, task, boardId);
 
-const remove = (id, boardId) => tasksRepo.remove(id, boardId);
+const remove = id => tasksRepo.remove(id);
 
 module.exports = { getAll, create, read, update, remove };

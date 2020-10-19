@@ -9,6 +9,11 @@ router.route('/').get(async (req, res) => {
 
 router.route('/:id').get(async (req, res) => {
   const task = await tasksService.read(req.params.id, req.params.boardId);
+  if (!task) {
+    res.status(404);
+    res.send();
+    return;
+  }
   res.status(200).send(Task.toResponse(task));
 });
 
@@ -30,7 +35,7 @@ router.route('/:id').put(async (req, res) => {
 });
 
 router.route('/:id').delete(async (req, res) => {
-  await tasksService.remove(req.params.id, req.params.boardId);
+  await tasksService.remove(req.params.id);
   res.sendStatus(204);
 });
 

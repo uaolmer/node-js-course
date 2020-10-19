@@ -42,24 +42,24 @@ const updateEntity = async (model, id, entity, boardId = '') => {
   return readEntity(model, id, boardId);
 };
 
-const removeEntity = async (model, id, boardId = '') => {
+const removeEntity = async (model, id) => {
   if (model === 'Users') {
-    await removeUsers(model, id);
+    removeUsers(model, id);
   }
 
   if (model === 'Boards') {
-    await removeBoards(model, id);
+    removeBoards(model, id);
   }
 
   if (model === 'Tasks') {
-    await removeTasks(model, id, boardId);
+    removeTasks(model, id);
   }
 };
 
-const removeTasks = async (model, id, boardId) => {
+const removeTasks = async (model, id) => {
   db[model] = db[model]
     .filter(task => task)
-    .filter(task => task.id !== id && task.id !== boardId);
+    .filter(task => task.id !== id);
 };
 
 const removeUsers = async (model, id) => {
@@ -70,7 +70,7 @@ const removeUsers = async (model, id) => {
         arr.splice(index, 1);
       }
     });
-  db['Tasks']
+  db.Tasks
     .filter(task => task)
     .forEach((task, index, arr) => {
       if (task.userId === id) {
@@ -80,7 +80,7 @@ const removeUsers = async (model, id) => {
 };
 
 const removeBoards = async (model, id) => {
-  db['Tasks'] = db['Tasks']
+  db.Tasks = db.Tasks
     .filter(task => task)
     .filter(task => task.boardId !== id);
   db[model] = db[model].filter(board => board).filter(board => board.id !== id);

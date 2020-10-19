@@ -9,6 +9,11 @@ router.route('/').get(async (req, res) => {
 
 router.route('/:id').get(async (req, res) => {
   const board = await boardsService.read(req.params.id);
+  if (!board) {
+    res.status(404);
+    res.send();
+    return;
+  }
   res.status(200).send(Board.toResponse(board));
 });
 

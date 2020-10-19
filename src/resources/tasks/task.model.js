@@ -6,9 +6,9 @@ class Task {
     title = 'TASK',
     order = 0,
     description = 'description',
-    userId = '0',
-    boardId = '0',
-    columnId = '0'
+    userId = null,
+    boardId = null,
+    columnId = null
   } = {}) {
     this.id = id;
     this.title = title;
@@ -22,6 +22,10 @@ class Task {
   static toResponse(task) {
     const { id, title, order, description, userId, boardId, columnId } = task;
     return { id, title, order, description, userId, boardId, columnId };
+  }
+
+  static fromRequest(body) {
+    return new Task(body);
   }
 }
 

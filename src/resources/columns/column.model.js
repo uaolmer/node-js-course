@@ -11,6 +11,10 @@ class Column {
     const { id, title, order } = column;
     return { id, title, order };
   }
+
+  static fromRequest(body) {
+    return new Column(body);
+  }
 }
 
 module.exports = Column;
