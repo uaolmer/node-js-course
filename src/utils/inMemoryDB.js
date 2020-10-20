@@ -57,9 +57,7 @@ const removeEntity = async (model, id) => {
 };
 
 const removeTasks = async (model, id) => {
-  db[model] = db[model]
-    .filter(task => task)
-    .filter(task => task.id !== id);
+  db[model] = db[model].filter(task => task).filter(task => task.id !== id);
 };
 
 const removeUsers = async (model, id) => {
@@ -70,19 +68,15 @@ const removeUsers = async (model, id) => {
         arr.splice(index, 1);
       }
     });
-  db.Tasks
-    .filter(task => task)
-    .forEach((task, index, arr) => {
-      if (task.userId === id) {
-        arr[index].userId = null;
-      }
-    });
+  db.Tasks.filter(task => task).forEach((task, index, arr) => {
+    if (task.userId === id) {
+      arr[index].userId = null;
+    }
+  });
 };
 
 const removeBoards = async (model, id) => {
-  db.Tasks = db.Tasks
-    .filter(task => task)
-    .filter(task => task.boardId !== id);
+  db.Tasks = db.Tasks.filter(task => task).filter(task => task.boardId !== id);
   db[model] = db[model].filter(board => board).filter(board => board.id !== id);
 };
 

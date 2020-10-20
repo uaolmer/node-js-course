@@ -1,0 +1,1390 @@
+{
+  service: 'user-service',
+  error: Error: Oops!
+      at Object.<anonymous> (D:\rs-school\js\node-js\express-rest-service\node-js-course\src\app.js:38:16)
+      at Module._compile (internal/modules/cjs/loader.js:1015:30)
+      at Object.Module._extensions..js (internal/modules/cjs/loader.js:1035:10)
+      at Module.load (internal/modules/cjs/loader.js:879:32)
+      at Function.Module._load (internal/modules/cjs/loader.js:724:14)
+      at Module.require (internal/modules/cjs/loader.js:903:19)
+      at require (internal/modules/cjs/helpers.js:74:18)
+      at Object.<anonymous> (D:\rs-school\js\node-js\express-rest-service\node-js-course\src\server.js:2:13)
+      at Module._compile (internal/modules/cjs/loader.js:1015:30)
+      at Object.Module._extensions..js (internal/modules/cjs/loader.js:1035:10),
+  level: '\u001b[31merror\u001b[39m',
+  message: 'Internal Server Error',
+  timestamp: '2020-10-20T11:50:08.193Z'
+}
+{
+  service: 'user-service',
+  error: Error: listen EADDRINUSE: address already in use :::4000
+      at Server.setupListenHandle [as _listen2] (net.js:1317:16)
+      at listenInCluster (net.js:1365:12)
+      at Server.listen (net.js:1451:7)
+      at Function.listen (D:\rs-school\js\node-js\express-rest-service\node-js-course\node_modules\express\lib\application.js:618:24)
+      at Object.<anonymous> (D:\rs-school\js\node-js\express-rest-service\node-js-course\src\server.js:4:5)
+      at Module._compile (internal/modules/cjs/loader.js:1015:30)
+      at Object.Module._extensions..js (internal/modules/cjs/loader.js:1035:10)
+      at Module.load (internal/modules/cjs/loader.js:879:32)
+      at Function.Module._load (internal/modules/cjs/loader.js:724:14)
+      at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:60:12) {
+    code: 'EADDRINUSE',
+    errno: 'EADDRINUSE',
+    syscall: 'listen',
+    address: '::',
+    port: 4000
+  },
+  level: '\u001b[31merror\u001b[39m',
+  message: 'Internal Server Error',
+  timestamp: '2020-10-20T11:50:08.194Z'
+}
+{
+  service: 'user-service',
+  error: Error: Oops!
+      at Object.<anonymous> (D:\rs-school\js\node-js\express-rest-service\node-js-course\src\app.js:38:16)
+      at Module._compile (internal/modules/cjs/loader.js:1015:30)
+      at Object.Module._extensions..js (internal/modules/cjs/loader.js:1035:10)
+      at Module.load (internal/modules/cjs/loader.js:879:32)
+      at Function.Module._load (internal/modules/cjs/loader.js:724:14)
+      at Module.require (internal/modules/cjs/loader.js:903:19)
+      at require (internal/modules/cjs/helpers.js:74:18)
+      at Object.<anonymous> (D:\rs-school\js\node-js\express-rest-service\node-js-course\src\server.js:2:13)
+      at Module._compile (internal/modules/cjs/loader.js:1015:30)
+      at Object.Module._extensions..js (internal/modules/cjs/loader.js:1035:10),
+  level: '\u001b[31merror\u001b[39m',
+  message: 'Internal Server Error',
+  timestamp: '2020-10-20T11:50:08.204Z'
+}
+{
+  service: 'user-service',
+  error: Error: Oops!
+      at Object.<anonymous> (D:\rs-school\js\node-js\express-rest-service\node-js-course\src\app.js:38:16)
+      at Module._compile (internal/modules/cjs/loader.js:1015:30)
+      at Object.Module._extensions..js (internal/modules/cjs/loader.js:1035:10)
+      at Module.load (internal/modules/cjs/loader.js:879:32)
+      at Function.Module._load (internal/modules/cjs/loader.js:724:14)
+      at Module.require (internal/modules/cjs/loader.js:903:19)
+      at require (internal/modules/cjs/helpers.js:74:18)
+      at Object.<anonymous> (D:\rs-school\js\node-js\express-rest-service\node-js-course\src\server.js:2:13)
+      at Module._compile (internal/modules/cjs/loader.js:1015:30)
+      at Object.Module._extensions..js (internal/modules/cjs/loader.js:1035:10),
+  level: '\u001b[31merror\u001b[39m',
+  message: 'Internal Server Error',
+  timestamp: '2020-10-20T11:50:32.242Z'
+}
+{
+  service: 'user-service',
+  error: Error: Oops!
+      at Object.<anonymous> (D:\rs-school\js\node-js\express-rest-service\node-js-course\src\app.js:38:16)
+      at Module._compile (internal/modules/cjs/loader.js:1015:30)
+      at Object.Module._extensions..js (internal/modules/cjs/loader.js:1035:10)
+      at Module.load (internal/modules/cjs/loader.js:879:32)
+      at Function.Module._load (internal/modules/cjs/loader.js:724:14)
+      at Module.require (internal/modules/cjs/loader.js:903:19)
+      at require (internal/modules/cjs/helpers.js:74:18)
+      at Object.<anonymous> (D:\rs-school\js\node-js\express-rest-service\node-js-course\src\server.js:2:13)
+      at Module._compile (internal/modules/cjs/loader.js:1015:30)
+      at Object.Module._extensions..js (internal/modules/cjs/loader.js:1035:10),
+  level: '\u001b[31merror\u001b[39m',
+  message: 'Unhandled Rejection',
+  timestamp: '2020-10-20T11:53:28.337Z'
+}
+{
+  service: 'user-service',
+  error: Error: Oops!
+      at Object.<anonymous> (D:\rs-school\js\node-js\express-rest-service\node-js-course\src\app.js:38:16)
+      at Module._compile (internal/modules/cjs/loader.js:1015:30)
+      at Object.Module._extensions..js (internal/modules/cjs/loader.js:1035:10)
+      at Module.load (internal/modules/cjs/loader.js:879:32)
+      at Function.Module._load (internal/modules/cjs/loader.js:724:14)
+      at Module.require (internal/modules/cjs/loader.js:903:19)
+      at require (internal/modules/cjs/helpers.js:74:18)
+      at Object.<anonymous> (D:\rs-school\js\node-js\express-rest-service\node-js-course\src\server.js:2:13)
+      at Module._compile (internal/modules/cjs/loader.js:1015:30)
+      at Object.Module._extensions..js (internal/modules/cjs/loader.js:1035:10),
+  level: '\u001b[31merror\u001b[39m',
+  message: 'Unhandled Rejection',
+  timestamp: '2020-10-20T11:53:51.510Z'
+}
+{
+  error: Error: Oops!
+      at Object.<anonymous> (D:\rs-school\js\node-js\express-rest-service\node-js-course\src\app.js:38:16)
+      at Module._compile (internal/modules/cjs/loader.js:1015:30)
+      at Object.Module._extensions..js (internal/modules/cjs/loader.js:1035:10)
+      at Module.load (internal/modules/cjs/loader.js:879:32)
+      at Function.Module._load (internal/modules/cjs/loader.js:724:14)
+      at Module.require (internal/modules/cjs/loader.js:903:19)
+      at require (internal/modules/cjs/helpers.js:74:18)
+      at Object.<anonymous> (D:\rs-school\js\node-js\express-rest-service\node-js-course\src\server.js:2:13)
+      at Module._compile (internal/modules/cjs/loader.js:1015:30)
+      at Object.Module._extensions..js (internal/modules/cjs/loader.js:1035:10),
+  level: '\u001b[31merror\u001b[39m',
+  message: 'Unhandled Rejection',
+  timestamp: '2020-10-20T11:54:34.524Z'
+}
+{
+  error: Error: listen EADDRINUSE: address already in use :::4000
+      at Server.setupListenHandle [as _listen2] (net.js:1317:16)
+      at listenInCluster (net.js:1365:12)
+      at Server.listen (net.js:1451:7)
+      at Function.listen (D:\rs-school\js\node-js\express-rest-service\node-js-course\node_modules\express\lib\application.js:618:24)
+      at Object.<anonymous> (D:\rs-school\js\node-js\express-rest-service\node-js-course\src\server.js:4:5)
+      at Module._compile (internal/modules/cjs/loader.js:1015:30)
+      at Object.Module._extensions..js (internal/modules/cjs/loader.js:1035:10)
+      at Module.load (internal/modules/cjs/loader.js:879:32)
+      at Function.Module._load (internal/modules/cjs/loader.js:724:14)
+      at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:60:12) {
+    code: 'EADDRINUSE',
+    errno: 'EADDRINUSE',
+    syscall: 'listen',
+    address: '::',
+    port: 4000
+  },
+  level: '\u001b[31merror\u001b[39m',
+  message: 'Uncaugth Exception',
+  timestamp: '2020-10-20T11:54:37.974Z'
+}
+{
+  error: Error: Oops!
+      at Object.<anonymous> (D:\rs-school\js\node-js\express-rest-service\node-js-course\src\app.js:38:16)
+      at Module._compile (internal/modules/cjs/loader.js:1015:30)
+      at Object.Module._extensions..js (internal/modules/cjs/loader.js:1035:10)
+      at Module.load (internal/modules/cjs/loader.js:879:32)
+      at Function.Module._load (internal/modules/cjs/loader.js:724:14)
+      at Module.require (internal/modules/cjs/loader.js:903:19)
+      at require (internal/modules/cjs/helpers.js:74:18)
+      at Object.<anonymous> (D:\rs-school\js\node-js\express-rest-service\node-js-course\src\server.js:2:13)
+      at Module._compile (internal/modules/cjs/loader.js:1015:30)
+      at Object.Module._extensions..js (internal/modules/cjs/loader.js:1035:10),
+  level: '\u001b[31merror\u001b[39m',
+  message: 'Unhandled Rejection',
+  timestamp: '2020-10-20T11:54:37.982Z'
+}
+{
+  error: Error: Oops!
+      at Object.<anonymous> (D:\rs-school\js\node-js\express-rest-service\node-js-course\src\app.js:38:16)
+      at Module._compile (internal/modules/cjs/loader.js:1015:30)
+      at Object.Module._extensions..js (internal/modules/cjs/loader.js:1035:10)
+      at Module.load (internal/modules/cjs/loader.js:879:32)
+      at Function.Module._load (internal/modules/cjs/loader.js:724:14)
+      at Module.require (internal/modules/cjs/loader.js:903:19)
+      at require (internal/modules/cjs/helpers.js:74:18)
+      at Object.<anonymous> (D:\rs-school\js\node-js\express-rest-service\node-js-course\src\server.js:2:13)
+      at Module._compile (internal/modules/cjs/loader.js:1015:30)
+      at Object.Module._extensions..js (internal/modules/cjs/loader.js:1035:10),
+  level: '\u001b[31merror\u001b[39m',
+  message: 'Unhandled Rejection',
+  timestamp: '2020-10-20T11:55:05.575Z'
+}
+{
+  error: Error: listen EADDRINUSE: address already in use :::4000
+      at Server.setupListenHandle [as _listen2] (net.js:1317:16)
+      at listenInCluster (net.js:1365:12)
+      at Server.listen (net.js:1451:7)
+      at Function.listen (D:\rs-school\js\node-js\express-rest-service\node-js-course\node_modules\express\lib\application.js:618:24)
+      at Object.<anonymous> (D:\rs-school\js\node-js\express-rest-service\node-js-course\src\server.js:4:5)
+      at Module._compile (internal/modules/cjs/loader.js:1015:30)
+      at Object.Module._extensions..js (internal/modules/cjs/loader.js:1035:10)
+      at Module.load (internal/modules/cjs/loader.js:879:32)
+      at Function.Module._load (internal/modules/cjs/loader.js:724:14)
+      at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:60:12) {
+    code: 'EADDRINUSE',
+    errno: 'EADDRINUSE',
+    syscall: 'listen',
+    address: '::',
+    port: 4000
+  },
+  level: '\u001b[31merror\u001b[39m',
+  message: 'Uncaugth Exception',
+  timestamp: '2020-10-20T11:55:05.704Z'
+}
+{
+  error: Error: Oops!
+      at Object.<anonymous> (D:\rs-school\js\node-js\express-rest-service\node-js-course\src\app.js:38:16)
+      at Module._compile (internal/modules/cjs/loader.js:1015:30)
+      at Object.Module._extensions..js (internal/modules/cjs/loader.js:1035:10)
+      at Module.load (internal/modules/cjs/loader.js:879:32)
+      at Function.Module._load (internal/modules/cjs/loader.js:724:14)
+      at Module.require (internal/modules/cjs/loader.js:903:19)
+      at require (internal/modules/cjs/helpers.js:74:18)
+      at Object.<anonymous> (D:\rs-school\js\node-js\express-rest-service\node-js-course\src\server.js:2:13)
+      at Module._compile (internal/modules/cjs/loader.js:1015:30)
+      at Object.Module._extensions..js (internal/modules/cjs/loader.js:1035:10),
+  level: '\u001b[31merror\u001b[39m',
+  message: 'Unhandled Rejection',
+  timestamp: '2020-10-20T11:55:05.714Z'
+}
+{
+  error: Error: Oops!
+      at Object.<anonymous> (D:\rs-school\js\node-js\express-rest-service\node-js-course\src\app.js:38:16)
+      at Module._compile (internal/modules/cjs/loader.js:1015:30)
+      at Object.Module._extensions..js (internal/modules/cjs/loader.js:1035:10)
+      at Module.load (internal/modules/cjs/loader.js:879:32)
+      at Function.Module._load (internal/modules/cjs/loader.js:724:14)
+      at Module.require (internal/modules/cjs/loader.js:903:19)
+      at require (internal/modules/cjs/helpers.js:74:18)
+      at Object.<anonymous> (D:\rs-school\js\node-js\express-rest-service\node-js-course\src\server.js:2:13)
+      at Module._compile (internal/modules/cjs/loader.js:1015:30)
+      at Object.Module._extensions..js (internal/modules/cjs/loader.js:1035:10),
+  level: '\u001b[31merror\u001b[39m',
+  message: 'Unhandled Rejection',
+  timestamp: '2020-10-20T11:55:09.229Z'
+}
+{
+  error: Error: Oops!
+      at Object.<anonymous> (D:\rs-school\js\node-js\express-rest-service\node-js-course\src\app.js:38:16)
+      at Module._compile (internal/modules/cjs/loader.js:1015:30)
+      at Object.Module._extensions..js (internal/modules/cjs/loader.js:1035:10)
+      at Module.load (internal/modules/cjs/loader.js:879:32)
+      at Function.Module._load (internal/modules/cjs/loader.js:724:14)
+      at Module.require (internal/modules/cjs/loader.js:903:19)
+      at require (internal/modules/cjs/helpers.js:74:18)
+      at Object.<anonymous> (D:\rs-school\js\node-js\express-rest-service\node-js-course\src\server.js:2:13)
+      at Module._compile (internal/modules/cjs/loader.js:1015:30)
+      at Object.Module._extensions..js (internal/modules/cjs/loader.js:1035:10),
+  level: '\u001b[31merror\u001b[39m',
+  message: 'Unhandled Rejection',
+  timestamp: '2020-10-20T11:56:35.296Z'
+}
+{
+  error: Error: listen EADDRINUSE: address already in use :::4000
+      at Server.setupListenHandle [as _listen2] (net.js:1317:16)
+      at listenInCluster (net.js:1365:12)
+      at Server.listen (net.js:1451:7)
+      at Function.listen (D:\rs-school\js\node-js\express-rest-service\node-js-course\node_modules\express\lib\application.js:618:24)
+      at Object.<anonymous> (D:\rs-school\js\node-js\express-rest-service\node-js-course\src\server.js:4:5)
+      at Module._compile (internal/modules/cjs/loader.js:1015:30)
+      at Object.Module._extensions..js (internal/modules/cjs/loader.js:1035:10)
+      at Module.load (internal/modules/cjs/loader.js:879:32)
+      at Function.Module._load (internal/modules/cjs/loader.js:724:14)
+      at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:60:12) {
+    code: 'EADDRINUSE',
+    errno: 'EADDRINUSE',
+    syscall: 'listen',
+    address: '::',
+    port: 4000
+  },
+  level: '\u001b[31merror\u001b[39m',
+  message: 'Uncaugth Exception',
+  timestamp: '2020-10-20T11:56:35.434Z'
+}
+{
+  error: Error: Oops!
+      at Object.<anonymous> (D:\rs-school\js\node-js\express-rest-service\node-js-course\src\app.js:38:16)
+      at Module._compile (internal/modules/cjs/loader.js:1015:30)
+      at Object.Module._extensions..js (internal/modules/cjs/loader.js:1035:10)
+      at Module.load (internal/modules/cjs/loader.js:879:32)
+      at Function.Module._load (internal/modules/cjs/loader.js:724:14)
+      at Module.require (internal/modules/cjs/loader.js:903:19)
+      at require (internal/modules/cjs/helpers.js:74:18)
+      at Object.<anonymous> (D:\rs-school\js\node-js\express-rest-service\node-js-course\src\server.js:2:13)
+      at Module._compile (internal/modules/cjs/loader.js:1015:30)
+      at Object.Module._extensions..js (internal/modules/cjs/loader.js:1035:10),
+  level: '\u001b[31merror\u001b[39m',
+  message: 'Unhandled Rejection',
+  timestamp: '2020-10-20T11:56:35.444Z'
+}
+{
+  error: Error: Oops!
+      at Object.<anonymous> (D:\rs-school\js\node-js\express-rest-service\node-js-course\src\app.js:38:16)
+      at Module._compile (internal/modules/cjs/loader.js:1015:30)
+      at Object.Module._extensions..js (internal/modules/cjs/loader.js:1035:10)
+      at Module.load (internal/modules/cjs/loader.js:879:32)
+      at Function.Module._load (internal/modules/cjs/loader.js:724:14)
+      at Module.require (internal/modules/cjs/loader.js:903:19)
+      at require (internal/modules/cjs/helpers.js:74:18)
+      at Object.<anonymous> (D:\rs-school\js\node-js\express-rest-service\node-js-course\src\server.js:2:13)
+      at Module._compile (internal/modules/cjs/loader.js:1015:30)
+      at Object.Module._extensions..js (internal/modules/cjs/loader.js:1035:10),
+  level: '\u001b[31merror\u001b[39m',
+  message: 'Unhandled Rejection',
+  timestamp: '2020-10-20T11:57:11.268Z'
+}
+{
+  error: Error: listen EADDRINUSE: address already in use :::4000
+      at Server.setupListenHandle [as _listen2] (net.js:1317:16)
+      at listenInCluster (net.js:1365:12)
+      at Server.listen (net.js:1451:7)
+      at Function.listen (D:\rs-school\js\node-js\express-rest-service\node-js-course\node_modules\express\lib\application.js:618:24)
+      at Object.<anonymous> (D:\rs-school\js\node-js\express-rest-service\node-js-course\src\server.js:4:5)
+      at Module._compile (internal/modules/cjs/loader.js:1015:30)
+      at Object.Module._extensions..js (internal/modules/cjs/loader.js:1035:10)
+      at Module.load (internal/modules/cjs/loader.js:879:32)
+      at Function.Module._load (internal/modules/cjs/loader.js:724:14)
+      at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:60:12) {
+    code: 'EADDRINUSE',
+    errno: 'EADDRINUSE',
+    syscall: 'listen',
+    address: '::',
+    port: 4000
+  },
+  level: '\u001b[31merror\u001b[39m',
+  message: 'Uncaugth Exception',
+  timestamp: '2020-10-20T11:57:11.266Z'
+}
+{
+  error: Error: Oops!
+      at Object.<anonymous> (D:\rs-school\js\node-js\express-rest-service\node-js-course\src\app.js:38:16)
+      at Module._compile (internal/modules/cjs/loader.js:1015:30)
+      at Object.Module._extensions..js (internal/modules/cjs/loader.js:1035:10)
+      at Module.load (internal/modules/cjs/loader.js:879:32)
+      at Function.Module._load (internal/modules/cjs/loader.js:724:14)
+      at Module.require (internal/modules/cjs/loader.js:903:19)
+      at require (internal/modules/cjs/helpers.js:74:18)
+      at Object.<anonymous> (D:\rs-school\js\node-js\express-rest-service\node-js-course\src\server.js:2:13)
+      at Module._compile (internal/modules/cjs/loader.js:1015:30)
+      at Object.Module._extensions..js (internal/modules/cjs/loader.js:1035:10),
+  level: '\u001b[31merror\u001b[39m',
+  message: 'Unhandled Rejection',
+  timestamp: '2020-10-20T11:57:11.276Z'
+}
+{"error":{},"level":"error","message":"Unhandled Rejection"}
+{"error":{"code":"EADDRINUSE","errno":"EADDRINUSE","syscall":"listen","address":"::","port":4000},"level":"error","message":"Uncaugth Exception"}
+{"error":{},"level":"error","message":"Unhandled Rejection"}
+{
+  error: Error: Oops!
+      at Object.<anonymous> (D:\rs-school\js\node-js\express-rest-service\node-js-course\src\app.js:38:16)
+      at Module._compile (internal/modules/cjs/loader.js:1015:30)
+      at Object.Module._extensions..js (internal/modules/cjs/loader.js:1035:10)
+      at Module.load (internal/modules/cjs/loader.js:879:32)
+      at Function.Module._load (internal/modules/cjs/loader.js:724:14)
+      at Module.require (internal/modules/cjs/loader.js:903:19)
+      at require (internal/modules/cjs/helpers.js:74:18)
+      at Object.<anonymous> (D:\rs-school\js\node-js\express-rest-service\node-js-course\src\server.js:2:13)
+      at Module._compile (internal/modules/cjs/loader.js:1015:30)
+      at Object.Module._extensions..js (internal/modules/cjs/loader.js:1035:10),
+  level: '\u001b[31merror\u001b[39m',
+  message: 'Unhandled Rejection',
+  timestamp: '2020-10-20T12:00:39.515Z'
+}
+{
+  error: Error: listen EADDRINUSE: address already in use :::4000
+      at Server.setupListenHandle [as _listen2] (net.js:1317:16)
+      at listenInCluster (net.js:1365:12)
+      at Server.listen (net.js:1451:7)
+      at Function.listen (D:\rs-school\js\node-js\express-rest-service\node-js-course\node_modules\express\lib\application.js:618:24)
+      at Object.<anonymous> (D:\rs-school\js\node-js\express-rest-service\node-js-course\src\server.js:4:5)
+      at Module._compile (internal/modules/cjs/loader.js:1015:30)
+      at Object.Module._extensions..js (internal/modules/cjs/loader.js:1035:10)
+      at Module.load (internal/modules/cjs/loader.js:879:32)
+      at Function.Module._load (internal/modules/cjs/loader.js:724:14)
+      at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:60:12) {
+    code: 'EADDRINUSE',
+    errno: 'EADDRINUSE',
+    syscall: 'listen',
+    address: '::',
+    port: 4000
+  },
+  level: '\u001b[31merror\u001b[39m',
+  message: 'Uncaugth Exception',
+  timestamp: '2020-10-20T12:00:39.635Z'
+}
+{
+  error: Error: Oops!
+      at Object.<anonymous> (D:\rs-school\js\node-js\express-rest-service\node-js-course\src\app.js:38:16)
+      at Module._compile (internal/modules/cjs/loader.js:1015:30)
+      at Object.Module._extensions..js (internal/modules/cjs/loader.js:1035:10)
+      at Module.load (internal/modules/cjs/loader.js:879:32)
+      at Function.Module._load (internal/modules/cjs/loader.js:724:14)
+      at Module.require (internal/modules/cjs/loader.js:903:19)
+      at require (internal/modules/cjs/helpers.js:74:18)
+      at Object.<anonymous> (D:\rs-school\js\node-js\express-rest-service\node-js-course\src\server.js:2:13)
+      at Module._compile (internal/modules/cjs/loader.js:1015:30)
+      at Object.Module._extensions..js (internal/modules/cjs/loader.js:1035:10),
+  level: '\u001b[31merror\u001b[39m',
+  message: 'Unhandled Rejection',
+  timestamp: '2020-10-20T12:00:39.643Z'
+}
+{
+  error: Error: Oops!
+      at Object.<anonymous> (D:\rs-school\js\node-js\express-rest-service\node-js-course\src\app.js:38:16)
+      at Module._compile (internal/modules/cjs/loader.js:1015:30)
+      at Object.Module._extensions..js (internal/modules/cjs/loader.js:1035:10)
+      at Module.load (internal/modules/cjs/loader.js:879:32)
+      at Function.Module._load (internal/modules/cjs/loader.js:724:14)
+      at Module.require (internal/modules/cjs/loader.js:903:19)
+      at require (internal/modules/cjs/helpers.js:74:18)
+      at Object.<anonymous> (D:\rs-school\js\node-js\express-rest-service\node-js-course\src\server.js:2:13)
+      at Module._compile (internal/modules/cjs/loader.js:1015:30)
+      at Object.Module._extensions..js (internal/modules/cjs/loader.js:1035:10),
+  level: '\u001b[31merror\u001b[39m',
+  message: 'Unhandled Rejection',
+  timestamp: '2020-10-20T12:01:08.151Z'
+}
+{
+  error: Error: listen EADDRINUSE: address already in use :::4000
+      at Server.setupListenHandle [as _listen2] (net.js:1317:16)
+      at listenInCluster (net.js:1365:12)
+      at Server.listen (net.js:1451:7)
+      at Function.listen (D:\rs-school\js\node-js\express-rest-service\node-js-course\node_modules\express\lib\application.js:618:24)
+      at Object.<anonymous> (D:\rs-school\js\node-js\express-rest-service\node-js-course\src\server.js:4:5)
+      at Module._compile (internal/modules/cjs/loader.js:1015:30)
+      at Object.Module._extensions..js (internal/modules/cjs/loader.js:1035:10)
+      at Module.load (internal/modules/cjs/loader.js:879:32)
+      at Function.Module._load (internal/modules/cjs/loader.js:724:14)
+      at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:60:12) {
+    code: 'EADDRINUSE',
+    errno: 'EADDRINUSE',
+    syscall: 'listen',
+    address: '::',
+    port: 4000
+  },
+  level: '\u001b[31merror\u001b[39m',
+  message: 'Uncaugth Exception',
+  timestamp: '2020-10-20T12:01:08.300Z'
+}
+{
+  error: Error: Oops!
+      at Object.<anonymous> (D:\rs-school\js\node-js\express-rest-service\node-js-course\src\app.js:38:16)
+      at Module._compile (internal/modules/cjs/loader.js:1015:30)
+      at Object.Module._extensions..js (internal/modules/cjs/loader.js:1035:10)
+      at Module.load (internal/modules/cjs/loader.js:879:32)
+      at Function.Module._load (internal/modules/cjs/loader.js:724:14)
+      at Module.require (internal/modules/cjs/loader.js:903:19)
+      at require (internal/modules/cjs/helpers.js:74:18)
+      at Object.<anonymous> (D:\rs-school\js\node-js\express-rest-service\node-js-course\src\server.js:2:13)
+      at Module._compile (internal/modules/cjs/loader.js:1015:30)
+      at Object.Module._extensions..js (internal/modules/cjs/loader.js:1035:10),
+  level: '\u001b[31merror\u001b[39m',
+  message: 'Unhandled Rejection',
+  timestamp: '2020-10-20T12:01:08.309Z'
+}
+{
+  error: Error: Oops!
+      at Object.<anonymous> (D:\rs-school\js\node-js\express-rest-service\node-js-course\src\app.js:38:16)
+      at Module._compile (internal/modules/cjs/loader.js:1015:30)
+      at Object.Module._extensions..js (internal/modules/cjs/loader.js:1035:10)
+      at Module.load (internal/modules/cjs/loader.js:879:32)
+      at Function.Module._load (internal/modules/cjs/loader.js:724:14)
+      at Module.require (internal/modules/cjs/loader.js:903:19)
+      at require (internal/modules/cjs/helpers.js:74:18)
+      at Object.<anonymous> (D:\rs-school\js\node-js\express-rest-service\node-js-course\src\server.js:2:13)
+      at Module._compile (internal/modules/cjs/loader.js:1015:30)
+      at Object.Module._extensions..js (internal/modules/cjs/loader.js:1035:10),
+  level: '\u001b[31merror\u001b[39m',
+  message: 'Unhandled Rejection',
+  timestamp: '2020-10-20T12:01:16.349Z'
+}
+{
+  error: Error: listen EADDRINUSE: address already in use :::4000
+      at Server.setupListenHandle [as _listen2] (net.js:1317:16)
+      at listenInCluster (net.js:1365:12)
+      at Server.listen (net.js:1451:7)
+      at Function.listen (D:\rs-school\js\node-js\express-rest-service\node-js-course\node_modules\express\lib\application.js:618:24)
+      at Object.<anonymous> (D:\rs-school\js\node-js\express-rest-service\node-js-course\src\server.js:4:5)
+      at Module._compile (internal/modules/cjs/loader.js:1015:30)
+      at Object.Module._extensions..js (internal/modules/cjs/loader.js:1035:10)
+      at Module.load (internal/modules/cjs/loader.js:879:32)
+      at Function.Module._load (internal/modules/cjs/loader.js:724:14)
+      at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:60:12) {
+    code: 'EADDRINUSE',
+    errno: 'EADDRINUSE',
+    syscall: 'listen',
+    address: '::',
+    port: 4000
+  },
+  level: '\u001b[31merror\u001b[39m',
+  message: 'Uncaugth Exception',
+  timestamp: '2020-10-20T12:01:16.483Z'
+}
+{
+  error: Error: Oops!
+      at Object.<anonymous> (D:\rs-school\js\node-js\express-rest-service\node-js-course\src\app.js:38:16)
+      at Module._compile (internal/modules/cjs/loader.js:1015:30)
+      at Object.Module._extensions..js (internal/modules/cjs/loader.js:1035:10)
+      at Module.load (internal/modules/cjs/loader.js:879:32)
+      at Function.Module._load (internal/modules/cjs/loader.js:724:14)
+      at Module.require (internal/modules/cjs/loader.js:903:19)
+      at require (internal/modules/cjs/helpers.js:74:18)
+      at Object.<anonymous> (D:\rs-school\js\node-js\express-rest-service\node-js-course\src\server.js:2:13)
+      at Module._compile (internal/modules/cjs/loader.js:1015:30)
+      at Object.Module._extensions..js (internal/modules/cjs/loader.js:1035:10),
+  level: '\u001b[31merror\u001b[39m',
+  message: 'Unhandled Rejection',
+  timestamp: '2020-10-20T12:01:16.490Z'
+}
+{
+  error: Error: Oops!
+      at Object.<anonymous> (D:\rs-school\js\node-js\express-rest-service\node-js-course\src\app.js:38:16)
+      at Module._compile (internal/modules/cjs/loader.js:1015:30)
+      at Object.Module._extensions..js (internal/modules/cjs/loader.js:1035:10)
+      at Module.load (internal/modules/cjs/loader.js:879:32)
+      at Function.Module._load (internal/modules/cjs/loader.js:724:14)
+      at Module.require (internal/modules/cjs/loader.js:903:19)
+      at require (internal/modules/cjs/helpers.js:74:18)
+      at Object.<anonymous> (D:\rs-school\js\node-js\express-rest-service\node-js-course\src\server.js:2:13)
+      at Module._compile (internal/modules/cjs/loader.js:1015:30)
+      at Object.Module._extensions..js (internal/modules/cjs/loader.js:1035:10),
+  level: '\u001b[31merror\u001b[39m',
+  message: 'Unhandled Rejection',
+  timestamp: '2020-10-20T12:03:02.682Z'
+}
+{
+  error: Error: Oops!
+      at Object.<anonymous> (D:\rs-school\js\node-js\express-rest-service\node-js-course\src\app.js:38:7)
+      at Module._compile (internal/modules/cjs/loader.js:1015:30)
+      at Object.Module._extensions..js (internal/modules/cjs/loader.js:1035:10)
+      at Module.load (internal/modules/cjs/loader.js:879:32)
+      at Function.Module._load (internal/modules/cjs/loader.js:724:14)
+      at Module.require (internal/modules/cjs/loader.js:903:19)
+      at require (internal/modules/cjs/helpers.js:74:18)
+      at Object.<anonymous> (D:\rs-school\js\node-js\express-rest-service\node-js-course\src\server.js:2:13)
+      at Module._compile (internal/modules/cjs/loader.js:1015:30)
+      at Object.Module._extensions..js (internal/modules/cjs/loader.js:1035:10),
+  level: '\u001b[31merror\u001b[39m',
+  message: 'Uncaugth Exception',
+  timestamp: '2020-10-20T12:03:55.377Z'
+}
+{
+  error: Error: Oops!
+      at Object.<anonymous> (D:\rs-school\js\node-js\express-rest-service\node-js-course\src\app.js:38:7)
+      at Module._compile (internal/modules/cjs/loader.js:1015:30)
+      at Object.Module._extensions..js (internal/modules/cjs/loader.js:1035:10)
+      at Module.load (internal/modules/cjs/loader.js:879:32)
+      at Function.Module._load (internal/modules/cjs/loader.js:724:14)
+      at Module.require (internal/modules/cjs/loader.js:903:19)
+      at require (internal/modules/cjs/helpers.js:74:18)
+      at Object.<anonymous> (D:\rs-school\js\node-js\express-rest-service\node-js-course\src\server.js:2:13)
+      at Module._compile (internal/modules/cjs/loader.js:1015:30)
+      at Object.Module._extensions..js (internal/modules/cjs/loader.js:1035:10),
+  level: '\u001b[31merror\u001b[39m',
+  message: 'Uncaugth Exception',
+  timestamp: '2020-10-20T12:07:17.561Z'
+}
+{
+  error: Error: Oops!
+      at Object.<anonymous> (D:\rs-school\js\node-js\express-rest-service\node-js-course\src\app.js:38:7)
+      at Module._compile (internal/modules/cjs/loader.js:1015:30)
+      at Object.Module._extensions..js (internal/modules/cjs/loader.js:1035:10)
+      at Module.load (internal/modules/cjs/loader.js:879:32)
+      at Function.Module._load (internal/modules/cjs/loader.js:724:14)
+      at Module.require (internal/modules/cjs/loader.js:903:19)
+      at require (internal/modules/cjs/helpers.js:74:18)
+      at Object.<anonymous> (D:\rs-school\js\node-js\express-rest-service\node-js-course\src\server.js:2:13)
+      at Module._compile (internal/modules/cjs/loader.js:1015:30)
+      at Object.Module._extensions..js (internal/modules/cjs/loader.js:1035:10),
+  level: '\u001b[31merror\u001b[39m',
+  message: 'Uncaugth Exception',
+  timestamp: '2020-10-20T12:07:24.810Z'
+}
+{
+  error: Error: Oops!
+      at Object.<anonymous> (D:\rs-school\js\node-js\express-rest-service\node-js-course\src\app.js:38:7)
+      at Module._compile (internal/modules/cjs/loader.js:1015:30)
+      at Object.Module._extensions..js (internal/modules/cjs/loader.js:1035:10)
+      at Module.load (internal/modules/cjs/loader.js:879:32)
+      at Function.Module._load (internal/modules/cjs/loader.js:724:14)
+      at Module.require (internal/modules/cjs/loader.js:903:19)
+      at require (internal/modules/cjs/helpers.js:74:18)
+      at Object.<anonymous> (D:\rs-school\js\node-js\express-rest-service\node-js-course\src\server.js:2:13)
+      at Module._compile (internal/modules/cjs/loader.js:1015:30)
+      at Object.Module._extensions..js (internal/modules/cjs/loader.js:1035:10),
+  level: '\u001b[31merror\u001b[39m',
+  message: 'Uncaugth Exception',
+  timestamp: '2020-10-20T12:08:05.700Z'
+}
+{
+  error: Error: Oops!
+      at Object.<anonymous> (D:\rs-school\js\node-js\express-rest-service\node-js-course\src\app.js:38:7)
+      at Module._compile (internal/modules/cjs/loader.js:1015:30)
+      at Object.Module._extensions..js (internal/modules/cjs/loader.js:1035:10)
+      at Module.load (internal/modules/cjs/loader.js:879:32)
+      at Function.Module._load (internal/modules/cjs/loader.js:724:14)
+      at Module.require (internal/modules/cjs/loader.js:903:19)
+      at require (internal/modules/cjs/helpers.js:74:18)
+      at Object.<anonymous> (D:\rs-school\js\node-js\express-rest-service\node-js-course\src\server.js:2:13)
+      at Module._compile (internal/modules/cjs/loader.js:1015:30)
+      at Object.Module._extensions..js (internal/modules/cjs/loader.js:1035:10),
+  level: '\u001b[31merror\u001b[39m',
+  message: 'Uncaugth Exception',
+  timestamp: '2020-10-20T12:08:05.708Z'
+}
+{
+  error: Error: Oops!
+      at Object.<anonymous> (D:\rs-school\js\node-js\express-rest-service\node-js-course\src\app.js:38:7)
+      at Module._compile (internal/modules/cjs/loader.js:1015:30)
+      at Object.Module._extensions..js (internal/modules/cjs/loader.js:1035:10)
+      at Module.load (internal/modules/cjs/loader.js:879:32)
+      at Function.Module._load (internal/modules/cjs/loader.js:724:14)
+      at Module.require (internal/modules/cjs/loader.js:903:19)
+      at require (internal/modules/cjs/helpers.js:74:18)
+      at Object.<anonymous> (D:\rs-school\js\node-js\express-rest-service\node-js-course\src\server.js:2:13)
+      at Module._compile (internal/modules/cjs/loader.js:1015:30)
+      at Object.Module._extensions..js (internal/modules/cjs/loader.js:1035:10),
+  level: '\u001b[31merror\u001b[39m',
+  message: 'Uncaugth Exception',
+  timestamp: '2020-10-20T12:08:16.793Z'
+}
+{
+  error: Error: Oops!
+      at Object.<anonymous> (D:\rs-school\js\node-js\express-rest-service\node-js-course\src\app.js:38:7)
+      at Module._compile (internal/modules/cjs/loader.js:1015:30)
+      at Object.Module._extensions..js (internal/modules/cjs/loader.js:1035:10)
+      at Module.load (internal/modules/cjs/loader.js:879:32)
+      at Function.Module._load (internal/modules/cjs/loader.js:724:14)
+      at Module.require (internal/modules/cjs/loader.js:903:19)
+      at require (internal/modules/cjs/helpers.js:74:18)
+      at Object.<anonymous> (D:\rs-school\js\node-js\express-rest-service\node-js-course\src\server.js:2:13)
+      at Module._compile (internal/modules/cjs/loader.js:1015:30)
+      at Object.Module._extensions..js (internal/modules/cjs/loader.js:1035:10),
+  level: '\u001b[31merror\u001b[39m',
+  message: 'Uncaugth Exception',
+  timestamp: '2020-10-20T12:08:33.945Z'
+}
+{
+  error: Error: Oops!
+      at Object.<anonymous> (D:\rs-school\js\node-js\express-rest-service\node-js-course\src\app.js:38:7)
+      at Module._compile (internal/modules/cjs/loader.js:1015:30)
+      at Object.Module._extensions..js (internal/modules/cjs/loader.js:1035:10)
+      at Module.load (internal/modules/cjs/loader.js:879:32)
+      at Function.Module._load (internal/modules/cjs/loader.js:724:14)
+      at Module.require (internal/modules/cjs/loader.js:903:19)
+      at require (internal/modules/cjs/helpers.js:74:18)
+      at Object.<anonymous> (D:\rs-school\js\node-js\express-rest-service\node-js-course\src\server.js:2:13)
+      at Module._compile (internal/modules/cjs/loader.js:1015:30)
+      at Object.Module._extensions..js (internal/modules/cjs/loader.js:1035:10),
+  level: '\u001b[31merror\u001b[39m',
+  message: 'Uncaugth Exception',
+  timestamp: '2020-10-20T12:08:33.944Z'
+}
+{
+  error: Error: Oops!
+      at Object.<anonymous> (D:\rs-school\js\node-js\express-rest-service\node-js-course\src\app.js:38:7)
+      at Module._compile (internal/modules/cjs/loader.js:1015:30)
+      at Object.Module._extensions..js (internal/modules/cjs/loader.js:1035:10)
+      at Module.load (internal/modules/cjs/loader.js:879:32)
+      at Function.Module._load (internal/modules/cjs/loader.js:724:14)
+      at Module.require (internal/modules/cjs/loader.js:903:19)
+      at require (internal/modules/cjs/helpers.js:74:18)
+      at Object.<anonymous> (D:\rs-school\js\node-js\express-rest-service\node-js-course\src\server.js:2:13)
+      at Module._compile (internal/modules/cjs/loader.js:1015:30)
+      at Object.Module._extensions..js (internal/modules/cjs/loader.js:1035:10),
+  level: '\u001b[31merror\u001b[39m',
+  message: 'Uncaugth Exception'
+}
+{
+  error: Error: Oops!
+      at Object.<anonymous> (D:\rs-school\js\node-js\express-rest-service\node-js-course\src\app.js:38:7)
+      at Module._compile (internal/modules/cjs/loader.js:1015:30)
+      at Object.Module._extensions..js (internal/modules/cjs/loader.js:1035:10)
+      at Module.load (internal/modules/cjs/loader.js:879:32)
+      at Function.Module._load (internal/modules/cjs/loader.js:724:14)
+      at Module.require (internal/modules/cjs/loader.js:903:19)
+      at require (internal/modules/cjs/helpers.js:74:18)
+      at Object.<anonymous> (D:\rs-school\js\node-js\express-rest-service\node-js-course\src\server.js:2:13)
+      at Module._compile (internal/modules/cjs/loader.js:1015:30)
+      at Object.Module._extensions..js (internal/modules/cjs/loader.js:1035:10),
+  level: '\u001b[31merror\u001b[39m',
+  message: 'Uncaugth Exception'
+}
+{
+  error: Error: Oops!
+      at Object.<anonymous> (D:\rs-school\js\node-js\express-rest-service\node-js-course\src\app.js:38:7)
+      at Module._compile (internal/modules/cjs/loader.js:1015:30)
+      at Object.Module._extensions..js (internal/modules/cjs/loader.js:1035:10)
+      at Module.load (internal/modules/cjs/loader.js:879:32)
+      at Function.Module._load (internal/modules/cjs/loader.js:724:14)
+      at Module.require (internal/modules/cjs/loader.js:903:19)
+      at require (internal/modules/cjs/helpers.js:74:18)
+      at Object.<anonymous> (D:\rs-school\js\node-js\express-rest-service\node-js-course\src\server.js:2:13)
+      at Module._compile (internal/modules/cjs/loader.js:1015:30)
+      at Object.Module._extensions..js (internal/modules/cjs/loader.js:1035:10),
+  level: '\u001b[31merror\u001b[39m',
+  message: 'Uncaugth Exception',
+  timestamp: '2020-10-20T12:08:54.138Z'
+}
+{
+  error: Error: Oops!
+      at Object.<anonymous> (D:\rs-school\js\node-js\express-rest-service\node-js-course\src\app.js:38:7)
+      at Module._compile (internal/modules/cjs/loader.js:1015:30)
+      at Object.Module._extensions..js (internal/modules/cjs/loader.js:1035:10)
+      at Module.load (internal/modules/cjs/loader.js:879:32)
+      at Function.Module._load (internal/modules/cjs/loader.js:724:14)
+      at Module.require (internal/modules/cjs/loader.js:903:19)
+      at require (internal/modules/cjs/helpers.js:74:18)
+      at Object.<anonymous> (D:\rs-school\js\node-js\express-rest-service\node-js-course\src\server.js:2:13)
+      at Module._compile (internal/modules/cjs/loader.js:1015:30)
+      at Object.Module._extensions..js (internal/modules/cjs/loader.js:1035:10),
+  level: '\u001b[31merror\u001b[39m',
+  message: 'Uncaugth Exception',
+  timestamp: '2020-10-20T12:08:54.139Z'
+}
+{
+  error: Error: Oops!
+      at Object.<anonymous> (D:\rs-school\js\node-js\express-rest-service\node-js-course\src\app.js:38:7)
+      at Module._compile (internal/modules/cjs/loader.js:1015:30)
+      at Object.Module._extensions..js (internal/modules/cjs/loader.js:1035:10)
+      at Module.load (internal/modules/cjs/loader.js:879:32)
+      at Function.Module._load (internal/modules/cjs/loader.js:724:14)
+      at Module.require (internal/modules/cjs/loader.js:903:19)
+      at require (internal/modules/cjs/helpers.js:74:18)
+      at Object.<anonymous> (D:\rs-school\js\node-js\express-rest-service\node-js-course\src\server.js:2:13)
+      at Module._compile (internal/modules/cjs/loader.js:1015:30)
+      at Object.Module._extensions..js (internal/modules/cjs/loader.js:1035:10),
+  level: '\u001b[31merror\u001b[39m',
+  message: 'Uncaugth Exception',
+  timestamp: '2020-10-20T12:09:05.219Z'
+}
+{
+  error: Error: Oops!
+      at Object.<anonymous> (D:\rs-school\js\node-js\express-rest-service\node-js-course\src\app.js:38:7)
+      at Module._compile (internal/modules/cjs/loader.js:1015:30)
+      at Object.Module._extensions..js (internal/modules/cjs/loader.js:1035:10)
+      at Module.load (internal/modules/cjs/loader.js:879:32)
+      at Function.Module._load (internal/modules/cjs/loader.js:724:14)
+      at Module.require (internal/modules/cjs/loader.js:903:19)
+      at require (internal/modules/cjs/helpers.js:74:18)
+      at Object.<anonymous> (D:\rs-school\js\node-js\express-rest-service\node-js-course\src\server.js:2:13)
+      at Module._compile (internal/modules/cjs/loader.js:1015:30)
+      at Object.Module._extensions..js (internal/modules/cjs/loader.js:1035:10),
+  level: '\u001b[31merror\u001b[39m',
+  message: 'Uncaugth Exception',
+  timestamp: '2020-10-20T12:09:05.219Z'
+}
+{
+  error: Error: Oops!
+      at Object.<anonymous> (D:\rs-school\js\node-js\express-rest-service\node-js-course\src\app.js:38:7)
+      at Module._compile (internal/modules/cjs/loader.js:1015:30)
+      at Object.Module._extensions..js (internal/modules/cjs/loader.js:1035:10)
+      at Module.load (internal/modules/cjs/loader.js:879:32)
+      at Function.Module._load (internal/modules/cjs/loader.js:724:14)
+      at Module.require (internal/modules/cjs/loader.js:903:19)
+      at require (internal/modules/cjs/helpers.js:74:18)
+      at Object.<anonymous> (D:\rs-school\js\node-js\express-rest-service\node-js-course\src\server.js:2:13)
+      at Module._compile (internal/modules/cjs/loader.js:1015:30)
+      at Object.Module._extensions..js (internal/modules/cjs/loader.js:1035:10),
+  level: '\u001b[31merror\u001b[39m',
+  message: 'Uncaugth Exception',
+  timestamp: '2020-10-20T12:09:12.560Z'
+}
+{
+  error: Error: Oops!
+      at Object.<anonymous> (D:\rs-school\js\node-js\express-rest-service\node-js-course\src\app.js:38:7)
+      at Module._compile (internal/modules/cjs/loader.js:1015:30)
+      at Object.Module._extensions..js (internal/modules/cjs/loader.js:1035:10)
+      at Module.load (internal/modules/cjs/loader.js:879:32)
+      at Function.Module._load (internal/modules/cjs/loader.js:724:14)
+      at Module.require (internal/modules/cjs/loader.js:903:19)
+      at require (internal/modules/cjs/helpers.js:74:18)
+      at Object.<anonymous> (D:\rs-school\js\node-js\express-rest-service\node-js-course\src\server.js:2:13)
+      at Module._compile (internal/modules/cjs/loader.js:1015:30)
+      at Object.Module._extensions..js (internal/modules/cjs/loader.js:1035:10),
+  level: '\u001b[31merror\u001b[39m',
+  message: 'Uncaugth Exception',
+  timestamp: '2020-10-20T12:09:20.784Z'
+}
+{
+  error: Error: Oops!
+      at Object.<anonymous> (D:\rs-school\js\node-js\express-rest-service\node-js-course\src\app.js:38:7)
+      at Module._compile (internal/modules/cjs/loader.js:1015:30)
+      at Object.Module._extensions..js (internal/modules/cjs/loader.js:1035:10)
+      at Module.load (internal/modules/cjs/loader.js:879:32)
+      at Function.Module._load (internal/modules/cjs/loader.js:724:14)
+      at Module.require (internal/modules/cjs/loader.js:903:19)
+      at require (internal/modules/cjs/helpers.js:74:18)
+      at Object.<anonymous> (D:\rs-school\js\node-js\express-rest-service\node-js-course\src\server.js:2:13)
+      at Module._compile (internal/modules/cjs/loader.js:1015:30)
+      at Object.Module._extensions..js (internal/modules/cjs/loader.js:1035:10),
+  level: '\u001b[31merror\u001b[39m',
+  message: 'Uncaugth Exception',
+  timestamp: '2020-10-20T12:09:20.792Z'
+}
+{
+  error: Error: Oops!
+      at Object.<anonymous> (D:\rs-school\js\node-js\express-rest-service\node-js-course\src\app.js:38:7)
+      at Module._compile (internal/modules/cjs/loader.js:1015:30)
+      at Object.Module._extensions..js (internal/modules/cjs/loader.js:1035:10)
+      at Module.load (internal/modules/cjs/loader.js:879:32)
+      at Function.Module._load (internal/modules/cjs/loader.js:724:14)
+      at Module.require (internal/modules/cjs/loader.js:903:19)
+      at require (internal/modules/cjs/helpers.js:74:18)
+      at Object.<anonymous> (D:\rs-school\js\node-js\express-rest-service\node-js-course\src\server.js:2:13)
+      at Module._compile (internal/modules/cjs/loader.js:1015:30)
+      at Object.Module._extensions..js (internal/modules/cjs/loader.js:1035:10),
+  level: '\u001b[31merror\u001b[39m',
+  message: 'Uncaugth Exception',
+  timestamp: '2020-10-20T12:10:07.200Z'
+}
+{
+  error: Error: Oops!
+      at Object.<anonymous> (D:\rs-school\js\node-js\express-rest-service\node-js-course\src\app.js:38:7)
+      at Module._compile (internal/modules/cjs/loader.js:1015:30)
+      at Object.Module._extensions..js (internal/modules/cjs/loader.js:1035:10)
+      at Module.load (internal/modules/cjs/loader.js:879:32)
+      at Function.Module._load (internal/modules/cjs/loader.js:724:14)
+      at Module.require (internal/modules/cjs/loader.js:903:19)
+      at require (internal/modules/cjs/helpers.js:74:18)
+      at Object.<anonymous> (D:\rs-school\js\node-js\express-rest-service\node-js-course\src\server.js:2:13)
+      at Module._compile (internal/modules/cjs/loader.js:1015:30)
+      at Object.Module._extensions..js (internal/modules/cjs/loader.js:1035:10),
+  level: '\u001b[31merror\u001b[39m',
+  message: 'Uncaugth Exception',
+  timestamp: '2020-10-20T12:10:07.199Z'
+}
+{
+  error: Error: Oops!
+      at Object.<anonymous> (D:\rs-school\js\node-js\express-rest-service\node-js-course\src\app.js:38:7)
+      at Module._compile (internal/modules/cjs/loader.js:1015:30)
+      at Object.Module._extensions..js (internal/modules/cjs/loader.js:1035:10)
+      at Module.load (internal/modules/cjs/loader.js:879:32)
+      at Function.Module._load (internal/modules/cjs/loader.js:724:14)
+      at Module.require (internal/modules/cjs/loader.js:903:19)
+      at require (internal/modules/cjs/helpers.js:74:18)
+      at Object.<anonymous> (D:\rs-school\js\node-js\express-rest-service\node-js-course\src\server.js:2:13)
+      at Module._compile (internal/modules/cjs/loader.js:1015:30)
+      at Object.Module._extensions..js (internal/modules/cjs/loader.js:1035:10),
+  level: '\u001b[31merror\u001b[39m',
+  message: 'Uncaugth Exception',
+  timestamp: '2020-10-20T12:14:56.080Z'
+}
+{
+  error: Error: Oops!
+      at Object.<anonymous> (D:\rs-school\js\node-js\express-rest-service\node-js-course\src\app.js:38:7)
+      at Module._compile (internal/modules/cjs/loader.js:1015:30)
+      at Object.Module._extensions..js (internal/modules/cjs/loader.js:1035:10)
+      at Module.load (internal/modules/cjs/loader.js:879:32)
+      at Function.Module._load (internal/modules/cjs/loader.js:724:14)
+      at Module.require (internal/modules/cjs/loader.js:903:19)
+      at require (internal/modules/cjs/helpers.js:74:18)
+      at Object.<anonymous> (D:\rs-school\js\node-js\express-rest-service\node-js-course\src\server.js:2:13)
+      at Module._compile (internal/modules/cjs/loader.js:1015:30)
+      at Object.Module._extensions..js (internal/modules/cjs/loader.js:1035:10),
+  level: '\u001b[31merror\u001b[39m',
+  message: 'Uncaugth Exception',
+  timestamp: '2020-10-20T12:15:04.583Z'
+}
+{
+  error: Error: Oops!
+      at Object.<anonymous> (D:\rs-school\js\node-js\express-rest-service\node-js-course\src\app.js:38:7)
+      at Module._compile (internal/modules/cjs/loader.js:1015:30)
+      at Object.Module._extensions..js (internal/modules/cjs/loader.js:1035:10)
+      at Module.load (internal/modules/cjs/loader.js:879:32)
+      at Function.Module._load (internal/modules/cjs/loader.js:724:14)
+      at Module.require (internal/modules/cjs/loader.js:903:19)
+      at require (internal/modules/cjs/helpers.js:74:18)
+      at Object.<anonymous> (D:\rs-school\js\node-js\express-rest-service\node-js-course\src\server.js:2:13)
+      at Module._compile (internal/modules/cjs/loader.js:1015:30)
+      at Object.Module._extensions..js (internal/modules/cjs/loader.js:1035:10),
+  level: '\u001b[31merror\u001b[39m',
+  message: 'Uncaugth Exception',
+  timestamp: '2020-10-20T12:15:13.196Z'
+}
+{
+  error: Error: Oops!
+      at Object.<anonymous> (D:\rs-school\js\node-js\express-rest-service\node-js-course\src\app.js:38:7)
+      at Module._compile (internal/modules/cjs/loader.js:1015:30)
+      at Object.Module._extensions..js (internal/modules/cjs/loader.js:1035:10)
+      at Module.load (internal/modules/cjs/loader.js:879:32)
+      at Function.Module._load (internal/modules/cjs/loader.js:724:14)
+      at Module.require (internal/modules/cjs/loader.js:903:19)
+      at require (internal/modules/cjs/helpers.js:74:18)
+      at Object.<anonymous> (D:\rs-school\js\node-js\express-rest-service\node-js-course\src\server.js:2:13)
+      at Module._compile (internal/modules/cjs/loader.js:1015:30)
+      at Object.Module._extensions..js (internal/modules/cjs/loader.js:1035:10),
+  level: '\u001b[31merror\u001b[39m',
+  message: 'Uncaugth Exception',
+  timestamp: '2020-10-20T12:15:13.202Z'
+}
+{
+  error: Error: Oops!
+      at Object.<anonymous> (D:\rs-school\js\node-js\express-rest-service\node-js-course\src\app.js:38:7)
+      at Module._compile (internal/modules/cjs/loader.js:1015:30)
+      at Object.Module._extensions..js (internal/modules/cjs/loader.js:1035:10)
+      at Module.load (internal/modules/cjs/loader.js:879:32)
+      at Function.Module._load (internal/modules/cjs/loader.js:724:14)
+      at Module.require (internal/modules/cjs/loader.js:903:19)
+      at require (internal/modules/cjs/helpers.js:74:18)
+      at Object.<anonymous> (D:\rs-school\js\node-js\express-rest-service\node-js-course\src\server.js:2:13)
+      at Module._compile (internal/modules/cjs/loader.js:1015:30)
+      at Object.Module._extensions..js (internal/modules/cjs/loader.js:1035:10),
+  level: '\u001b[31merror\u001b[39m',
+  message: 'Uncaugth Exception',
+  timestamp: '2020-10-20T12:15:23.312Z'
+}
+{
+  error: Error: Oops!
+      at Object.<anonymous> (D:\rs-school\js\node-js\express-rest-service\node-js-course\src\app.js:38:7)
+      at Module._compile (internal/modules/cjs/loader.js:1015:30)
+      at Object.Module._extensions..js (internal/modules/cjs/loader.js:1035:10)
+      at Module.load (internal/modules/cjs/loader.js:879:32)
+      at Function.Module._load (internal/modules/cjs/loader.js:724:14)
+      at Module.require (internal/modules/cjs/loader.js:903:19)
+      at require (internal/modules/cjs/helpers.js:74:18)
+      at Object.<anonymous> (D:\rs-school\js\node-js\express-rest-service\node-js-course\src\server.js:2:13)
+      at Module._compile (internal/modules/cjs/loader.js:1015:30)
+      at Object.Module._extensions..js (internal/modules/cjs/loader.js:1035:10),
+  level: '\u001b[31merror\u001b[39m',
+  message: 'Uncaugth Exception',
+  timestamp: '2020-10-20T12:15:23.312Z'
+}
+{
+  error: Error: Oops!
+      at Object.<anonymous> (D:\rs-school\js\node-js\express-rest-service\node-js-course\src\app.js:38:7)
+      at Module._compile (internal/modules/cjs/loader.js:1015:30)
+      at Object.Module._extensions..js (internal/modules/cjs/loader.js:1035:10)
+      at Module.load (internal/modules/cjs/loader.js:879:32)
+      at Function.Module._load (internal/modules/cjs/loader.js:724:14)
+      at Module.require (internal/modules/cjs/loader.js:903:19)
+      at require (internal/modules/cjs/helpers.js:74:18)
+      at Object.<anonymous> (D:\rs-school\js\node-js\express-rest-service\node-js-course\src\server.js:2:13)
+      at Module._compile (internal/modules/cjs/loader.js:1015:30)
+      at Object.Module._extensions..js (internal/modules/cjs/loader.js:1035:10),
+  level: '\u001b[31merror\u001b[39m',
+  message: 'Uncaugth Exception',
+  timestamp: '2020-10-20T12:16:13.614Z'
+}
+{
+  error: Error: Oops!
+      at Object.<anonymous> (D:\rs-school\js\node-js\express-rest-service\node-js-course\src\app.js:38:7)
+      at Module._compile (internal/modules/cjs/loader.js:1015:30)
+      at Object.Module._extensions..js (internal/modules/cjs/loader.js:1035:10)
+      at Module.load (internal/modules/cjs/loader.js:879:32)
+      at Function.Module._load (internal/modules/cjs/loader.js:724:14)
+      at Module.require (internal/modules/cjs/loader.js:903:19)
+      at require (internal/modules/cjs/helpers.js:74:18)
+      at Object.<anonymous> (D:\rs-school\js\node-js\express-rest-service\node-js-course\src\server.js:2:13)
+      at Module._compile (internal/modules/cjs/loader.js:1015:30)
+      at Object.Module._extensions..js (internal/modules/cjs/loader.js:1035:10),
+  level: '\u001b[31merror\u001b[39m',
+  message: 'Uncaugth Exception',
+  timestamp: '2020-10-20T12:16:13.615Z'
+}
+{
+  error: Error: Oops!
+      at Object.<anonymous> (D:\rs-school\js\node-js\express-rest-service\node-js-course\src\app.js:38:7)
+      at Module._compile (internal/modules/cjs/loader.js:1015:30)
+      at Object.Module._extensions..js (internal/modules/cjs/loader.js:1035:10)
+      at Module.load (internal/modules/cjs/loader.js:879:32)
+      at Function.Module._load (internal/modules/cjs/loader.js:724:14)
+      at Module.require (internal/modules/cjs/loader.js:903:19)
+      at require (internal/modules/cjs/helpers.js:74:18)
+      at Object.<anonymous> (D:\rs-school\js\node-js\express-rest-service\node-js-course\src\server.js:2:13)
+      at Module._compile (internal/modules/cjs/loader.js:1015:30)
+      at Object.Module._extensions..js (internal/modules/cjs/loader.js:1035:10),
+  level: '\u001b[31merror\u001b[39m',
+  message: 'Uncaugth Exception',
+  timestamp: '2020-10-20T12:16:51.527Z'
+}
+{
+  error: Error: Oops!
+      at Object.<anonymous> (D:\rs-school\js\node-js\express-rest-service\node-js-course\src\app.js:38:7)
+      at Module._compile (internal/modules/cjs/loader.js:1015:30)
+      at Object.Module._extensions..js (internal/modules/cjs/loader.js:1035:10)
+      at Module.load (internal/modules/cjs/loader.js:879:32)
+      at Function.Module._load (internal/modules/cjs/loader.js:724:14)
+      at Module.require (internal/modules/cjs/loader.js:903:19)
+      at require (internal/modules/cjs/helpers.js:74:18)
+      at Object.<anonymous> (D:\rs-school\js\node-js\express-rest-service\node-js-course\src\server.js:2:13)
+      at Module._compile (internal/modules/cjs/loader.js:1015:30)
+      at Object.Module._extensions..js (internal/modules/cjs/loader.js:1035:10),
+  level: '\u001b[31merror\u001b[39m',
+  message: 'Uncaugth Exception',
+  timestamp: '2020-10-20T12:16:51.527Z'
+}
+{
+  error: Error: Oops!
+      at Object.<anonymous> (D:\rs-school\js\node-js\express-rest-service\node-js-course\src\app.js:38:7)
+      at Module._compile (internal/modules/cjs/loader.js:1015:30)
+      at Object.Module._extensions..js (internal/modules/cjs/loader.js:1035:10)
+      at Module.load (internal/modules/cjs/loader.js:879:32)
+      at Function.Module._load (internal/modules/cjs/loader.js:724:14)
+      at Module.require (internal/modules/cjs/loader.js:903:19)
+      at require (internal/modules/cjs/helpers.js:74:18)
+      at Object.<anonymous> (D:\rs-school\js\node-js\express-rest-service\node-js-course\src\server.js:2:13)
+      at Module._compile (internal/modules/cjs/loader.js:1015:30)
+      at Object.Module._extensions..js (internal/modules/cjs/loader.js:1035:10),
+  level: '\u001b[31merror\u001b[39m',
+  message: 'Uncaugth Exception',
+  timestamp: '2020-10-20T12:17:13.274Z'
+}
+{
+  error: Error: Oops!
+      at Object.<anonymous> (D:\rs-school\js\node-js\express-rest-service\node-js-course\src\app.js:38:7)
+      at Module._compile (internal/modules/cjs/loader.js:1015:30)
+      at Object.Module._extensions..js (internal/modules/cjs/loader.js:1035:10)
+      at Module.load (internal/modules/cjs/loader.js:879:32)
+      at Function.Module._load (internal/modules/cjs/loader.js:724:14)
+      at Module.require (internal/modules/cjs/loader.js:903:19)
+      at require (internal/modules/cjs/helpers.js:74:18)
+      at Object.<anonymous> (D:\rs-school\js\node-js\express-rest-service\node-js-course\src\server.js:2:13)
+      at Module._compile (internal/modules/cjs/loader.js:1015:30)
+      at Object.Module._extensions..js (internal/modules/cjs/loader.js:1035:10),
+  level: '\u001b[31merror\u001b[39m',
+  message: 'Uncaugth Exception',
+  timestamp: '2020-10-20T12:17:13.275Z'
+}
+{
+  error: Error: Oops!
+      at Object.<anonymous> (D:\rs-school\js\node-js\express-rest-service\node-js-course\src\app.js:38:7)
+      at Module._compile (internal/modules/cjs/loader.js:1015:30)
+      at Object.Module._extensions..js (internal/modules/cjs/loader.js:1035:10)
+      at Module.load (internal/modules/cjs/loader.js:879:32)
+      at Function.Module._load (internal/modules/cjs/loader.js:724:14)
+      at Module.require (internal/modules/cjs/loader.js:903:19)
+      at require (internal/modules/cjs/helpers.js:74:18)
+      at Object.<anonymous> (D:\rs-school\js\node-js\express-rest-service\node-js-course\src\server.js:2:13)
+      at Module._compile (internal/modules/cjs/loader.js:1015:30)
+      at Object.Module._extensions..js (internal/modules/cjs/loader.js:1035:10),
+  level: '\u001b[31merror\u001b[39m',
+  message: 'Uncaugth Exception',
+  timestamp: '2020-10-20T12:17:24.796Z'
+}
+{
+  error: Error: Oops!
+      at Object.<anonymous> (D:\rs-school\js\node-js\express-rest-service\node-js-course\src\app.js:38:7)
+      at Module._compile (internal/modules/cjs/loader.js:1015:30)
+      at Object.Module._extensions..js (internal/modules/cjs/loader.js:1035:10)
+      at Module.load (internal/modules/cjs/loader.js:879:32)
+      at Function.Module._load (internal/modules/cjs/loader.js:724:14)
+      at Module.require (internal/modules/cjs/loader.js:903:19)
+      at require (internal/modules/cjs/helpers.js:74:18)
+      at Object.<anonymous> (D:\rs-school\js\node-js\express-rest-service\node-js-course\src\server.js:2:13)
+      at Module._compile (internal/modules/cjs/loader.js:1015:30)
+      at Object.Module._extensions..js (internal/modules/cjs/loader.js:1035:10),
+  level: '\u001b[31merror\u001b[39m',
+  message: 'Uncaugth Exception',
+  timestamp: '2020-10-20T12:17:24.796Z'
+}
+{
+  error: Error: Oops!
+      at Object.<anonymous> (D:\rs-school\js\node-js\express-rest-service\node-js-course\src\app.js:38:7)
+      at Module._compile (internal/modules/cjs/loader.js:1015:30)
+      at Object.Module._extensions..js (internal/modules/cjs/loader.js:1035:10)
+      at Module.load (internal/modules/cjs/loader.js:879:32)
+      at Function.Module._load (internal/modules/cjs/loader.js:724:14)
+      at Module.require (internal/modules/cjs/loader.js:903:19)
+      at require (internal/modules/cjs/helpers.js:74:18)
+      at Object.<anonymous> (D:\rs-school\js\node-js\express-rest-service\node-js-course\src\server.js:2:13)
+      at Module._compile (internal/modules/cjs/loader.js:1015:30)
+      at Object.Module._extensions..js (internal/modules/cjs/loader.js:1035:10),
+  level: '\u001b[31merror\u001b[39m',
+  message: 'Uncaugth Exception',
+  timestamp: '2020-10-20T12:17:35.189Z'
+}
+{
+  error: Error: Oops!
+      at Object.<anonymous> (D:\rs-school\js\node-js\express-rest-service\node-js-course\src\app.js:38:7)
+      at Module._compile (internal/modules/cjs/loader.js:1015:30)
+      at Object.Module._extensions..js (internal/modules/cjs/loader.js:1035:10)
+      at Module.load (internal/modules/cjs/loader.js:879:32)
+      at Function.Module._load (internal/modules/cjs/loader.js:724:14)
+      at Module.require (internal/modules/cjs/loader.js:903:19)
+      at require (internal/modules/cjs/helpers.js:74:18)
+      at Object.<anonymous> (D:\rs-school\js\node-js\express-rest-service\node-js-course\src\server.js:2:13)
+      at Module._compile (internal/modules/cjs/loader.js:1015:30)
+      at Object.Module._extensions..js (internal/modules/cjs/loader.js:1035:10),
+  level: '\u001b[31merror\u001b[39m',
+  message: 'Uncaugth Exception',
+  timestamp: '2020-10-20T12:17:35.189Z'
+}
+{
+  error: Error: Oops!
+      at Object.<anonymous> (D:\rs-school\js\node-js\express-rest-service\node-js-course\src\app.js:38:7)
+      at Module._compile (internal/modules/cjs/loader.js:1015:30)
+      at Object.Module._extensions..js (internal/modules/cjs/loader.js:1035:10)
+      at Module.load (internal/modules/cjs/loader.js:879:32)
+      at Function.Module._load (internal/modules/cjs/loader.js:724:14)
+      at Module.require (internal/modules/cjs/loader.js:903:19)
+      at require (internal/modules/cjs/helpers.js:74:18)
+      at Object.<anonymous> (D:\rs-school\js\node-js\express-rest-service\node-js-course\src\server.js:2:13)
+      at Module._compile (internal/modules/cjs/loader.js:1015:30)
+      at Object.Module._extensions..js (internal/modules/cjs/loader.js:1035:10),
+  level: '\u001b[31merror\u001b[39m',
+  message: 'Uncaugth Exception',
+  timestamp: '2020-10-20T12:18:15.385Z'
+}
+{
+  error: Error: Oops!
+      at Object.<anonymous> (D:\rs-school\js\node-js\express-rest-service\node-js-course\src\app.js:38:7)
+      at Module._compile (internal/modules/cjs/loader.js:1015:30)
+      at Object.Module._extensions..js (internal/modules/cjs/loader.js:1035:10)
+      at Module.load (internal/modules/cjs/loader.js:879:32)
+      at Function.Module._load (internal/modules/cjs/loader.js:724:14)
+      at Module.require (internal/modules/cjs/loader.js:903:19)
+      at require (internal/modules/cjs/helpers.js:74:18)
+      at Object.<anonymous> (D:\rs-school\js\node-js\express-rest-service\node-js-course\src\server.js:2:13)
+      at Module._compile (internal/modules/cjs/loader.js:1015:30)
+      at Object.Module._extensions..js (internal/modules/cjs/loader.js:1035:10),
+  level: '\u001b[31merror\u001b[39m',
+  message: 'Uncaugth Exception',
+  timestamp: '2020-10-20T12:18:15.386Z'
+}
+{
+  error: Error: Oops!
+      at Object.<anonymous> (D:\rs-school\js\node-js\express-rest-service\node-js-course\src\app.js:38:7)
+      at Module._compile (internal/modules/cjs/loader.js:1015:30)
+      at Object.Module._extensions..js (internal/modules/cjs/loader.js:1035:10)
+      at Module.load (internal/modules/cjs/loader.js:879:32)
+      at Function.Module._load (internal/modules/cjs/loader.js:724:14)
+      at Module.require (internal/modules/cjs/loader.js:903:19)
+      at require (internal/modules/cjs/helpers.js:74:18)
+      at Object.<anonymous> (D:\rs-school\js\node-js\express-rest-service\node-js-course\src\server.js:2:13)
+      at Module._compile (internal/modules/cjs/loader.js:1015:30)
+      at Object.Module._extensions..js (internal/modules/cjs/loader.js:1035:10),
+  level: '\u001b[31merror\u001b[39m',
+  message: 'Uncaugth Exception',
+  timestamp: '2020-10-20T12:18:28.978Z'
+}
+{
+  error: Error: Oops!
+      at Object.<anonymous> (D:\rs-school\js\node-js\express-rest-service\node-js-course\src\app.js:38:7)
+      at Module._compile (internal/modules/cjs/loader.js:1015:30)
+      at Object.Module._extensions..js (internal/modules/cjs/loader.js:1035:10)
+      at Module.load (internal/modules/cjs/loader.js:879:32)
+      at Function.Module._load (internal/modules/cjs/loader.js:724:14)
+      at Module.require (internal/modules/cjs/loader.js:903:19)
+      at require (internal/modules/cjs/helpers.js:74:18)
+      at Object.<anonymous> (D:\rs-school\js\node-js\express-rest-service\node-js-course\src\server.js:2:13)
+      at Module._compile (internal/modules/cjs/loader.js:1015:30)
+      at Object.Module._extensions..js (internal/modules/cjs/loader.js:1035:10),
+  level: '\u001b[31merror\u001b[39m',
+  message: 'Uncaugth Exception',
+  timestamp: '2020-10-20T12:18:28.980Z'
+}
+{
+  error: Error: Oops!
+      at Object.<anonymous> (D:\rs-school\js\node-js\express-rest-service\node-js-course\src\app.js:38:7)
+      at Module._compile (internal/modules/cjs/loader.js:1015:30)
+      at Object.Module._extensions..js (internal/modules/cjs/loader.js:1035:10)
+      at Module.load (internal/modules/cjs/loader.js:879:32)
+      at Function.Module._load (internal/modules/cjs/loader.js:724:14)
+      at Module.require (internal/modules/cjs/loader.js:903:19)
+      at require (internal/modules/cjs/helpers.js:74:18)
+      at Object.<anonymous> (D:\rs-school\js\node-js\express-rest-service\node-js-course\src\server.js:2:13)
+      at Module._compile (internal/modules/cjs/loader.js:1015:30)
+      at Object.Module._extensions..js (internal/modules/cjs/loader.js:1035:10),
+  level: '\u001b[31merror\u001b[39m',
+  message: 'Uncaugth Exception',
+  timestamp: '2020-10-20T12:19:37.393Z'
+}
+{
+  error: Error: Oops!
+      at Object.<anonymous> (D:\rs-school\js\node-js\express-rest-service\node-js-course\src\app.js:38:7)
+      at Module._compile (internal/modules/cjs/loader.js:1015:30)
+      at Object.Module._extensions..js (internal/modules/cjs/loader.js:1035:10)
+      at Module.load (internal/modules/cjs/loader.js:879:32)
+      at Function.Module._load (internal/modules/cjs/loader.js:724:14)
+      at Module.require (internal/modules/cjs/loader.js:903:19)
+      at require (internal/modules/cjs/helpers.js:74:18)
+      at Object.<anonymous> (D:\rs-school\js\node-js\express-rest-service\node-js-course\src\server.js:2:13)
+      at Module._compile (internal/modules/cjs/loader.js:1015:30)
+      at Object.Module._extensions..js (internal/modules/cjs/loader.js:1035:10),
+  level: '\u001b[31merror\u001b[39m',
+  message: 'Uncaugth Exception',
+  timestamp: '2020-10-20T12:19:37.396Z'
+}
+{
+  error: Error: Oops!
+      at Object.<anonymous> (D:\rs-school\js\node-js\express-rest-service\node-js-course\src\app.js:38:7)
+      at Module._compile (internal/modules/cjs/loader.js:1015:30)
+      at Object.Module._extensions..js (internal/modules/cjs/loader.js:1035:10)
+      at Module.load (internal/modules/cjs/loader.js:879:32)
+      at Function.Module._load (internal/modules/cjs/loader.js:724:14)
+      at Module.require (internal/modules/cjs/loader.js:903:19)
+      at require (internal/modules/cjs/helpers.js:74:18)
+      at Object.<anonymous> (D:\rs-school\js\node-js\express-rest-service\node-js-course\src\server.js:2:13)
+      at Module._compile (internal/modules/cjs/loader.js:1015:30)
+      at Object.Module._extensions..js (internal/modules/cjs/loader.js:1035:10),
+  level: '\u001b[31merror\u001b[39m',
+  message: 'Uncaugth Exception',
+  timestamp: '2020-10-20T12:19:46.811Z'
+}
+{
+  error: Error: Oops!
+      at Object.<anonymous> (D:\rs-school\js\node-js\express-rest-service\node-js-course\src\app.js:38:7)
+      at Module._compile (internal/modules/cjs/loader.js:1015:30)
+      at Object.Module._extensions..js (internal/modules/cjs/loader.js:1035:10)
+      at Module.load (internal/modules/cjs/loader.js:879:32)
+      at Function.Module._load (internal/modules/cjs/loader.js:724:14)
+      at Module.require (internal/modules/cjs/loader.js:903:19)
+      at require (internal/modules/cjs/helpers.js:74:18)
+      at Object.<anonymous> (D:\rs-school\js\node-js\express-rest-service\node-js-course\src\server.js:2:13)
+      at Module._compile (internal/modules/cjs/loader.js:1015:30)
+      at Object.Module._extensions..js (internal/modules/cjs/loader.js:1035:10),
+  level: '\u001b[31merror\u001b[39m',
+  message: 'Uncaugth Exception',
+  timestamp: '2020-10-20T12:19:46.811Z'
+}
+undefined [undefined] [31merror[39m: Uncaugth Exception
+undefined [undefined] [31merror[39m: Uncaugth Exception
+2020-10-20T12:21:29.377Z [undefined] [31merror[39m: Uncaugth Exception
+2020-10-20T12:21:29.376Z [undefined] [31merror[39m: Uncaugth Exception
+2020-10-20T12:21:39.701Z [31merror[39m: Uncaugth Exception
+2020-10-20T12:21:39.701Z [31merror[39m: Uncaugth Exception
+2020-10-20T12:21:59.137Z [31merror[39m: Uncaugth Exception
+2020-10-20T12:21:59.136Z [31merror[39m: Uncaugth Exception
+2020-10-20T12:22:20.054Z [31merror[39m: function createFormatWrap(opts) {
+    return new Format(opts);
+  } Uncaugth Exception
+2020-10-20T12:22:20.056Z [31merror[39m: function createFormatWrap(opts) {
+    return new Format(opts);
+  } Uncaugth Exception
+2020-10-20T12:22:32.494Z [31merror[39m: opts => new Colorizer(opts) Uncaugth Exception
+2020-10-20T12:22:32.495Z [31merror[39m: opts => new Colorizer(opts) Uncaugth Exception
+2020-10-20T12:22:42.361Z [31merror[39m: Uncaugth Exception
+2020-10-20T12:22:42.363Z [31merror[39m: Uncaugth Exception
+2020-10-20T12:24:27.913Z [31merror[39m: Uncaugth Exception
+2020-10-20T12:24:27.918Z [31merror[39m: Uncaugth Exception
+2020-10-20T12:25:59.000Z [31merror[39m: Uncaugth Exception
+2020-10-20T12:25:59.000Z [31merror[39m: Uncaugth Exception
+2020-10-20T12:31:37.274Z [31merror[39m: Uncaugth Exception
+2020-10-20T12:31:37.277Z [31merror[39m: Uncaugth Exception
+2020-10-20T12:31:48.563Z [31merror[39m: Uncaugth Exception
+2020-10-20T12:32:42.035Z [31merror[39m: Uncaugth Exception
+2020-10-20T12:34:56.378Z [31merror[39m: Uncaugth Exception
+2020-10-20T12:34:58.976Z [31merror[39m: Uncaugth Exception
+2020-10-20T12:35:50.606Z [33merror[39m: Uncaugth Exception
+2020-10-20T12:36:08.657Z [31merror[39m: Uncaugth Exception
+2020-10-20T12:36:33.980Z [31merror[39m: Uncaugth Exception
+2020-10-20T12:36:41.301Z [31merror[39m: Uncaugth Exception
+2020-10-20T12:36:54.578Z [31merror[39m: Uncaugth Exception
+2020-10-20T12:37:17.649Z [31merror[39m: Uncaugth Exception
+2020-10-20T12:39:01.676Z [31merror[39m: Uncaugth Exception
+2020-10-20 16:58:12 [31merror[39m: unhandledRejection undefined
+2020-10-20 16:59:23 [31merror[39m: unhandledRejection undefined
+2020-10-20 16:59:49 [31merror[39m: unhandledRejection undefined
+2020-10-20 17:03:24 [31merror[39m: unhandledRejection undefined
+2020-10-20 17:14:48 [31merror[39m: unhandledRejection
+2020-10-20 17:31:50 [31merror[39m: unhandledRejection
+2020-10-20 17:50:37 [31merror[39m: ::ffff:127.0.0.1 - - [20/Oct/2020:14:50:37 +0000] "POST /boards HTTP/1.1" 200 141 "-" "node-superagent/3.8.3"
+
+2020-10-20 17:50:37 [31merror[39m: ::ffff:127.0.0.1 - - [20/Oct/2020:14:50:37 +0000] "GET /users HTTP/1.1" 200 2 "-" "node-superagent/3.8.3"
+
+2020-10-20 17:50:37 [31merror[39m: ::ffff:127.0.0.1 - - [20/Oct/2020:14:50:37 +0000] "POST /boards HTTP/1.1" 200 141 "-" "node-superagent/3.8.3"
+
+2020-10-20 17:50:37 [31merror[39m: ::ffff:127.0.0.1 - - [20/Oct/2020:14:50:37 +0000] "GET /boards HTTP/1.1" 200 285 "-" "node-superagent/3.8.3"
+
+2020-10-20 17:50:37 [31merror[39m: ::ffff:127.0.0.1 - - [20/Oct/2020:14:50:37 +0000] "POST /users HTTP/1.1" 200 84 "-" "node-superagent/3.8.3"
+
+2020-10-20 17:50:37 [31merror[39m: ::ffff:127.0.0.1 - - [20/Oct/2020:14:50:37 +0000] "POST /boards/26527d54-5976-4f52-96c6-924daa341742/tasks HTTP/1.1" 200 186 "-" "node-superagent/3.8.3"
+
+2020-10-20 17:50:37 [31merror[39m: ::ffff:127.0.0.1 - - [20/Oct/2020:14:50:37 +0000] "GET /users/55100394-fa30-4874-9e86-607719955454 HTTP/1.1" 200 84 "-" "node-superagent/3.8.3"
+
+2020-10-20 17:50:37 [31merror[39m: ::ffff:127.0.0.1 - - [20/Oct/2020:14:50:37 +0000] "GET /boards HTTP/1.1" 200 285 "-" "node-superagent/3.8.3"
+
+2020-10-20 17:50:37 [31merror[39m: ::ffff:127.0.0.1 - - [20/Oct/2020:14:50:37 +0000] "GET /boards/26527d54-5976-4f52-96c6-924daa341742/tasks HTTP/1.1" 200 188 "-" "node-superagent/3.8.3"
+
+2020-10-20 17:50:37 [31merror[39m: ::ffff:127.0.0.1 - - [20/Oct/2020:14:50:37 +0000] "DELETE /users/55100394-fa30-4874-9e86-607719955454 HTTP/1.1" 204 - "-" "node-superagent/3.8.3"
+
+2020-10-20 17:50:37 [31merror[39m: ::ffff:127.0.0.1 - - [20/Oct/2020:14:50:37 +0000] "GET /boards/f5ea5ce9-ff3b-48a3-883d-c5a2ab2ce2c3 HTTP/1.1" 200 141 "-" "node-superagent/3.8.3"
+
+2020-10-20 17:50:37 [31merror[39m: ::ffff:127.0.0.1 - - [20/Oct/2020:14:50:37 +0000] "POST /users HTTP/1.1" 200 84 "-" "node-superagent/3.8.3"
+
+2020-10-20 17:50:37 [31merror[39m: ::ffff:127.0.0.1 - - [20/Oct/2020:14:50:37 +0000] "GET /boards/26527d54-5976-4f52-96c6-924daa341742/tasks HTTP/1.1" 200 188 "-" "node-superagent/3.8.3"
+
+2020-10-20 17:50:37 [31merror[39m: ::ffff:127.0.0.1 - - [20/Oct/2020:14:50:37 +0000] "POST /boards HTTP/1.1" 200 141 "-" "node-superagent/3.8.3"
+
+2020-10-20 17:50:37 [31merror[39m: ::ffff:127.0.0.1 - - [20/Oct/2020:14:50:37 +0000] "GET /boards/26527d54-5976-4f52-96c6-924daa341742/tasks/128cb161-6c75-4097-8d98-3dabcdca1cf1 HTTP/1.1" 200 186 "-" "node-superagent/3.8.3"
+
+2020-10-20 17:50:37 [31merror[39m: ::ffff:127.0.0.1 - - [20/Oct/2020:14:50:37 +0000] "DELETE /users/73309de9-b479-470a-9dfe-fad69e143a5c HTTP/1.1" 204 - "-" "node-superagent/3.8.3"
+
+2020-10-20 17:50:37 [31merror[39m: ::ffff:127.0.0.1 - - [20/Oct/2020:14:50:37 +0000] "DELETE /boards/a471b33e-edbf-405e-b44e-ad5e38433aeb HTTP/1.1" 204 - "-" "node-superagent/3.8.3"
+
+2020-10-20 17:50:37 [31merror[39m: ::ffff:127.0.0.1 - - [20/Oct/2020:14:50:37 +0000] "POST /boards/26527d54-5976-4f52-96c6-924daa341742/tasks HTTP/1.1" 200 186 "-" "node-superagent/3.8.3"
+
+2020-10-20 17:50:37 [31merror[39m: ::ffff:127.0.0.1 - - [20/Oct/2020:14:50:37 +0000] "POST /users HTTP/1.1" 200 84 "-" "node-superagent/3.8.3"
+
+2020-10-20 17:50:37 [31merror[39m: ::ffff:127.0.0.1 - - [20/Oct/2020:14:50:37 +0000] "POST /boards HTTP/1.1" 200 141 "-" "node-superagent/3.8.3"
+
+2020-10-20 17:50:37 [31merror[39m: ::ffff:127.0.0.1 - - [20/Oct/2020:14:50:37 +0000] "DELETE /boards/26527d54-5976-4f52-96c6-924daa341742/tasks/1ecad608-e039-4510-8705-faaefe9dde28 HTTP/1.1" 204 - "-" "node-superagent/3.8.3"
+
+2020-10-20 17:50:37 [31merror[39m: ::ffff:127.0.0.1 - - [20/Oct/2020:14:50:37 +0000] "PUT /users/aeb4eec1-8b8a-4b9e-9655-5e214d8e337b HTTP/1.1" 200 101 "-" "node-superagent/3.8.3"
+
+2020-10-20 17:50:37 [31merror[39m: ::ffff:127.0.0.1 - - [20/Oct/2020:14:50:37 +0000] "PUT /boards/0b12d246-5c76-462b-8d34-100095223b91 HTTP/1.1" 200 149 "-" "node-superagent/3.8.3"
+
+2020-10-20 17:50:37 [31merror[39m: ::ffff:127.0.0.1 - - [20/Oct/2020:14:50:37 +0000] "POST /boards/26527d54-5976-4f52-96c6-924daa341742/tasks HTTP/1.1" 200 186 "-" "node-superagent/3.8.3"
+
+2020-10-20 17:50:37 [31merror[39m: ::ffff:127.0.0.1 - - [20/Oct/2020:14:50:37 +0000] "GET /users/aeb4eec1-8b8a-4b9e-9655-5e214d8e337b HTTP/1.1" 200 101 "-" "node-superagent/3.8.3"
+
+2020-10-20 17:50:37 [31merror[39m: ::ffff:127.0.0.1 - - [20/Oct/2020:14:50:37 +0000] "GET /boards/0b12d246-5c76-462b-8d34-100095223b91 HTTP/1.1" 200 149 "-" "node-superagent/3.8.3"
+
+2020-10-20 17:50:37 [31merror[39m: ::ffff:127.0.0.1 - - [20/Oct/2020:14:50:37 +0000] "PUT /boards/26527d54-5976-4f52-96c6-924daa341742/tasks/3e2064bc-04af-4fb6-b416-e9d8fbbaca5c HTTP/1.1" 200 194 "-" "node-superagent/3.8.3"
+
+2020-10-20 17:50:37 [31merror[39m: ::ffff:127.0.0.1 - - [20/Oct/2020:14:50:37 +0000] "DELETE /users/aeb4eec1-8b8a-4b9e-9655-5e214d8e337b HTTP/1.1" 204 - "-" "node-superagent/3.8.3"
+
+2020-10-20 17:50:37 [31merror[39m: ::ffff:127.0.0.1 - - [20/Oct/2020:14:50:37 +0000] "DELETE /boards/0b12d246-5c76-462b-8d34-100095223b91 HTTP/1.1" 204 - "-" "node-superagent/3.8.3"
+
+2020-10-20 17:50:37 [31merror[39m: ::ffff:127.0.0.1 - - [20/Oct/2020:14:50:37 +0000] "GET /boards/26527d54-5976-4f52-96c6-924daa341742/tasks/3e2064bc-04af-4fb6-b416-e9d8fbbaca5c HTTP/1.1" 200 194 "-" "node-superagent/3.8.3"
+
+2020-10-20 17:50:37 [31merror[39m: ::ffff:127.0.0.1 - - [20/Oct/2020:14:50:37 +0000] "POST /users HTTP/1.1" 200 84 "-" "node-superagent/3.8.3"
+
+2020-10-20 17:50:37 [31merror[39m: ::ffff:127.0.0.1 - - [20/Oct/2020:14:50:37 +0000] "POST /boards HTTP/1.1" 200 141 "-" "node-superagent/3.8.3"
+
+2020-10-20 17:50:37 [31merror[39m: ::ffff:127.0.0.1 - - [20/Oct/2020:14:50:37 +0000] "GET /boards/26527d54-5976-4f52-96c6-924daa341742/tasks/128cb161-6c75-4097-8d98-3dabcdca1cf1 HTTP/1.1" 200 186 "-" "node-superagent/3.8.3"
+
+2020-10-20 17:50:37 [31merror[39m: ::ffff:127.0.0.1 - - [20/Oct/2020:14:50:37 +0000] "DELETE /users/608b6707-53f2-4f08-b50b-318847cd0483 HTTP/1.1" 204 - "-" "node-superagent/3.8.3"
+
+2020-10-20 17:50:37 [31merror[39m: ::ffff:127.0.0.1 - - [20/Oct/2020:14:50:37 +0000] "DELETE /boards/6925b407-80c6-4987-b747-191481625c9b HTTP/1.1" 204 - "-" "node-superagent/3.8.3"
+
+2020-10-20 17:50:37 [31merror[39m: ::ffff:127.0.0.1 - - [20/Oct/2020:14:50:37 +0000] "DELETE /boards/26527d54-5976-4f52-96c6-924daa341742/tasks/128cb161-6c75-4097-8d98-3dabcdca1cf1 HTTP/1.1" 204 - "-" "node-superagent/3.8.3"
+
+2020-10-20 17:50:37 [31merror[39m: ::ffff:127.0.0.1 - - [20/Oct/2020:14:50:37 +0000] "POST /users HTTP/1.1" 200 84 "-" "node-superagent/3.8.3"
+
+2020-10-20 17:50:37 [31merror[39m: ::ffff:127.0.0.1 - - [20/Oct/2020:14:50:37 +0000] "GET /boards/6925b407-80c6-4987-b747-191481625c9b HTTP/1.1" 404 - "-" "node-superagent/3.8.3"
+
+2020-10-20 17:50:37 [31merror[39m: ::ffff:127.0.0.1 - - [20/Oct/2020:14:50:37 +0000] "GET /boards/26527d54-5976-4f52-96c6-924daa341742/tasks/128cb161-6c75-4097-8d98-3dabcdca1cf1 HTTP/1.1" 404 - "-" "node-superagent/3.8.3"
+
+2020-10-20 17:50:37 [31merror[39m: ::ffff:127.0.0.1 - - [20/Oct/2020:14:50:37 +0000] "POST /boards HTTP/1.1" 200 141 "-" "node-superagent/3.8.3"
+
+2020-10-20 17:50:37 [31merror[39m: ::ffff:127.0.0.1 - - [20/Oct/2020:14:50:37 +0000] "POST /boards HTTP/1.1" 200 141 "-" "node-superagent/3.8.3"
+
+2020-10-20 17:50:37 [31merror[39m: ::ffff:127.0.0.1 - - [20/Oct/2020:14:50:37 +0000] "DELETE /boards/26527d54-5976-4f52-96c6-924daa341742 HTTP/1.1" 204 - "-" "node-superagent/3.8.3"
+
+2020-10-20 17:50:37 [31merror[39m: ::ffff:127.0.0.1 - - [20/Oct/2020:14:50:37 +0000] "POST /boards/34f3a967-f175-4fac-a68b-014153076acd/tasks HTTP/1.1" 200 214 "-" "node-superagent/3.8.3"
+
+2020-10-20 17:50:37 [31merror[39m: ::ffff:127.0.0.1 - - [20/Oct/2020:14:50:37 +0000] "POST /boards/34f3a967-f175-4fac-a68b-014153076acd/tasks HTTP/1.1" 200 214 "-" "node-superagent/3.8.3"
+
+2020-10-20 17:50:37 [31merror[39m: ::ffff:127.0.0.1 - - [20/Oct/2020:14:50:37 +0000] "POST /boards/50156a1a-0b78-4f08-8afb-d001ef1c85e8/tasks HTTP/1.1" 200 180 "-" "node-superagent/3.8.3"
+
+2020-10-20 17:50:37 [31merror[39m: ::ffff:127.0.0.1 - - [20/Oct/2020:14:50:37 +0000] "POST /boards/50156a1a-0b78-4f08-8afb-d001ef1c85e8/tasks HTTP/1.1" 200 180 "-" "node-superagent/3.8.3"
+
+2020-10-20 17:50:37 [31merror[39m: ::ffff:127.0.0.1 - - [20/Oct/2020:14:50:37 +0000] "POST /boards/50156a1a-0b78-4f08-8afb-d001ef1c85e8/tasks HTTP/1.1" 200 180 "-" "node-superagent/3.8.3"
+
+2020-10-20 17:50:37 [31merror[39m: ::ffff:127.0.0.1 - - [20/Oct/2020:14:50:37 +0000] "POST /boards/50156a1a-0b78-4f08-8afb-d001ef1c85e8/tasks HTTP/1.1" 200 180 "-" "node-superagent/3.8.3"
+
+2020-10-20 17:50:37 [31merror[39m: ::ffff:127.0.0.1 - - [20/Oct/2020:14:50:37 +0000] "POST /boards/50156a1a-0b78-4f08-8afb-d001ef1c85e8/tasks HTTP/1.1" 200 180 "-" "node-superagent/3.8.3"
+
+2020-10-20 17:50:37 [31merror[39m: ::ffff:127.0.0.1 - - [20/Oct/2020:14:50:37 +0000] "DELETE /users/3ca27193-b953-4518-afe8-386394fa8571 HTTP/1.1" 204 - "-" "node-superagent/3.8.3"
+
+2020-10-20 17:50:37 [31merror[39m: ::ffff:127.0.0.1 - - [20/Oct/2020:14:50:37 +0000] "GET /boards/50156a1a-0b78-4f08-8afb-d001ef1c85e8/tasks/2cc681cc-bf5f-4a60-90ce-2e7e16caafbd HTTP/1.1" 200 180 "-" "node-superagent/3.8.3"
+
+2020-10-20 17:50:37 [31merror[39m: ::ffff:127.0.0.1 - - [20/Oct/2020:14:50:37 +0000] "GET /boards/50156a1a-0b78-4f08-8afb-d001ef1c85e8/tasks/304ac431-dd75-4c22-962c-f84a878fb849 HTTP/1.1" 200 180 "-" "node-superagent/3.8.3"
+
+2020-10-20 17:50:37 [31merror[39m: ::ffff:127.0.0.1 - - [20/Oct/2020:14:50:37 +0000] "GET /boards/50156a1a-0b78-4f08-8afb-d001ef1c85e8/tasks/bfe6fdea-a5d1-432b-bceb-2936f098a499 HTTP/1.1" 200 180 "-" "node-superagent/3.8.3"
+
+2020-10-20 17:50:37 [31merror[39m: ::ffff:127.0.0.1 - - [20/Oct/2020:14:50:37 +0000] "GET /boards/50156a1a-0b78-4f08-8afb-d001ef1c85e8/tasks/b9f6ff05-363a-4161-8252-1bebb474b54f HTTP/1.1" 200 180 "-" "node-superagent/3.8.3"
+
+2020-10-20 17:50:37 [31merror[39m: ::ffff:127.0.0.1 - - [20/Oct/2020:14:50:37 +0000] "GET /boards/50156a1a-0b78-4f08-8afb-d001ef1c85e8/tasks/a48bc55c-36d8-4159-8665-465ea58e9b9c HTTP/1.1" 200 180 "-" "node-superagent/3.8.3"
+
+2020-10-20 17:50:37 [31merror[39m: ::ffff:127.0.0.1 - - [20/Oct/2020:14:50:37 +0000] "GET /boards/34f3a967-f175-4fac-a68b-014153076acd/tasks/d0764f64-476d-4bcf-8bfe-81215797190b HTTP/1.1" 200 180 "-" "node-superagent/3.8.3"
+
+2020-10-20 17:50:37 [31merror[39m: ::ffff:127.0.0.1 - - [20/Oct/2020:14:50:37 +0000] "DELETE /boards/50156a1a-0b78-4f08-8afb-d001ef1c85e8 HTTP/1.1" 204 - "-" "node-superagent/3.8.3"
+
+2020-10-20 17:50:37 [31merror[39m: ::ffff:127.0.0.1 - - [20/Oct/2020:14:50:37 +0000] "GET /boards/34f3a967-f175-4fac-a68b-014153076acd/tasks/bb602028-5db0-4ec6-aa43-517723721728 HTTP/1.1" 200 180 "-" "node-superagent/3.8.3"
+
+2020-10-20 17:50:37 [31merror[39m: ::ffff:127.0.0.1 - - [20/Oct/2020:14:50:37 +0000] "GET /boards/50156a1a-0b78-4f08-8afb-d001ef1c85e8/tasks/2cc681cc-bf5f-4a60-90ce-2e7e16caafbd HTTP/1.1" 404 - "-" "node-superagent/3.8.3"
+
+2020-10-20 17:50:37 [31merror[39m: ::ffff:127.0.0.1 - - [20/Oct/2020:14:50:37 +0000] "GET /boards/50156a1a-0b78-4f08-8afb-d001ef1c85e8/tasks/304ac431-dd75-4c22-962c-f84a878fb849 HTTP/1.1" 404 - "-" "node-superagent/3.8.3"
+
+2020-10-20 17:50:37 [31merror[39m: ::ffff:127.0.0.1 - - [20/Oct/2020:14:50:37 +0000] "GET /boards/50156a1a-0b78-4f08-8afb-d001ef1c85e8/tasks/bfe6fdea-a5d1-432b-bceb-2936f098a499 HTTP/1.1" 404 - "-" "node-superagent/3.8.3"
+
+2020-10-20 17:50:37 [31merror[39m: ::ffff:127.0.0.1 - - [20/Oct/2020:14:50:37 +0000] "GET /boards/50156a1a-0b78-4f08-8afb-d001ef1c85e8/tasks/b9f6ff05-363a-4161-8252-1bebb474b54f HTTP/1.1" 404 - "-" "node-superagent/3.8.3"
+
+2020-10-20 17:50:37 [31merror[39m: ::ffff:127.0.0.1 - - [20/Oct/2020:14:50:37 +0000] "GET /boards/50156a1a-0b78-4f08-8afb-d001ef1c85e8/tasks/a48bc55c-36d8-4159-8665-465ea58e9b9c HTTP/1.1" 404 - "-" "node-superagent/3.8.3"
+
+2020-10-20 17:50:37 [31merror[39m: ::ffff:127.0.0.1 - - [20/Oct/2020:14:50:37 +0000] "DELETE /boards/34f3a967-f175-4fac-a68b-014153076acd/tasks/d0764f64-476d-4bcf-8bfe-81215797190b HTTP/1.1" 204 - "-" "node-superagent/3.8.3"
+
+2020-10-20 17:50:37 [31merror[39m: ::ffff:127.0.0.1 - - [20/Oct/2020:14:50:37 +0000] "DELETE /boards/34f3a967-f175-4fac-a68b-014153076acd/tasks/bb602028-5db0-4ec6-aa43-517723721728 HTTP/1.1" 204 - "-" "node-superagent/3.8.3"
+
+2020-10-20 17:50:37 [31merror[39m: ::ffff:127.0.0.1 - - [20/Oct/2020:14:50:37 +0000] "DELETE /boards/f5ea5ce9-ff3b-48a3-883d-c5a2ab2ce2c3 HTTP/1.1" 204 - "-" "node-superagent/3.8.3"
+
+2020-10-20 17:50:37 [31merror[39m: ::ffff:127.0.0.1 - - [20/Oct/2020:14:50:37 +0000] "DELETE /boards/34f3a967-f175-4fac-a68b-014153076acd HTTP/1.1" 204 - "-" "node-superagent/3.8.3"
+
+2020-10-20 17:53:38 [31merror[39m: uncaughtException
+2020-10-20 17:56:41 [31merror[39m: uncaughtException
+2020-10-20 17:57:00 [31merror[39m: uncaughtException
+2020-10-20 17:59:31 [31merror[39m: uncaughtException
+2020-10-20 18:00:54 [31merror[39m: uncaughtException
+2020-10-20 18:01:35 [31merror[39m: uncaughtException
+2020-10-20 18:07:59 [31merror[39m: uncaughtException
+2020-10-20 18:09:17 [31merror[39m: uncaughtException

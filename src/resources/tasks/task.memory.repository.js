@@ -10,6 +10,6 @@ const read = async (id, boardId) => await DB.readEntity(model, id, boardId);
 const update = async (id, task, boardId) =>
   await DB.updateEntity(model, id, task, boardId);
 
-const remove = async (id) => await DB.removeEntity(model, id);
+const remove = async id => await DB.removeEntity(model, id);
 
 module.exports = { getAll, create, read, update, remove };
