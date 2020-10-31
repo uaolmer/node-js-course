@@ -1,8 +1,14 @@
-const Board = require('./board.model');
+const DB = require('../../utils/inMemoryDB');
+const model = 'Boards';
 
-const getAll = async () => {
-  // TODO: mock implementation. should be replaced during task development
-  return [];
-};
+const getAll = async () => await DB.getAllEntities(model);
 
-module.exports = { getAll };
+const create = async board => await DB.createEntity(model, board);
+
+const read = async id => await DB.readEntity(model, id);
+
+const update = async (id, board) => await DB.updateEntity(model, id, board);
+
+const remove = async id => await DB.removeEntity(model, id);
+
+module.exports = { getAll, create, read, update, remove };

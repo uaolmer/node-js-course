@@ -1,11 +1,10 @@
 const router = require('express').Router();
-const User = require('./column.model');
-const usersService = require('./column.service');
+const Column = require('./column.model');
+const columnsService = require('./column.service');
 
 router.route('/').get(async (req, res) => {
-  const users = await usersService.getAll();
-  // map user fields to exclude secret fields like "password"
-  res.json(users.map(User.toResponse));
+  const columns = await columnsService.getAll();
+  res.json(columns.map(Column.toResponse));
 });
 
 module.exports = router;

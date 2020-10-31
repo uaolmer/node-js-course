@@ -5,10 +5,17 @@ const YAML = require('yamljs');
 const userRouter = require('./resources/users/user.router');
 const boardRouter = require('./resources/boards/board.router');
 const taskRouter = require('./resources/tasks/task.router');
-const columnRouter = require('./resources/columns/columns.router');
+const columnRouter = require('./resources/columns/column.router');
+const winston = require('./logger');
+const morgan = require('morgan');
 
 const app = express();
 const swaggerDocument = YAML.load(path.join(__dirname, '../doc/api.yaml'));
+
+morgan.token('body', req => `body: ${JSON.stringify(req.body)}`);
+morgan.token('params', req => `request: ${JSON.stringify(req.params)}`);
+
+app.use(morgan(':method :url :params :body :status :response-time ms', { stream: winston.stream }));
 
 app.use(express.json());
 
@@ -23,8 +30,20 @@ app.use('/', (req, res, next) => {
 });
 
 app.use('/users', userRouter);
+boardRouter.use('/:boardId/tasks', taskRouter);
 app.use('/boards', boardRouter);
-app.use('/tasks', taskRouter);
-app.use('/columns', columnRouter);
+
+process.on('uncaughtException', err => {
+  winston.error('uncaughtException', { response:  err.message });
+  process.exit(1);
+});
+
+process.on('unhandledRejection', err => {
+  winston.error('unhandledRejection', { response:  err.message });
+  process.exit(1);
+});
+
+//throw Error('Oops!');
+//Promise.reject(Error('Oops!'));
 
 module.exports = app;
