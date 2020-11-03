@@ -1,5 +1,4 @@
-const DB = require('../../utils/inMemoryDB');
-const model = 'Boards';
+const Board = require('./board.model.js');
 
 const getAll = async () => await DB.getAllEntities(model);
 

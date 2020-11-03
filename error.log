@@ -1388,3 +1388,24 @@ undefined [undefined] [31merror[39m: Uncaugth Exception
 2020-10-20 18:01:35 [31merror[39m: uncaughtException
 2020-10-20 18:07:59 [31merror[39m: uncaughtException
 2020-10-20 18:09:17 [31merror[39m: uncaughtException
+2020-11-03 11:07:23 [31merror[39m: uncaughtException
+2020-11-03 11:11:13 [31merror[39m: DB status:
+2020-11-03 11:12:47 [31merror[39m: uncaughtException
+2020-11-03 11:19:45 [31merror[39m: App status : App is running on http://localhost:4000
+2020-11-03 13:32:54 [31merror[39m: unhandledRejection DB is not defined
+2020-11-03 14:40:19 [31merror[39m: unhandledRejection Board validation failed: columns: Cast to string failed for value "[ { title: 'Backlog', order: 1 }, { title: 'Sprint', order: 2 } ]" at path "columns"
+2020-11-03 14:42:29 [31merror[39m: unhandledRejection Board validation failed: columns: Cast to string failed for value "[ { title: 'Backlog', order: 1 }, { title: 'Sprint', order: 2 } ]" at path "columns"
+2020-11-03 14:43:54 [31merror[39m: unhandledRejection Board validation failed: columns: Cast to string failed for value "[ { title: 'Backlog', order: 1 }, { title: 'Sprint', order: 2 } ]" at path "columns"
+2020-11-03 14:44:45 [31merror[39m: unhandledRejection Board validation failed: columns: Cast to string failed for value "[ { title: 'Backlog', order: 1 }, { title: 'Sprint', order: 2 } ]" at path "columns"
+2020-11-03 14:46:15 [31merror[39m: unhandledRejection Board validation failed: columns: Cast to string failed for value "[ { title: 'Backlog', order: 1 }, { title: 'Sprint', order: 2 } ]" at path "columns"
+2020-11-03 14:49:07 [31merror[39m: unhandledRejection getBoard is not defined
+2020-11-03 14:51:21 [31merror[39m: unhandledRejection newTask is not defined
+2020-11-03 14:51:38 [31merror[39m: unhandledRejection Cannot destructure property 'id' of 'task' as it is null.
+2020-11-03 14:52:10 [31merror[39m: unhandledRejection Cast to ObjectId failed for value "{ id: '5fa1527a804430397c68d473', boardId: '5fa15279804430397c68d466' }" at path "_id" for model "Task"
+2020-11-03 14:53:20 [31merror[39m: unhandledRejection Cast to ObjectId failed for value "{ id: '5fa152bf4733664820399cc0', boardId: '5fa152bf4733664820399cb0' }" at path "_id" for model "Task"
+2020-11-03 14:53:43 [31merror[39m: unhandledRejection Cast to ObjectId failed for value "{ id: '5fa152d713b8182f88a27068', boardId: '5fa152d613b8182f88a2705b' }" at path "_id" for model "Task"
+2020-11-03 14:55:33 [31merror[39m: unhandledRejection Cast to ObjectId failed for value "{ id: '5fa1534581e8c82f8050be2d', boardId: '5fa1534481e8c82f8050be20' }" at path "_id" for model "Task"
+2020-11-03 14:56:03 [31merror[39m: unhandledRejection Cast to ObjectId failed for value "{ id: '5fa15363f0f96a4d9c93b747' }" at path "_id" for model "Task"
+2020-11-03 15:08:22 [31merror[39m: unhandledRejection Cast to ObjectId failed for value "{ id: '5fa156461c3ef251fc6eea39' }" at path "_id" for model "Task"
+2020-11-03 15:15:24 [31merror[39m: unhandledRejection Parameter "filter" to find() must be an object, got 5fa157ec756a2850307e4ef7
+2020-11-03 15:24:24 [31merror[39m: unhandledRejection #<Object> is not a function

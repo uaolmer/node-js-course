@@ -5,7 +5,12 @@ const winston = require('../../logger');
 
 router.route('/').get(async (req, res) => {
   const tasks = await tasksService.getAll(req.params.boardId);
-  res.json(tasks.map(Task.toResponse));
+  if (!tasks) {
+    res.status(404);
+    res.send();
+    return;
+  }
+  res.status(200).json(tasks.map(Task.toResponse));
 });
 
 router.route('/:id').get(async (req, res) => {

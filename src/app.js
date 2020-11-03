@@ -15,7 +15,11 @@ const swaggerDocument = YAML.load(path.join(__dirname, '../doc/api.yaml'));
 morgan.token('body', req => `body: ${JSON.stringify(req.body)}`);
 morgan.token('params', req => `request: ${JSON.stringify(req.params)}`);
 
-app.use(morgan(':method :url :params :body :status :response-time ms', { stream: winston.stream }));
+app.use(
+  morgan(':method :url :params :body :status :response-time ms', {
+    stream: winston.stream
+  })
+);
 
 app.use(express.json());
 
@@ -34,16 +38,13 @@ boardRouter.use('/:boardId/tasks', taskRouter);
 app.use('/boards', boardRouter);
 
 process.on('uncaughtException', err => {
-  winston.error('uncaughtException', { response:  err.message });
+  winston.error('uncaughtException', { response: err.message });
   process.exit(1);
 });
 
 process.on('unhandledRejection', err => {
-  winston.error('unhandledRejection', { response:  err.message });
+  winston.error('unhandledRejection', { response: err.message });
   process.exit(1);
 });
-
-//throw Error('Oops!');
-//Promise.reject(Error('Oops!'));
 
 module.exports = app;

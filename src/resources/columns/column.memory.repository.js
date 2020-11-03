@@ -1,4 +1,4 @@
-const DB = require('../../utils/inMemoryDB');
+// const DB = require('../../utils/client.db.js');
 const Column = require('./Column.model');
 
 const getAll = async () => {

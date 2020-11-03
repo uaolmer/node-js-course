@@ -1,20 +1,25 @@
-const uuid = require('uuid');
+// const uuid = require('uuid');
+const mongoose = require('mongoose');
 
-class Board {
-  constructor({ id = uuid(), title = 'BOARD', columns = 0 } = {}) {
-    this.id = id;
-    this.title = title;
-    this.columns = columns;
-  }
+const Column = new mongoose.Schema(
+  {
+    title: String,
+    order: Number
+  },
+  { versionKey: false }
+);
 
-  static toResponse(board) {
-    const { id, title, columns } = board;
-    return { id, title, columns };
-  }
+const boardSchema = new mongoose.Schema(
+  {
+    title: String,
+    columns: [Column]
+  },
+  { versionKey: false }
+);
 
-  static fromRequest(body) {
-    return new Board(body);
-  }
-}
+boardSchema.statics.toResponse = board => {
+  const { id, title, columns } = board;
+  return { id, title, columns };
+};
 
-module.exports = Board;
+module.exports = mongoose.model('Board', boardSchema);
