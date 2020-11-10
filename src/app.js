@@ -6,8 +6,10 @@ const userRouter = require('./resources/users/user.router');
 const boardRouter = require('./resources/boards/board.router');
 const taskRouter = require('./resources/tasks/task.router');
 const columnRouter = require('./resources/columns/column.router');
+const authRouter = require('./resources/login/login.router');
 const winston = require('./logger');
 const morgan = require('morgan');
+const checkToken = require('./utils/token');
 
 const app = express();
 const swaggerDocument = YAML.load(path.join(__dirname, '../doc/api.yaml'));
@@ -33,9 +35,10 @@ app.use('/', (req, res, next) => {
   next();
 });
 
-app.use('/users', userRouter);
-boardRouter.use('/:boardId/tasks', taskRouter);
-app.use('/boards', boardRouter);
+app.use('/login', authRouter);
+app.use('/users', checkToken, userRouter);
+app.use('/boards', checkToken, boardRouter);
+boardRouter.use('/:boardId/tasks', checkToken, taskRouter);
 
 process.on('uncaughtException', err => {
   winston.error('uncaughtException', { response: err.message });

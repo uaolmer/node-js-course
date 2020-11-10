@@ -11775,3 +11775,2395 @@ undefined [undefined] [31merror[39m: Uncaugth Exception
 
 2020-11-03 15:30:57 [32minfo[39m: Application status: ✅ Running on http://localhost:4000
 2020-11-03 15:30:57 [32minfo[39m: Database status: ✅ Database connected
+2020-11-03 15:35:19 [32minfo[39m: GET /users request: {} body: {} 200 83.353 ms
+
+2020-11-03 15:35:19 [32minfo[39m: POST /boards request: {} body: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]} 200 152.233 ms
+
+2020-11-03 15:35:19 [32minfo[39m: POST /boards request: {} body: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]} 200 206.441 ms
+
+2020-11-03 15:35:19 [32minfo[39m: POST /boards/5fa15c97f4b1592e3cbcdb4e/tasks request: {"boardId":"5fa15c97f4b1592e3cbcdb4e"} body: {"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null} 200 228.430 ms
+
+2020-11-03 15:35:19 [32minfo[39m: GET /boards request: {} body: {} 200 231.379 ms
+
+2020-11-03 15:35:19 [32minfo[39m: POST /users request: {} body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"} 200 404.519 ms
+
+2020-11-03 15:35:19 [32minfo[39m: GET /boards request: {} body: {} 200 88.944 ms
+
+2020-11-03 15:35:19 [32minfo[39m: GET /users/5fa15c97f4b1592e3cbcdb54 request: {"id":"5fa15c97f4b1592e3cbcdb54"} body: {} 200 89.212 ms
+
+2020-11-03 15:35:20 [32minfo[39m: GET /boards/5fa15c97f4b1592e3cbcdb4e/tasks request: {"boardId":"5fa15c97f4b1592e3cbcdb4e"} body: {} 200 281.140 ms
+
+2020-11-03 15:35:20 [32minfo[39m: GET /boards/5fa151c2b6f24e442cec7b1d request: {"id":"5fa151c2b6f24e442cec7b1d"} body: {} 200 91.214 ms
+
+2020-11-03 15:35:20 [32minfo[39m: DELETE /users/5fa15c97f4b1592e3cbcdb54 request: {"id":"5fa15c97f4b1592e3cbcdb54"} body: {} 204 168.483 ms
+
+2020-11-03 15:35:20 [32minfo[39m: POST /boards request: {} body: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]} 200 76.111 ms
+
+2020-11-03 15:35:20 [32minfo[39m: GET /boards/5fa15c97f4b1592e3cbcdb4e/tasks request: {"boardId":"5fa15c97f4b1592e3cbcdb4e"} body: {} 200 235.985 ms
+
+2020-11-03 15:35:20 [32minfo[39m: POST /users request: {} body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"} 200 169.365 ms
+
+2020-11-03 15:35:20 [32minfo[39m: DELETE /boards/5fa15c98f4b1592e3cbcdb56 request: {"id":"5fa15c98f4b1592e3cbcdb56"} body: {} 204 165.502 ms
+
+2020-11-03 15:35:20 [32minfo[39m: GET /boards/5fa151c2b6f24e442cec7b20/tasks/5fa151c2b6f24e442cec7b23 request: {"boardId":"5fa151c2b6f24e442cec7b20","id":"5fa151c2b6f24e442cec7b23"} body: {} 200 70.913 ms
+
+2020-11-03 15:35:20 [32minfo[39m: POST /boards request: {} body: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]} 200 77.936 ms
+
+2020-11-03 15:35:20 [32minfo[39m: DELETE /users/5fa15c98f4b1592e3cbcdb59 request: {"id":"5fa15c98f4b1592e3cbcdb59"} body: {} 204 144.826 ms
+
+2020-11-03 15:35:20 [32minfo[39m: POST /boards/5fa15c97f4b1592e3cbcdb4e/tasks request: {"boardId":"5fa15c97f4b1592e3cbcdb4e"} body: {"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null} 200 78.619 ms
+
+2020-11-03 15:35:20 [32minfo[39m: PUT /boards/5fa15c98f4b1592e3cbcdb5a request: {"id":"5fa15c98f4b1592e3cbcdb5a"} body: {"id":"5fa15c98f4b1592e3cbcdb5a","title":"Autotest updated board","columns":[{"_id":"5fa15c98f4b1592e3cbcdb5b","title":"Backlog","order":1},{"_id":"5fa15c98f4b1592e3cbcdb5c","title":"Sprint","order":2}]} 200 145.186 ms
+
+2020-11-03 15:35:20 [32minfo[39m: DELETE /boards/5fa15c97f4b1592e3cbcdb4e/tasks/5fa15c98f4b1592e3cbcdb5d request: {"boardId":"5fa15c97f4b1592e3cbcdb4e","id":"5fa15c98f4b1592e3cbcdb5d"} body: {} 204 71.730 ms
+
+2020-11-03 15:35:20 [32minfo[39m: POST /users request: {} body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"} 200 140.864 ms
+
+2020-11-03 15:35:20 [32minfo[39m: GET /boards/5fa15c98f4b1592e3cbcdb5a request: {"id":"5fa15c98f4b1592e3cbcdb5a"} body: {} 200 70.200 ms
+
+2020-11-03 15:35:20 [32minfo[39m: POST /boards/5fa15c97f4b1592e3cbcdb4e/tasks request: {"boardId":"5fa15c97f4b1592e3cbcdb4e"} body: {"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null} 200 72.628 ms
+
+2020-11-03 15:35:20 [32minfo[39m: PUT /users/5fa15c98f4b1592e3cbcdb60 request: {"id":"5fa15c98f4b1592e3cbcdb60"} body: {"name":"Autotest updated TEST_USER","login":"test_user","password":"T35t_P@55w0rd","id":"5fa15c98f4b1592e3cbcdb60"} 200 140.550 ms
+
+2020-11-03 15:35:20 [32minfo[39m: DELETE /boards/5fa15c98f4b1592e3cbcdb5a request: {"id":"5fa15c98f4b1592e3cbcdb5a"} body: {} 204 148.689 ms
+
+2020-11-03 15:35:20 [32minfo[39m: PUT /boards/5fa15c97f4b1592e3cbcdb4e/tasks/5fa15c98f4b1592e3cbcdb61 request: {"boardId":"5fa15c97f4b1592e3cbcdb4e","id":"5fa15c98f4b1592e3cbcdb61"} body: {"id":"5fa15c98f4b1592e3cbcdb61","title":"Autotest updated task","order":0,"description":"Lorem ipsum","userId":null,"boardId":"5fa15c97f4b1592e3cbcdb4e","columnId":null} 200 154.337 ms
+
+2020-11-03 15:35:20 [32minfo[39m: GET /users/5fa15c98f4b1592e3cbcdb60 request: {"id":"5fa15c98f4b1592e3cbcdb60"} body: {} 200 68.221 ms
+
+2020-11-03 15:35:20 [32minfo[39m: POST /boards request: {} body: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]} 200 72.671 ms
+
+2020-11-03 15:35:20 [32minfo[39m: GET /boards/5fa15c97f4b1592e3cbcdb4e/tasks/5fa15c98f4b1592e3cbcdb61 request: {"boardId":"5fa15c97f4b1592e3cbcdb4e","id":"5fa15c98f4b1592e3cbcdb61"} body: {} 200 67.601 ms
+
+2020-11-03 15:35:20 [32minfo[39m: GET /boards/5fa15c97f4b1592e3cbcdb4e/tasks/5fa15c97f4b1592e3cbcdb55 request: {"boardId":"5fa15c97f4b1592e3cbcdb4e","id":"5fa15c97f4b1592e3cbcdb55"} body: {} 200 67.739 ms
+
+2020-11-03 15:35:20 [32minfo[39m: DELETE /users/5fa15c98f4b1592e3cbcdb60 request: {"id":"5fa15c98f4b1592e3cbcdb60"} body: {} 204 147.257 ms
+
+2020-11-03 15:35:20 [32minfo[39m: DELETE /boards/5fa15c98f4b1592e3cbcdb62 request: {"id":"5fa15c98f4b1592e3cbcdb62"} body: {} 204 140.540 ms
+
+2020-11-03 15:35:21 [32minfo[39m: DELETE /boards/5fa15c97f4b1592e3cbcdb4e/tasks/5fa15c97f4b1592e3cbcdb55 request: {"boardId":"5fa15c97f4b1592e3cbcdb4e","id":"5fa15c97f4b1592e3cbcdb55"} body: {} 204 72.074 ms
+
+2020-11-03 15:35:21 [32minfo[39m: GET /boards/5fa15c98f4b1592e3cbcdb62 request: {"id":"5fa15c98f4b1592e3cbcdb62"} body: {} 404 68.874 ms
+
+2020-11-03 15:35:21 [32minfo[39m: GET /boards/5fa15c97f4b1592e3cbcdb4e/tasks/5fa15c97f4b1592e3cbcdb55 request: {"boardId":"5fa15c97f4b1592e3cbcdb4e","id":"5fa15c97f4b1592e3cbcdb55"} body: {} 404 68.334 ms
+
+2020-11-03 15:35:21 [32minfo[39m: POST /users request: {} body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"} 200 139.364 ms
+
+2020-11-03 15:35:21 [32minfo[39m: POST /boards request: {} body: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]} 200 74.008 ms
+
+2020-11-03 15:35:21 [32minfo[39m: POST /boards/5fa15c99f4b1592e3cbcdb66/tasks request: {"boardId":"5fa15c99f4b1592e3cbcdb66"} body: {"title":"Task #2","order":2,"description":"Lorem ipsum","boardId":"5fa15c99f4b1592e3cbcdb66","userId":null,"columnId":null} 200 70.298 ms
+
+2020-11-03 15:35:21 [32minfo[39m: POST /boards/5fa15c99f4b1592e3cbcdb66/tasks request: {"boardId":"5fa15c99f4b1592e3cbcdb66"} body: {"title":"Task #3","order":3,"description":"Lorem ipsum","boardId":"5fa15c99f4b1592e3cbcdb66","userId":null,"columnId":null} 200 72.608 ms
+
+2020-11-03 15:35:21 [32minfo[39m: POST /boards/5fa15c99f4b1592e3cbcdb66/tasks request: {"boardId":"5fa15c99f4b1592e3cbcdb66"} body: {"title":"Task #1","order":1,"description":"Lorem ipsum","boardId":"5fa15c99f4b1592e3cbcdb66","userId":null,"columnId":null} 200 86.114 ms
+
+2020-11-03 15:35:21 [32minfo[39m: POST /boards/5fa15c99f4b1592e3cbcdb66/tasks request: {"boardId":"5fa15c99f4b1592e3cbcdb66"} body: {"title":"Task #4","order":4,"description":"Lorem ipsum","boardId":"5fa15c99f4b1592e3cbcdb66","userId":null,"columnId":null} 200 84.355 ms
+
+2020-11-03 15:35:21 [32minfo[39m: POST /boards/5fa15c99f4b1592e3cbcdb66/tasks request: {"boardId":"5fa15c99f4b1592e3cbcdb66"} body: {"title":"Task #5","order":5,"description":"Lorem ipsum","boardId":"5fa15c99f4b1592e3cbcdb66","userId":null,"columnId":null} 200 85.576 ms
+
+2020-11-03 15:35:21 [32minfo[39m: DELETE /boards/5fa15c97f4b1592e3cbcdb4e request: {"id":"5fa15c97f4b1592e3cbcdb4e"} body: {} 204 164.544 ms
+
+2020-11-03 15:35:21 [32minfo[39m: DELETE /users/5fa15c98f4b1592e3cbcdb65 request: {"id":"5fa15c98f4b1592e3cbcdb65"} body: {} 204 143.935 ms
+
+2020-11-03 15:35:21 [32minfo[39m: GET /boards/5fa15c99f4b1592e3cbcdb66/tasks/5fa15c99f4b1592e3cbcdb6a request: {"boardId":"5fa15c99f4b1592e3cbcdb66","id":"5fa15c99f4b1592e3cbcdb6a"} body: {} 200 68.634 ms
+
+2020-11-03 15:35:21 [32minfo[39m: GET /boards/5fa15c99f4b1592e3cbcdb66/tasks/5fa15c99f4b1592e3cbcdb6b request: {"boardId":"5fa15c99f4b1592e3cbcdb66","id":"5fa15c99f4b1592e3cbcdb6b"} body: {} 200 70.224 ms
+
+2020-11-03 15:35:21 [32minfo[39m: GET /boards/5fa15c99f4b1592e3cbcdb66/tasks/5fa15c99f4b1592e3cbcdb69 request: {"boardId":"5fa15c99f4b1592e3cbcdb66","id":"5fa15c99f4b1592e3cbcdb69"} body: {} 200 84.976 ms
+
+2020-11-03 15:35:21 [32minfo[39m: GET /boards/5fa15c99f4b1592e3cbcdb66/tasks/5fa15c99f4b1592e3cbcdb6d request: {"boardId":"5fa15c99f4b1592e3cbcdb66","id":"5fa15c99f4b1592e3cbcdb6d"} body: {} 200 84.309 ms
+
+2020-11-03 15:35:21 [32minfo[39m: GET /boards/5fa15c99f4b1592e3cbcdb66/tasks/5fa15c99f4b1592e3cbcdb6c request: {"boardId":"5fa15c99f4b1592e3cbcdb66","id":"5fa15c99f4b1592e3cbcdb6c"} body: {} 200 95.075 ms
+
+2020-11-03 15:35:21 [32minfo[39m: POST /users request: {} body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"} 200 148.085 ms
+
+2020-11-03 15:35:21 [32minfo[39m: POST /boards request: {} body: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]} 200 70.759 ms
+
+2020-11-03 15:35:21 [32minfo[39m: DELETE /boards/5fa15c99f4b1592e3cbcdb66 request: {"id":"5fa15c99f4b1592e3cbcdb66"} body: {} 204 145.005 ms
+
+2020-11-03 15:35:21 [32minfo[39m: POST /boards/5fa15c99f4b1592e3cbcdb6f/tasks request: {"boardId":"5fa15c99f4b1592e3cbcdb6f"} body: {"title":"Task #1","order":1,"description":"Lorem ipsum","userId":"5fa15c99f4b1592e3cbcdb6e","boardId":"5fa15c99f4b1592e3cbcdb6f"} 200 72.073 ms
+
+2020-11-03 15:35:21 [32minfo[39m: POST /boards/5fa15c99f4b1592e3cbcdb6f/tasks request: {"boardId":"5fa15c99f4b1592e3cbcdb6f"} body: {"title":"Task #2","order":2,"description":"Lorem ipsum","userId":"5fa15c99f4b1592e3cbcdb6e","boardId":"5fa15c99f4b1592e3cbcdb6f"} 200 72.968 ms
+
+2020-11-03 15:35:21 [32minfo[39m: GET /boards/5fa15c99f4b1592e3cbcdb66/tasks/5fa15c99f4b1592e3cbcdb6d request: {"boardId":"5fa15c99f4b1592e3cbcdb66","id":"5fa15c99f4b1592e3cbcdb6d"} body: {} 404 65.128 ms
+
+2020-11-03 15:35:21 [32minfo[39m: GET /boards/5fa15c99f4b1592e3cbcdb66/tasks/5fa15c99f4b1592e3cbcdb69 request: {"boardId":"5fa15c99f4b1592e3cbcdb66","id":"5fa15c99f4b1592e3cbcdb69"} body: {} 404 69.533 ms
+
+2020-11-03 15:35:21 [32minfo[39m: GET /boards/5fa15c99f4b1592e3cbcdb66/tasks/5fa15c99f4b1592e3cbcdb6b request: {"boardId":"5fa15c99f4b1592e3cbcdb66","id":"5fa15c99f4b1592e3cbcdb6b"} body: {} 404 82.317 ms
+
+2020-11-03 15:35:21 [32minfo[39m: GET /boards/5fa15c99f4b1592e3cbcdb66/tasks/5fa15c99f4b1592e3cbcdb6a request: {"boardId":"5fa15c99f4b1592e3cbcdb66","id":"5fa15c99f4b1592e3cbcdb6a"} body: {} 404 95.649 ms
+
+2020-11-03 15:35:21 [32minfo[39m: GET /boards/5fa15c99f4b1592e3cbcdb66/tasks/5fa15c99f4b1592e3cbcdb6c request: {"boardId":"5fa15c99f4b1592e3cbcdb66","id":"5fa15c99f4b1592e3cbcdb6c"} body: {} 404 96.969 ms
+
+2020-11-03 15:35:21 [32minfo[39m: DELETE /users/5fa15c99f4b1592e3cbcdb6e request: {"id":"5fa15c99f4b1592e3cbcdb6e"} body: {} 204 145.670 ms
+
+2020-11-03 15:35:21 [32minfo[39m: DELETE /boards/5fa15c97f4b1592e3cbcdb51 request: {"id":"5fa15c97f4b1592e3cbcdb51"} body: {} 204 134.411 ms
+
+2020-11-03 15:35:21 [32minfo[39m: GET /boards/5fa15c99f4b1592e3cbcdb6f/tasks/5fa15c99f4b1592e3cbcdb72 request: {"boardId":"5fa15c99f4b1592e3cbcdb6f","id":"5fa15c99f4b1592e3cbcdb72"} body: {} 200 68.201 ms
+
+2020-11-03 15:35:21 [32minfo[39m: GET /boards/5fa15c99f4b1592e3cbcdb6f/tasks/5fa15c99f4b1592e3cbcdb73 request: {"boardId":"5fa15c99f4b1592e3cbcdb6f","id":"5fa15c99f4b1592e3cbcdb73"} body: {} 200 67.840 ms
+
+2020-11-03 15:35:21 [32minfo[39m: DELETE /boards/5fa15c99f4b1592e3cbcdb6f/tasks/5fa15c99f4b1592e3cbcdb72 request: {"boardId":"5fa15c99f4b1592e3cbcdb6f","id":"5fa15c99f4b1592e3cbcdb72"} body: {} 204 74.082 ms
+
+2020-11-03 15:35:21 [32minfo[39m: DELETE /boards/5fa15c99f4b1592e3cbcdb6f/tasks/5fa15c99f4b1592e3cbcdb73 request: {"boardId":"5fa15c99f4b1592e3cbcdb6f","id":"5fa15c99f4b1592e3cbcdb73"} body: {} 204 74.811 ms
+
+2020-11-03 15:35:22 [32minfo[39m: DELETE /boards/5fa15c99f4b1592e3cbcdb6f request: {"id":"5fa15c99f4b1592e3cbcdb6f"} body: {} 204 141.412 ms
+
+2020-11-07 18:34:38 [32minfo[39m: Application status: ✅ Running on http://localhost:4000
+2020-11-07 18:34:39 [32minfo[39m: Database status: ✅ Database connected
+2020-11-07 18:42:53 [32minfo[39m: GET /users request: {} body: {} 200 540.926 ms
+
+2020-11-07 18:43:19 [32minfo[39m: GET /users/5fa151c3b6f24e442cec7b2c request: {"id":"5fa151c3b6f24e442cec7b2c"} body: {} 200 75.274 ms
+
+2020-11-08 17:55:37 [32minfo[39m: Application status: ✅ Running on http://localhost:4000
+2020-11-08 17:55:38 [32minfo[39m: Database status: ✅ Database connected
+2020-11-08 17:55:44 [32minfo[39m: Application status: ✅ Running on http://localhost:4000
+2020-11-08 17:55:45 [32minfo[39m: Database status: ✅ Database connected
+2020-11-08 17:56:42 [32minfo[39m: GET /users request: undefined body: {} 500 3.575 ms
+
+2020-11-08 17:56:47 [32minfo[39m: GET /users request: undefined body: {} 500 0.993 ms
+
+2020-11-08 17:57:11 [32minfo[39m: GET /login request: undefined body: {} 404 0.999 ms
+
+2020-11-08 17:57:58 [32minfo[39m: GET /login request: undefined body: {} 404 0.398 ms
+
+2020-11-08 17:58:10 [32minfo[39m: GET /login request: undefined body: {} 404 0.405 ms
+
+2020-11-08 17:58:14 [32minfo[39m: POST /login request: {} body: {} 200 5.478 ms
+
+2020-11-08 17:58:14 [31merror[39m: uncaughtException Cannot read property 'login' of null
+2020-11-08 17:59:21 [32minfo[39m: Application status: ✅ Running on http://localhost:4000
+2020-11-08 17:59:21 [32minfo[39m: Database status: ✅ Database connected
+2020-11-08 17:59:25 [32minfo[39m: GET /users request: undefined body: {} 500 3.462 ms
+
+2020-11-08 18:01:14 [32minfo[39m: Application status: ✅ Running on http://localhost:4000
+2020-11-08 18:01:15 [32minfo[39m: Database status: ✅ Database connected
+2020-11-08 18:01:30 [32minfo[39m: GET /users request: undefined body: {} 500 3.508 ms
+
+2020-11-08 18:01:43 [32minfo[39m: GET /login request: undefined body: {} 404 0.996 ms
+
+2020-11-08 18:01:47 [32minfo[39m: POST /login request: {} body: {} 200 5.404 ms
+
+2020-11-08 18:01:47 [31merror[39m: uncaughtException Cannot read property 'login' of null
+2020-11-08 18:02:06 [32minfo[39m: Application status: ✅ Running on http://localhost:4000
+2020-11-08 18:02:06 [32minfo[39m: Database status: ✅ Database connected
+2020-11-08 18:02:46 [32minfo[39m: GET /users request: undefined body: {} 500 4.514 ms
+
+2020-11-08 18:04:05 [32minfo[39m: GET /users request: undefined body: {} 500 0.503 ms
+
+2020-11-08 18:04:08 [32minfo[39m: GET /users request: undefined body: {} 500 0.512 ms
+
+2020-11-08 18:04:09 [32minfo[39m: GET /users request: undefined body: {} 500 0.502 ms
+
+2020-11-08 18:04:09 [32minfo[39m: GET /users request: undefined body: {} 500 0.497 ms
+
+2020-11-08 18:04:20 [32minfo[39m: Application status: ✅ Running on http://localhost:4000
+2020-11-08 18:04:21 [32minfo[39m: Database status: ✅ Database connected
+2020-11-08 18:04:32 [32minfo[39m: GET /users request: undefined body: {} 500 3.856 ms
+
+2020-11-08 18:04:42 [32minfo[39m: GET /users request: undefined body: {} 500 0.522 ms
+
+2020-11-08 18:04:52 [32minfo[39m: GET /users request: undefined body: {} 500 0.492 ms
+
+2020-11-08 18:06:27 [32minfo[39m: POST /login request: {} body: {} 200 6.272 ms
+
+2020-11-08 18:06:27 [31merror[39m: uncaughtException Cannot read property 'login' of null
+2020-11-10 13:04:26 [32minfo[39m: Application status: ✅ Running on http://localhost:4000
+2020-11-10 13:04:27 [32minfo[39m: Database status: ✅ Database connected
+2020-11-10 13:05:05 [32minfo[39m: GET /boards/12345/tasks request: undefined body: {} 500 5.733 ms
+
+2020-11-10 13:05:05 [32minfo[39m: GET /boards request: undefined body: {} 500 11.105 ms
+
+2020-11-10 13:05:05 [32minfo[39m: GET /users request: undefined body: {} 500 0.449 ms
+
+2020-11-10 13:05:05 [32minfo[39m: GET /users/123 request: undefined body: {} 500 0.376 ms
+
+2020-11-10 13:05:05 [32minfo[39m: GET /boards/12345/tasks/12345 request: undefined body: {} 500 2.656 ms
+
+2020-11-10 13:05:05 [32minfo[39m: GET /boards/12345 request: undefined body: {} 500 2.756 ms
+
+2020-11-10 13:05:05 [32minfo[39m: POST /users request: undefined body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"} 500 38.800 ms
+
+2020-11-10 13:05:05 [32minfo[39m: POST /login request: {} body: {"login":"admin","password":"admin"} 200 4.973 ms
+
+2020-11-10 13:05:05 [32minfo[39m: POST /boards/12345/tasks request: undefined body: {"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null} 500 26.481 ms
+
+2020-11-10 13:05:05 [32minfo[39m: POST /boards request: undefined body: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]} 500 27.489 ms
+
+2020-11-10 13:05:05 [32minfo[39m: POST /login request: {} body: {"login":"admin","password":"admin"} 200 0.775 ms
+
+2020-11-10 13:05:05 [32minfo[39m: POST /login request: {} body: {"login":"admin","password":"admin"} 200 1.783 ms
+
+2020-11-10 13:05:05 [32minfo[39m: PUT /users/12345 request: undefined body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"} 500 0.574 ms
+
+2020-11-10 13:05:05 [32minfo[39m: GET /users request: undefined body: {} 500 0.853 ms
+
+2020-11-10 13:05:05 [32minfo[39m: PUT /boards/12345/tasks/12345 request: undefined body: {"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null} 500 2.245 ms
+
+2020-11-10 13:05:05 [32minfo[39m: PUT /boards/12345 request: undefined body: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]} 500 10.642 ms
+
+2020-11-10 13:05:05 [32minfo[39m: DELETE /users/12345 request: undefined body: {} 500 0.558 ms
+
+2020-11-10 13:05:05 [32minfo[39m: POST /boards request: undefined body: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]} 500 4.195 ms
+
+2020-11-10 13:05:05 [32minfo[39m: POST /boards request: undefined body: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]} 500 16.186 ms
+
+2020-11-10 13:05:05 [32minfo[39m: POST /users request: undefined body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"} 500 0.625 ms
+
+2020-11-10 17:22:48 [32minfo[39m: Application status: ✅ Running on http://localhost:4000
+2020-11-10 17:22:49 [32minfo[39m: Database status: ✅ Database connected
+2020-11-10 17:23:02 [32minfo[39m: GET /boards request: {} body: {} 401 5.083 ms
+
+2020-11-10 17:23:02 [32minfo[39m: GET /boards/12345/tasks request: {} body: {} 401 0.285 ms
+
+2020-11-10 17:23:02 [32minfo[39m: GET /boards/12345 request: {} body: {} 401 0.603 ms
+
+2020-11-10 17:23:02 [32minfo[39m: GET /users request: {} body: {} 401 0.263 ms
+
+2020-11-10 17:23:02 [32minfo[39m: GET /boards/12345/tasks/12345 request: {} body: {} 401 0.479 ms
+
+2020-11-10 17:23:02 [32minfo[39m: POST /boards request: {} body: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]} 401 16.258 ms
+
+2020-11-10 17:23:02 [32minfo[39m: POST /login request: {} body: {"login":"admin","password":"admin"} 200 4.691 ms
+
+2020-11-10 17:23:02 [32minfo[39m: GET /users/123 request: {} body: {} 401 0.354 ms
+
+2020-11-10 17:23:02 [32minfo[39m: POST /boards/12345/tasks request: {} body: {"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null} 401 0.568 ms
+
+2020-11-10 17:23:02 [32minfo[39m: POST /login request: {} body: {"login":"admin","password":"admin"} 200 0.766 ms
+
+2020-11-10 17:23:02 [32minfo[39m: POST /login request: {} body: {"login":"admin","password":"admin"} 200 0.667 ms
+
+2020-11-10 17:23:02 [32minfo[39m: PUT /boards/12345 request: {} body: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]} 401 0.477 ms
+
+2020-11-10 17:23:02 [32minfo[39m: POST /boards request: undefined body: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]} 500 5.034 ms
+
+2020-11-10 17:23:02 [32minfo[39m: POST /users request: {} body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"} 401 0.518 ms
+
+2020-11-10 17:23:02 [32minfo[39m: PUT /boards/12345/tasks/12345 request: {} body: {"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null} 401 0.588 ms
+
+2020-11-10 17:23:02 [32minfo[39m: DELETE /boards/12345 request: {} body: {} 401 0.307 ms
+
+2020-11-10 17:23:02 [32minfo[39m: GET /users request: undefined body: {} 500 0.757 ms
+
+2020-11-10 17:29:26 [32minfo[39m: Application status: ✅ Running on http://localhost:4000
+2020-11-10 17:29:27 [32minfo[39m: Database status: ✅ Database connected
+2020-11-10 17:29:41 [32minfo[39m: GET /boards/12345/tasks request: {} body: {} 401 4.651 ms
+
+2020-11-10 17:29:41 [32minfo[39m: GET /users request: {} body: {} 401 0.445 ms
+
+2020-11-10 17:29:41 [32minfo[39m: GET /boards/12345/tasks/12345 request: {} body: {} 401 0.297 ms
+
+2020-11-10 17:29:41 [32minfo[39m: GET /users/123 request: {} body: {} 401 0.398 ms
+
+2020-11-10 17:29:41 [32minfo[39m: POST /boards/12345/tasks request: {} body: {"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null} 401 15.532 ms
+
+2020-11-10 17:29:41 [32minfo[39m: POST /users request: {} body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"} 401 0.575 ms
+
+2020-11-10 17:29:41 [32minfo[39m: GET /boards request: {} body: {} 401 0.540 ms
+
+2020-11-10 17:29:41 [32minfo[39m: POST /login request: {} body: {"login":"admin","password":"admin"} 200 8.113 ms
+
+2020-11-10 17:29:41 [32minfo[39m: PUT /boards/12345/tasks/12345 request: {} body: {"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null} 401 0.545 ms
+
+2020-11-10 17:29:41 [32minfo[39m: PUT /users/12345 request: {} body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"} 401 0.482 ms
+
+2020-11-10 17:29:41 [32minfo[39m: GET /boards/12345 request: {} body: {} 401 0.220 ms
+
+2020-11-10 17:29:41 [32minfo[39m: POST /login request: {} body: {"login":"admin","password":"admin"} 200 0.789 ms
+
+2020-11-10 17:29:41 [32minfo[39m: POST /boards request: {} body: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]} 401 0.852 ms
+
+2020-11-10 17:29:41 [32minfo[39m: POST /login request: {} body: {"login":"admin","password":"admin"} 200 0.848 ms
+
+2020-11-10 17:29:41 [32minfo[39m: DELETE /boards/12345/tasks/12345 request: {} body: {} 401 0.257 ms
+
+2020-11-10 17:29:41 [32minfo[39m: DELETE /users/12345 request: {} body: {} 401 0.216 ms
+
+2020-11-10 17:29:41 [32minfo[39m: POST /boards request: {} body: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]} 401 0.823 ms
+
+2020-11-10 17:29:41 [32minfo[39m: POST /boards request: {} body: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]} 401 0.606 ms
+
+2020-11-10 17:29:41 [32minfo[39m: POST /boards/undefined/tasks request: {"boardId":"undefined"} body: {"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null} 401 0.687 ms
+
+2020-11-10 17:29:41 [32minfo[39m: GET /users request: {} body: {} 401 0.392 ms
+
+2020-11-10 17:30:42 [32minfo[39m: Application status: ✅ Running on http://localhost:4000
+2020-11-10 17:30:43 [32minfo[39m: Database status: ✅ Database connected
+2020-11-10 17:30:53 [32minfo[39m: GET /users request: {} body: {} 401 4.931 ms
+
+2020-11-10 17:30:53 [32minfo[39m: GET /boards request: {} body: {} 401 0.367 ms
+
+2020-11-10 17:30:53 [32minfo[39m: GET /users/123 request: {} body: {} 401 0.442 ms
+
+2020-11-10 17:30:53 [32minfo[39m: GET /boards/12345/tasks request: {} body: {} 401 0.480 ms
+
+2020-11-10 17:30:53 [32minfo[39m: POST /users request: {} body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"} 401 16.048 ms
+
+2020-11-10 17:30:53 [32minfo[39m: GET /boards/12345 request: {} body: {} 401 0.255 ms
+
+2020-11-10 17:30:53 [32minfo[39m: POST /login request: {} body: {"login":"admin","password":"admin"} 200 4.317 ms
+
+2020-11-10 17:30:53 [32minfo[39m: GET /boards/12345/tasks/12345 request: {} body: {} 401 0.304 ms
+
+2020-11-10 17:30:53 [32minfo[39m: POST /login request: {} body: {"login":"admin","password":"admin"} 200 0.913 ms
+
+2020-11-10 17:30:53 [32minfo[39m: POST /login request: {} body: {"login":"admin","password":"admin"} 200 0.709 ms
+
+2020-11-10 17:30:53 [32minfo[39m: PUT /users/12345 request: {} body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"} 401 0.557 ms
+
+2020-11-10 17:30:53 [32minfo[39m: POST /boards request: {} body: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]} 401 0.561 ms
+
+2020-11-10 17:30:53 [32minfo[39m: GET /users request: {} body: {} 401 0.549 ms
+
+2020-11-10 17:30:54 [32minfo[39m: POST /boards/12345/tasks request: {} body: {"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null} 401 0.486 ms
+
+2020-11-10 17:30:54 [32minfo[39m: POST /boards request: {} body: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]} 401 0.654 ms
+
+2020-11-10 17:30:54 [32minfo[39m: POST /boards request: {} body: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]} 401 0.597 ms
+
+2020-11-10 17:30:54 [32minfo[39m: DELETE /users/12345 request: {} body: {} 401 1.109 ms
+
+2020-11-10 17:30:54 [32minfo[39m: PUT /boards/12345 request: {} body: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]} 401 0.441 ms
+
+2020-11-10 17:30:59 [32minfo[39m: Application status: ✅ Running on http://localhost:4000
+2020-11-10 17:31:00 [32minfo[39m: Database status: ✅ Database connected
+2020-11-10 17:31:12 [32minfo[39m: Application status: ✅ Running on http://localhost:4000
+2020-11-10 17:31:13 [32minfo[39m: Database status: ✅ Database connected
+2020-11-10 17:31:22 [32minfo[39m: GET /boards/12345/tasks request: {"boardId":"12345"} body: {} 401 3.458 ms
+
+2020-11-10 17:31:22 [32minfo[39m: GET /boards/12345/tasks/12345 request: {"boardId":"12345"} body: {} 401 0.397 ms
+
+2020-11-10 17:31:22 [32minfo[39m: POST /boards/12345/tasks request: {"boardId":"12345"} body: {"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null} 401 17.140 ms
+
+2020-11-10 17:31:22 [32minfo[39m: GET /users request: {} body: {} 401 0.256 ms
+
+2020-11-10 17:31:22 [32minfo[39m: POST /login request: {} body: {"login":"admin","password":"admin"} 200 2.443 ms
+
+2020-11-10 17:31:22 [32minfo[39m: PUT /boards/12345/tasks/12345 request: {"boardId":"12345"} body: {"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null} 401 0.744 ms
+
+2020-11-10 17:31:22 [32minfo[39m: POST /login request: {} body: {"login":"admin","password":"admin"} 200 0.921 ms
+
+2020-11-10 17:31:22 [32minfo[39m: POST /login request: {} body: {"login":"admin","password":"admin"} 200 0.800 ms
+
+2020-11-10 17:31:22 [32minfo[39m: GET /users/123 request: {} body: {} 401 0.273 ms
+
+2020-11-10 17:31:22 [32minfo[39m: GET /boards request: {} body: {} 200 141.529 ms
+
+2020-11-10 17:31:22 [32minfo[39m: DELETE /boards/12345/tasks/12345 request: {"boardId":"12345"} body: {} 401 1.061 ms
+
+2020-11-10 17:31:22 [32minfo[39m: GET /users request: {} body: {} 401 0.518 ms
+
+2020-11-10 17:31:22 [32minfo[39m: POST /users request: {} body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"} 401 0.465 ms
+
+2020-11-10 17:31:28 [32minfo[39m: Application status: ✅ Running on http://localhost:4000
+2020-11-10 17:31:28 [32minfo[39m: Database status: ✅ Database connected
+2020-11-10 17:45:17 [32minfo[39m: Application status: ✅ Running on http://localhost:4000
+2020-11-10 17:45:18 [32minfo[39m: Database status: ✅ Database connected
+2020-11-10 17:46:00 [32minfo[39m: Application status: ✅ Running on http://localhost:4000
+2020-11-10 17:46:01 [32minfo[39m: Database status: ✅ Database connected
+2020-11-10 17:46:09 [32minfo[39m: GET /users request: {} body: {} 401 4.507 ms
+
+2020-11-10 17:46:09 [32minfo[39m: GET /users/123 request: {} body: {} 401 0.402 ms
+
+2020-11-10 17:46:09 [32minfo[39m: POST /users request: {} body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"} 401 23.221 ms
+
+2020-11-10 17:46:09 [32minfo[39m: PUT /users/12345 request: {} body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"} 401 0.774 ms
+
+2020-11-10 17:46:10 [32minfo[39m: GET /boards request: {} body: {} 401 0.570 ms
+
+2020-11-10 17:46:10 [32minfo[39m: DELETE /users/12345 request: {} body: {} 401 0.483 ms
+
+2020-11-10 17:46:10 [32minfo[39m: GET /boards/12345 request: {} body: {} 401 0.530 ms
+
+2020-11-10 17:46:10 [32minfo[39m: POST /boards request: {} body: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]} 401 0.822 ms
+
+2020-11-10 17:46:10 [32minfo[39m: PUT /boards/12345 request: {} body: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]} 401 0.611 ms
+
+2020-11-10 17:46:10 [32minfo[39m: POST /login request: {} body: {"login":"admin","password":"admin"} 200 4.028 ms
+
+2020-11-10 17:46:10 [32minfo[39m: GET /boards/12345/tasks request: {} body: {} 401 0.287 ms
+
+2020-11-10 17:46:10 [32minfo[39m: POST /login request: {} body: {"login":"admin","password":"admin"} 200 0.880 ms
+
+2020-11-10 17:46:10 [32minfo[39m: DELETE /boards/12345 request: {} body: {} 401 0.217 ms
+
+2020-11-10 17:46:10 [32minfo[39m: GET /users request: {} body: {} 401 0.483 ms
+
+2020-11-10 17:46:10 [32minfo[39m: POST /login request: {} body: {"login":"admin","password":"admin"} 200 1.632 ms
+
+2020-11-10 17:46:10 [32minfo[39m: GET /boards/12345/tasks/12345 request: {} body: {} 401 0.231 ms
+
+2020-11-10 17:46:10 [32minfo[39m: POST /boards request: {} body: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]} 401 0.625 ms
+
+2020-11-10 17:46:10 [32minfo[39m: POST /users request: {} body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"} 401 0.653 ms
+
+2020-11-10 18:07:56 [32minfo[39m: Application status: ✅ Running on http://localhost:4000
+2020-11-10 18:07:57 [32minfo[39m: Database status: ✅ Database connected
+2020-11-10 18:08:02 [32minfo[39m: Application status: ✅ Running on http://localhost:4000
+2020-11-10 18:08:03 [32minfo[39m: Database status: ✅ Database connected
+2020-11-10 18:08:08 [32minfo[39m: Application status: ✅ Running on http://localhost:4000
+2020-11-10 18:08:09 [32minfo[39m: Database status: ✅ Database connected
+2020-11-10 18:08:21 [32minfo[39m: Application status: ✅ Running on http://localhost:4000
+2020-11-10 18:08:22 [32minfo[39m: Database status: ✅ Database connected
+2020-11-10 18:09:24 [32minfo[39m: Application status: ✅ Running on http://localhost:4000
+2020-11-10 18:09:25 [32minfo[39m: Database status: ✅ Database connected
+2020-11-10 18:09:34 [32minfo[39m: Application status: ✅ Running on http://localhost:4000
+2020-11-10 18:09:35 [32minfo[39m: Database status: ✅ Database connected
+2020-11-10 18:09:43 [32minfo[39m: Application status: ✅ Running on http://localhost:4000
+2020-11-10 18:09:44 [32minfo[39m: Database status: ✅ Database connected
+2020-11-10 18:09:52 [32minfo[39m: GET /boards/12345/tasks request: {} body: {} 401 4.911 ms
+
+2020-11-10 18:09:52 [32minfo[39m: GET /users request: {} body: {} 401 0.462 ms
+
+2020-11-10 18:09:52 [32minfo[39m: POST /login request: {} body: {"login":"admin","password":"admin"} 200 18.837 ms
+
+2020-11-10 18:09:52 [32minfo[39m: POST /login request: {} body: {"login":"admin","password":"admin"} 200 0.809 ms
+
+2020-11-10 18:09:52 [32minfo[39m: GET /boards/12345/tasks/12345 request: {} body: {} 401 0.265 ms
+
+2020-11-10 18:09:52 [32minfo[39m: GET /users/123 request: {} body: {} 401 0.264 ms
+
+2020-11-10 18:09:52 [32minfo[39m: GET /boards request: {} body: {} 401 0.309 ms
+
+2020-11-10 18:09:52 [32minfo[39m: POST /login request: {} body: {"login":"admin","password":"admin"} 200 0.971 ms
+
+2020-11-10 18:09:52 [32minfo[39m: POST /boards request: {} body: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]} 401 0.798 ms
+
+2020-11-10 18:09:52 [32minfo[39m: POST /boards request: {} body: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]} 401 0.627 ms
+
+2020-11-10 18:09:52 [32minfo[39m: POST /boards/12345/tasks request: {} body: {"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null} 401 0.491 ms
+
+2020-11-10 18:09:52 [32minfo[39m: POST /users request: {} body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"} 401 0.452 ms
+
+2020-11-10 18:09:52 [32minfo[39m: GET /boards/12345 request: {} body: {} 401 0.224 ms
+
+2020-11-10 18:09:52 [32minfo[39m: POST /boards/undefined/tasks request: {"boardId":"undefined"} body: {"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null} 401 0.538 ms
+
+2020-11-10 18:09:52 [32minfo[39m: GET /users request: {} body: {} 401 0.386 ms
+
+2020-11-10 18:10:16 [32minfo[39m: Application status: ✅ Running on http://localhost:4000
+2020-11-10 18:10:16 [32minfo[39m: Database status: ✅ Database connected
+2020-11-10 18:10:23 [32minfo[39m: Application status: ✅ Running on http://localhost:4000
+2020-11-10 18:10:24 [32minfo[39m: Database status: ✅ Database connected
+2020-11-10 18:11:59 [32minfo[39m: Application status: ✅ Running on http://localhost:4000
+2020-11-10 18:12:00 [32minfo[39m: Database status: ✅ Database connected
+2020-11-10 18:12:07 [32minfo[39m: Application status: ✅ Running on http://localhost:4000
+2020-11-10 18:12:08 [32minfo[39m: Database status: ✅ Database connected
+2020-11-10 18:13:32 [32minfo[39m: Application status: ✅ Running on http://localhost:4000
+2020-11-10 18:13:33 [32minfo[39m: Database status: ✅ Database connected
+2020-11-10 18:13:42 [32minfo[39m: GET /boards/12345/tasks request: {} body: {} 401 3.309 ms
+
+2020-11-10 18:13:43 [32minfo[39m: GET /boards/12345/tasks/12345 request: {} body: {} 401 0.279 ms
+
+2020-11-10 18:13:43 [32minfo[39m: GET /boards request: {} body: {} 401 0.293 ms
+
+2020-11-10 18:13:43 [32minfo[39m: POST /boards/12345/tasks request: {} body: {"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null} 401 15.070 ms
+
+2020-11-10 18:13:43 [32minfo[39m: GET /users request: {} body: {} 401 0.313 ms
+
+2020-11-10 18:13:43 [32minfo[39m: GET /boards/12345 request: {} body: {} 401 0.587 ms
+
+2020-11-10 18:13:43 [32minfo[39m: POST /login request: {} body: {"login":"admin","password":"admin"} 200 8.373 ms
+
+2020-11-10 18:13:43 [32minfo[39m: PUT /boards/12345/tasks/12345 request: {} body: {"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null} 401 0.589 ms
+
+2020-11-10 18:13:43 [32minfo[39m: POST /login request: {} body: {"login":"admin","password":"admin"} 200 0.849 ms
+
+2020-11-10 18:13:43 [32minfo[39m: POST /boards request: {} body: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]} 401 0.432 ms
+
+2020-11-10 18:13:43 [32minfo[39m: GET /users/123 request: {} body: {} 401 0.215 ms
+
+2020-11-10 18:13:43 [32minfo[39m: GET /users request: {} body: {} 401 0.511 ms
+
+2020-11-10 18:13:43 [32minfo[39m: POST /login request: {} body: {"login":"admin","password":"admin"} 200 0.889 ms
+
+2020-11-10 18:13:43 [32minfo[39m: DELETE /boards/12345/tasks/12345 request: {} body: {} 401 0.244 ms
+
+2020-11-10 18:13:43 [32minfo[39m: PUT /boards/12345 request: {} body: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]} 401 0.466 ms
+
+2020-11-10 18:13:43 [32minfo[39m: POST /boards request: {} body: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]} 401 0.565 ms
+
+2020-11-10 18:13:43 [32minfo[39m: POST /users request: {} body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"} 401 0.566 ms
+
+2020-11-10 18:13:43 [32minfo[39m: POST /users request: {} body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"} 401 0.589 ms
+
+2020-11-10 18:13:43 [32minfo[39m: POST /boards request: {} body: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]} 401 1.485 ms
+
+2020-11-10 18:13:43 [32minfo[39m: DELETE /boards/12345 request: {} body: {} 401 0.249 ms
+
+2020-11-10 18:13:43 [32minfo[39m: POST /boards/undefined/tasks request: {"boardId":"undefined"} body: {"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null} 401 0.512 ms
+
+2020-11-10 18:13:43 [32minfo[39m: PUT /users/12345 request: {} body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"} 401 0.424 ms
+
+2020-11-10 19:30:43 [32minfo[39m: Application status: ✅ Running on http://localhost:4000
+2020-11-10 19:30:44 [32minfo[39m: Database status: ✅ Database connected
+2020-11-10 19:31:20 [32minfo[39m: GET /docs request: undefined body: {} 404 3.449 ms
+
+2020-11-10 19:31:37 [32minfo[39m: GET /users request: {} body: {} 401 2.116 ms
+
+2020-11-10 19:31:37 [32minfo[39m: GET /favicon.ico request: undefined body: {} 404 0.384 ms
+
+2020-11-10 19:31:43 [32minfo[39m: GET /docs request: undefined body: {} 404 0.357 ms
+
+2020-11-10 19:31:54 [32minfo[39m: GET /doc request: {} body: {} 301 1.913 ms
+
+2020-11-10 19:31:54 [32minfo[39m: GET /doc/ request: {} body: {} 200 1.178 ms
+
+2020-11-10 19:31:54 [32minfo[39m: GET /doc/swagger-ui-init.js request: {} body: {} 200 0.370 ms
+
+2020-11-10 19:31:54 [32minfo[39m: GET /doc/swagger-ui-bundle.js request: {} body: {} 200 5.812 ms
+
+2020-11-10 19:31:54 [32minfo[39m: GET /doc/swagger-ui.css request: {} body: {} 200 17.035 ms
+
+2020-11-10 19:31:54 [32minfo[39m: GET /doc/swagger-ui-standalone-preset.js request: {} body: {} 200 13.249 ms
+
+2020-11-10 19:31:54 [32minfo[39m: GET /doc/favicon-32x32.png request: {} body: {} 200 1.077 ms
+
+2020-11-10 19:32:11 [32minfo[39m: POST /users request: {} body: {"name":"admin","login":"admin","password":"admin"} 401 18.403 ms
+
+2020-11-10 19:32:17 [32minfo[39m: POST /users request: {} body: {"name":"admin","login":"admin","password":"admin"} 401 0.588 ms
+
+2020-11-10 19:32:51 [32minfo[39m: POST /users request: {} body: {} 401 0.659 ms
+
+2020-11-10 19:32:59 [32minfo[39m: POST /login request: {} body: {} 200 4.899 ms
+
+2020-11-10 19:32:59 [31merror[39m: uncaughtException Cannot read property 'login' of null
+2020-11-10 19:37:09 [32minfo[39m: Application status: ✅ Running on http://localhost:4000
+2020-11-10 19:37:10 [32minfo[39m: Database status: ✅ Database connected
+2020-11-10 19:37:18 [32minfo[39m: GET /users request: {} body: {} 401 5.531 ms
+
+2020-11-10 19:37:18 [32minfo[39m: GET /users/123 request: {} body: {} 401 0.389 ms
+
+2020-11-10 19:37:18 [32minfo[39m: POST /users request: {} body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"} 401 20.738 ms
+
+2020-11-10 19:37:18 [32minfo[39m: PUT /users/12345 request: {} body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"} 401 0.554 ms
+
+2020-11-10 19:37:18 [32minfo[39m: POST /login request: {} body: {"login":"admin","password":"admin"} 200 5.067 ms
+
+2020-11-10 19:37:18 [32minfo[39m: GET /boards/12345/tasks request: {} body: {} 401 1.208 ms
+
+2020-11-10 19:37:18 [32minfo[39m: GET /boards request: {} body: {} 401 0.272 ms
+
+2020-11-10 19:37:18 [32minfo[39m: DELETE /users/12345 request: {} body: {} 401 0.282 ms
+
+2020-11-10 19:37:18 [32minfo[39m: POST /login request: {} body: {"login":"admin","password":"admin"} 200 0.798 ms
+
+2020-11-10 19:37:18 [32minfo[39m: POST /login request: {} body: {"login":"admin","password":"admin"} 200 0.784 ms
+
+2020-11-10 19:37:18 [32minfo[39m: POST /boards request: {} body: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]} 401 0.803 ms
+
+2020-11-10 19:37:18 [32minfo[39m: GET /boards/12345/tasks/12345 request: {} body: {} 401 0.273 ms
+
+2020-11-10 19:37:18 [32minfo[39m: GET /boards/12345 request: {} body: {} 401 0.264 ms
+
+2020-11-10 19:37:18 [32minfo[39m: GET /users request: {} body: {} 401 0.292 ms
+
+2020-11-10 19:37:18 [32minfo[39m: POST /boards request: {} body: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]} 401 0.577 ms
+
+2020-11-10 19:37:19 [32minfo[39m: POST /boards/undefined/tasks request: {"boardId":"undefined"} body: {"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null} 401 0.618 ms
+
+2020-11-10 19:37:50 [32minfo[39m: Application status: ✅ Running on http://localhost:4000
+2020-11-10 19:37:51 [32minfo[39m: Database status: ✅ Database connected
+2020-11-10 19:37:55 [32minfo[39m: POST /boards request: {} body: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]} 401 17.273 ms
+
+2020-11-10 19:37:55 [32minfo[39m: POST /boards request: {} body: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]} 401 0.467 ms
+
+2020-11-10 19:37:55 [32minfo[39m: GET /users request: {} body: {} 401 0.268 ms
+
+2020-11-10 19:37:55 [32minfo[39m: POST /boards/undefined/tasks request: {} body: {"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null} 401 0.485 ms
+
+2020-11-10 19:37:55 [32minfo[39m: GET /boards request: {} body: {} 401 0.242 ms
+
+2020-11-10 19:37:55 [32minfo[39m: GET /boards/undefined/tasks request: {} body: {} 401 0.412 ms
+
+2020-11-10 19:37:55 [32minfo[39m: POST /users request: {} body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"} 401 0.528 ms
+
+2020-11-10 19:37:55 [32minfo[39m: GET /boards request: {} body: {} 401 0.261 ms
+
+2020-11-10 19:37:55 [32minfo[39m: GET /boards/undefined/tasks request: {} body: {} 401 0.244 ms
+
+2020-11-10 19:37:55 [32minfo[39m: POST /users request: {} body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"} 401 0.463 ms
+
+2020-11-10 19:37:55 [32minfo[39m: POST /boards request: {} body: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]} 401 0.583 ms
+
+2020-11-10 19:37:55 [32minfo[39m: POST /boards/undefined/tasks request: {} body: {"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null} 401 0.504 ms
+
+2020-11-10 19:37:55 [32minfo[39m: POST /users request: {} body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"} 401 0.455 ms
+
+2020-11-10 19:37:55 [32minfo[39m: POST /boards request: {} body: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]} 401 0.490 ms
+
+2020-11-10 19:37:55 [32minfo[39m: POST /boards/undefined/tasks request: {} body: {"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null} 401 0.553 ms
+
+2020-11-10 19:37:55 [32minfo[39m: PUT /users/undefined request: {} body: {"name":"Autotest updated TEST_USER","login":"test_user","password":"T35t_P@55w0rd"} 401 0.492 ms
+
+2020-11-10 19:37:55 [32minfo[39m: PUT /boards/undefined request: {} body: {"title":"Autotest updated board"} 401 0.418 ms
+
+2020-11-10 19:37:55 [32minfo[39m: PUT /boards/undefined/tasks/undefined request: {} body: {"title":"Autotest updated task"} 401 0.506 ms
+
+2020-11-10 19:37:55 [32minfo[39m: POST /users request: {} body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"} 401 0.407 ms
+
+2020-11-10 19:37:55 [32minfo[39m: POST /boards request: {} body: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]} 401 0.456 ms
+
+2020-11-10 19:37:55 [32minfo[39m: GET /boards/undefined/tasks/undefined request: {} body: {} 401 0.212 ms
+
+2020-11-10 19:37:55 [32minfo[39m: DELETE /users/undefined request: {} body: {} 401 0.274 ms
+
+2020-11-10 19:37:55 [32minfo[39m: POST /boards request: {} body: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]} 401 0.402 ms
+
+2020-11-10 19:37:55 [32minfo[39m: DELETE /boards/undefined request: {} body: {} 401 0.203 ms
+
+2020-11-10 19:37:55 [32minfo[39m: DELETE /boards/undefined request: {} body: {} 401 0.196 ms
+
+2020-11-10 19:37:55 [32minfo[39m: POST /users request: {} body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"} 401 0.543 ms
+
+2020-11-10 19:38:11 [32minfo[39m: Application status: ✅ Running on http://localhost:4000
+2020-11-10 19:38:12 [32minfo[39m: Database status: ✅ Database connected
+2020-11-10 19:38:31 [32minfo[39m: Application status: ✅ Running on http://localhost:4000
+2020-11-10 19:38:31 [32minfo[39m: Database status: ✅ Database connected
+2020-11-10 19:38:38 [32minfo[39m: POST /boards request: {} body: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]} 200 114.717 ms
+
+2020-11-10 19:38:38 [32minfo[39m: GET /users request: {} body: {} 200 175.159 ms
+
+2020-11-10 19:38:38 [32minfo[39m: POST /boards request: {} body: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]} 200 241.691 ms
+
+2020-11-10 19:38:38 [32minfo[39m: POST /boards/5faad01e2ff2a73dac3277c3/tasks request: {"boardId":"5faad01e2ff2a73dac3277c3"} body: {"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null} 200 234.167 ms
+
+2020-11-10 19:38:39 [32minfo[39m: GET /boards request: {} body: {} 200 223.531 ms
+
+2020-11-10 19:38:39 [32minfo[39m: POST /users request: {} body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"} 200 313.431 ms
+
+2020-11-10 19:38:39 [32minfo[39m: GET /boards request: {} body: {} 200 85.413 ms
+
+2020-11-10 19:38:39 [32minfo[39m: GET /boards/5faad01e2ff2a73dac3277c3/tasks request: {"boardId":"5faad01e2ff2a73dac3277c3"} body: {} 200 269.035 ms
+
+2020-11-10 19:38:39 [32minfo[39m: GET /users/5faad01e2ff2a73dac3277ca request: {"id":"5faad01e2ff2a73dac3277ca"} body: {} 200 120.776 ms
+
+2020-11-10 19:38:39 [32minfo[39m: GET /boards/5fa151c2b6f24e442cec7b1d request: {"id":"5fa151c2b6f24e442cec7b1d"} body: {} 200 69.629 ms
+
+2020-11-10 19:38:39 [32minfo[39m: POST /boards request: {} body: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]} 200 80.618 ms
+
+2020-11-10 19:38:39 [32minfo[39m: DELETE /users/5faad01e2ff2a73dac3277ca request: {"id":"5faad01e2ff2a73dac3277ca"} body: {} 204 156.684 ms
+
+2020-11-10 19:38:39 [32minfo[39m: GET /boards/5faad01e2ff2a73dac3277c3/tasks request: {"boardId":"5faad01e2ff2a73dac3277c3"} body: {} 200 235.774 ms
+
+2020-11-10 19:38:39 [32minfo[39m: GET /boards/5fa151c2b6f24e442cec7b20/tasks/5fa151c2b6f24e442cec7b23 request: {"boardId":"5fa151c2b6f24e442cec7b20","id":"5fa151c2b6f24e442cec7b23"} body: {} 200 68.711 ms
+
+2020-11-10 19:38:39 [32minfo[39m: POST /users request: {} body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"} 200 169.050 ms
+
+2020-11-10 19:38:39 [32minfo[39m: DELETE /boards/5faad01f2ff2a73dac3277cb request: {"id":"5faad01f2ff2a73dac3277cb"} body: {} 204 174.887 ms
+
+2020-11-10 19:38:39 [32minfo[39m: POST /boards/5faad01e2ff2a73dac3277c3/tasks request: {"boardId":"5faad01e2ff2a73dac3277c3"} body: {"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null} 200 74.822 ms
+
+2020-11-10 19:38:39 [32minfo[39m: POST /boards request: {} body: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]} 200 95.575 ms
+
+2020-11-10 19:38:39 [32minfo[39m: DELETE /users/5faad01f2ff2a73dac3277ce request: {"id":"5faad01f2ff2a73dac3277ce"} body: {} 204 167.104 ms
+
+2020-11-10 19:38:39 [32minfo[39m: DELETE /boards/5faad01e2ff2a73dac3277c3/tasks/5faad01f2ff2a73dac3277cf request: {"boardId":"5faad01e2ff2a73dac3277c3","id":"5faad01f2ff2a73dac3277cf"} body: {} 204 74.581 ms
+
+2020-11-10 19:38:39 [32minfo[39m: PUT /boards/5faad01f2ff2a73dac3277d0 request: {"id":"5faad01f2ff2a73dac3277d0"} body: {"id":"5faad01f2ff2a73dac3277d0","title":"Autotest updated board","columns":[{"_id":"5faad01f2ff2a73dac3277d1","title":"Backlog","order":1},{"_id":"5faad01f2ff2a73dac3277d2","title":"Sprint","order":2}]} 200 172.158 ms
+
+2020-11-10 19:38:39 [32minfo[39m: POST /boards/5faad01e2ff2a73dac3277c3/tasks request: {"boardId":"5faad01e2ff2a73dac3277c3"} body: {"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null} 200 112.182 ms
+
+2020-11-10 19:38:39 [32minfo[39m: POST /users request: {} body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"} 200 193.612 ms
+
+2020-11-10 19:38:39 [32minfo[39m: GET /boards/5faad01f2ff2a73dac3277d0 request: {"id":"5faad01f2ff2a73dac3277d0"} body: {} 200 78.771 ms
+
+2020-11-10 19:38:40 [32minfo[39m: PUT /boards/5faad01e2ff2a73dac3277c3/tasks/5faad01f2ff2a73dac3277d6 request: {"boardId":"5faad01e2ff2a73dac3277c3","id":"5faad01f2ff2a73dac3277d6"} body: {"id":"5faad01f2ff2a73dac3277d6","title":"Autotest updated task","order":0,"description":"Lorem ipsum","userId":null,"boardId":"5faad01e2ff2a73dac3277c3","columnId":null} 200 171.029 ms
+
+2020-11-10 19:38:40 [32minfo[39m: GET /boards/5faad01e2ff2a73dac3277c3/tasks/5faad01f2ff2a73dac3277d6 request: {"boardId":"5faad01e2ff2a73dac3277c3","id":"5faad01f2ff2a73dac3277d6"} body: {} 200 68.452 ms
+
+2020-11-10 19:38:40 [32minfo[39m: DELETE /boards/5faad01f2ff2a73dac3277d0 request: {"id":"5faad01f2ff2a73dac3277d0"} body: {} 204 140.509 ms
+
+2020-11-10 19:38:40 [32minfo[39m: PUT /users/5faad01f2ff2a73dac3277d5 request: {"id":"5faad01f2ff2a73dac3277d5"} body: {"name":"Autotest updated TEST_USER","login":"test_user","password":"T35t_P@55w0rd","id":"5faad01f2ff2a73dac3277d5"} 200 155.522 ms
+
+2020-11-10 19:38:40 [32minfo[39m: GET /boards/5faad01e2ff2a73dac3277c3/tasks/5faad01e2ff2a73dac3277c9 request: {"boardId":"5faad01e2ff2a73dac3277c3","id":"5faad01e2ff2a73dac3277c9"} body: {} 200 71.847 ms
+
+2020-11-10 19:38:40 [32minfo[39m: POST /boards request: {} body: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]} 200 86.073 ms
+
+2020-11-10 19:38:40 [32minfo[39m: GET /users/5faad01f2ff2a73dac3277d5 request: {"id":"5faad01f2ff2a73dac3277d5"} body: {} 200 125.347 ms
+
+2020-11-10 19:38:40 [32minfo[39m: DELETE /boards/5faad01e2ff2a73dac3277c3/tasks/5faad01e2ff2a73dac3277c9 request: {"boardId":"5faad01e2ff2a73dac3277c3","id":"5faad01e2ff2a73dac3277c9"} body: {} 204 73.417 ms
+
+2020-11-10 19:38:40 [32minfo[39m: DELETE /boards/5faad0202ff2a73dac3277d7 request: {"id":"5faad0202ff2a73dac3277d7"} body: {} 204 140.569 ms
+
+2020-11-10 19:38:40 [32minfo[39m: DELETE /users/5faad01f2ff2a73dac3277d5 request: {"id":"5faad01f2ff2a73dac3277d5"} body: {} 204 143.600 ms
+
+2020-11-10 19:38:40 [32minfo[39m: GET /boards/5faad01e2ff2a73dac3277c3/tasks/5faad01e2ff2a73dac3277c9 request: {"boardId":"5faad01e2ff2a73dac3277c3","id":"5faad01e2ff2a73dac3277c9"} body: {} 404 75.233 ms
+
+2020-11-10 19:38:40 [32minfo[39m: GET /boards/5faad0202ff2a73dac3277d7 request: {"id":"5faad0202ff2a73dac3277d7"} body: {} 404 71.109 ms
+
+2020-11-10 19:38:40 [32minfo[39m: POST /users request: {} body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"} 200 146.287 ms
+
+2020-11-10 19:38:40 [32minfo[39m: POST /boards request: {} body: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]} 200 80.632 ms
+
+2020-11-10 19:38:40 [32minfo[39m: DELETE /boards/5faad01e2ff2a73dac3277c3 request: {"id":"5faad01e2ff2a73dac3277c3"} body: {} 204 153.767 ms
+
+2020-11-10 19:38:40 [32minfo[39m: POST /boards/5faad0202ff2a73dac3277db/tasks request: {"boardId":"5faad0202ff2a73dac3277db"} body: {"title":"Task #1","order":1,"description":"Lorem ipsum","boardId":"5faad0202ff2a73dac3277db","userId":null,"columnId":null} 200 74.402 ms
+
+2020-11-10 19:38:40 [32minfo[39m: POST /boards/5faad0202ff2a73dac3277db/tasks request: {"boardId":"5faad0202ff2a73dac3277db"} body: {"title":"Task #4","order":4,"description":"Lorem ipsum","boardId":"5faad0202ff2a73dac3277db","userId":null,"columnId":null} 200 78.269 ms
+
+2020-11-10 19:38:40 [32minfo[39m: POST /boards/5faad0202ff2a73dac3277db/tasks request: {"boardId":"5faad0202ff2a73dac3277db"} body: {"title":"Task #2","order":2,"description":"Lorem ipsum","boardId":"5faad0202ff2a73dac3277db","userId":null,"columnId":null} 200 92.812 ms
+
+2020-11-10 19:38:40 [32minfo[39m: POST /boards/5faad0202ff2a73dac3277db/tasks request: {"boardId":"5faad0202ff2a73dac3277db"} body: {"title":"Task #5","order":5,"description":"Lorem ipsum","boardId":"5faad0202ff2a73dac3277db","userId":null,"columnId":null} 200 92.059 ms
+
+2020-11-10 19:38:40 [32minfo[39m: POST /boards/5faad0202ff2a73dac3277db/tasks request: {"boardId":"5faad0202ff2a73dac3277db"} body: {"title":"Task #3","order":3,"description":"Lorem ipsum","boardId":"5faad0202ff2a73dac3277db","userId":null,"columnId":null} 200 109.226 ms
+
+2020-11-10 19:38:40 [32minfo[39m: DELETE /users/5faad0202ff2a73dac3277da request: {"id":"5faad0202ff2a73dac3277da"} body: {} 204 144.280 ms
+
+2020-11-10 19:38:40 [32minfo[39m: GET /boards/5faad0202ff2a73dac3277db/tasks/5faad0202ff2a73dac3277de request: {"boardId":"5faad0202ff2a73dac3277db","id":"5faad0202ff2a73dac3277de"} body: {} 200 72.365 ms
+
+2020-11-10 19:38:40 [32minfo[39m: GET /boards/5faad0202ff2a73dac3277db/tasks/5faad0202ff2a73dac3277df request: {"boardId":"5faad0202ff2a73dac3277db","id":"5faad0202ff2a73dac3277df"} body: {} 200 73.283 ms
+
+2020-11-10 19:38:40 [32minfo[39m: GET /boards/5faad0202ff2a73dac3277db/tasks/5faad0202ff2a73dac3277e0 request: {"boardId":"5faad0202ff2a73dac3277db","id":"5faad0202ff2a73dac3277e0"} body: {} 200 72.735 ms
+
+2020-11-10 19:38:40 [32minfo[39m: GET /boards/5faad0202ff2a73dac3277db/tasks/5faad0202ff2a73dac3277e1 request: {"boardId":"5faad0202ff2a73dac3277db","id":"5faad0202ff2a73dac3277e1"} body: {} 200 74.021 ms
+
+2020-11-10 19:38:40 [32minfo[39m: GET /boards/5faad0202ff2a73dac3277db/tasks/5faad0202ff2a73dac3277e2 request: {"boardId":"5faad0202ff2a73dac3277db","id":"5faad0202ff2a73dac3277e2"} body: {} 200 80.576 ms
+
+2020-11-10 19:38:40 [32minfo[39m: POST /users request: {} body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"} 200 142.978 ms
+
+2020-11-10 19:38:40 [32minfo[39m: DELETE /boards/5faad0202ff2a73dac3277db request: {"id":"5faad0202ff2a73dac3277db"} body: {} 204 159.166 ms
+
+2020-11-10 19:38:40 [32minfo[39m: POST /boards request: {} body: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]} 200 82.572 ms
+
+2020-11-10 19:38:41 [32minfo[39m: GET /boards/5faad0202ff2a73dac3277db/tasks/5faad0202ff2a73dac3277df request: {"boardId":"5faad0202ff2a73dac3277db","id":"5faad0202ff2a73dac3277df"} body: {} 404 71.588 ms
+
+2020-11-10 19:38:41 [32minfo[39m: GET /boards/5faad0202ff2a73dac3277db/tasks/5faad0202ff2a73dac3277de request: {"boardId":"5faad0202ff2a73dac3277db","id":"5faad0202ff2a73dac3277de"} body: {} 404 75.835 ms
+
+2020-11-10 19:38:41 [32minfo[39m: GET /boards/5faad0202ff2a73dac3277db/tasks/5faad0202ff2a73dac3277e2 request: {"boardId":"5faad0202ff2a73dac3277db","id":"5faad0202ff2a73dac3277e2"} body: {} 404 70.504 ms
+
+2020-11-10 19:38:41 [32minfo[39m: GET /boards/5faad0202ff2a73dac3277db/tasks/5faad0202ff2a73dac3277e1 request: {"boardId":"5faad0202ff2a73dac3277db","id":"5faad0202ff2a73dac3277e1"} body: {} 404 88.891 ms
+
+2020-11-10 19:38:41 [32minfo[39m: POST /boards/5faad0202ff2a73dac3277e4/tasks request: {"boardId":"5faad0202ff2a73dac3277e4"} body: {"title":"Task #2","order":2,"description":"Lorem ipsum","userId":"5faad0202ff2a73dac3277e3","boardId":"5faad0202ff2a73dac3277e4"} 200 96.944 ms
+
+2020-11-10 19:38:41 [32minfo[39m: POST /boards/5faad0202ff2a73dac3277e4/tasks request: {"boardId":"5faad0202ff2a73dac3277e4"} body: {"title":"Task #1","order":1,"description":"Lorem ipsum","userId":"5faad0202ff2a73dac3277e3","boardId":"5faad0202ff2a73dac3277e4"} 200 115.034 ms
+
+2020-11-10 19:38:41 [32minfo[39m: GET /boards/5faad0202ff2a73dac3277db/tasks/5faad0202ff2a73dac3277e0 request: {"boardId":"5faad0202ff2a73dac3277db","id":"5faad0202ff2a73dac3277e0"} body: {} 404 125.521 ms
+
+2020-11-10 19:38:41 [32minfo[39m: DELETE /boards/5faad01e2ff2a73dac3277c6 request: {"id":"5faad01e2ff2a73dac3277c6"} body: {} 204 141.220 ms
+
+2020-11-10 19:38:41 [32minfo[39m: DELETE /users/5faad0202ff2a73dac3277e3 request: {"id":"5faad0202ff2a73dac3277e3"} body: {} 204 192.354 ms
+
+2020-11-10 19:38:41 [32minfo[39m: GET /boards/5faad0202ff2a73dac3277e4/tasks/5faad0212ff2a73dac3277e7 request: {"boardId":"5faad0202ff2a73dac3277e4","id":"5faad0212ff2a73dac3277e7"} body: {} 200 72.213 ms
+
+2020-11-10 19:38:41 [32minfo[39m: GET /boards/5faad0202ff2a73dac3277e4/tasks/5faad0212ff2a73dac3277e8 request: {"boardId":"5faad0202ff2a73dac3277e4","id":"5faad0212ff2a73dac3277e8"} body: {} 200 68.288 ms
+
+2020-11-10 19:38:41 [32minfo[39m: DELETE /boards/5faad0202ff2a73dac3277e4/tasks/5faad0212ff2a73dac3277e7 request: {"boardId":"5faad0202ff2a73dac3277e4","id":"5faad0212ff2a73dac3277e7"} body: {} 204 71.516 ms
+
+2020-11-10 19:38:41 [32minfo[39m: DELETE /boards/5faad0202ff2a73dac3277e4/tasks/5faad0212ff2a73dac3277e8 request: {"boardId":"5faad0202ff2a73dac3277e4","id":"5faad0212ff2a73dac3277e8"} body: {} 204 91.939 ms
+
+2020-11-10 19:38:41 [32minfo[39m: DELETE /boards/5faad0202ff2a73dac3277e4 request: {"id":"5faad0202ff2a73dac3277e4"} body: {} 204 139.486 ms
+
+2020-11-10 19:38:47 [32minfo[39m: Application status: ✅ Running on http://localhost:4000
+2020-11-10 19:38:48 [32minfo[39m: Database status: ✅ Database connected
+2020-11-10 19:38:54 [32minfo[39m: Application status: ✅ Running on http://localhost:4000
+2020-11-10 19:38:55 [32minfo[39m: Database status: ✅ Database connected
+2020-11-10 19:39:03 [32minfo[39m: GET /boards/12345/tasks request: {} body: {} 401 4.577 ms
+
+2020-11-10 19:39:03 [32minfo[39m: GET /boards request: {} body: {} 401 0.385 ms
+
+2020-11-10 19:39:03 [32minfo[39m: GET /boards/12345/tasks/12345 request: {} body: {} 401 0.473 ms
+
+2020-11-10 19:39:03 [32minfo[39m: GET /users request: {} body: {} 401 0.435 ms
+
+2020-11-10 19:39:03 [32minfo[39m: POST /boards/12345/tasks request: {} body: {"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null} 401 15.539 ms
+
+2020-11-10 19:39:03 [32minfo[39m: GET /boards/12345 request: {} body: {} 401 0.255 ms
+
+2020-11-10 19:39:03 [32minfo[39m: POST /login request: {} body: {"login":"admin","password":"admin"} 200 4.352 ms
+
+2020-11-10 19:39:03 [32minfo[39m: GET /users/123 request: {} body: {} 401 0.295 ms
+
+2020-11-10 19:39:03 [32minfo[39m: POST /login request: {} body: {"login":"admin","password":"admin"} 200 0.843 ms
+
+2020-11-10 19:39:03 [32minfo[39m: PUT /boards/12345/tasks/12345 request: {} body: {"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null} 401 0.455 ms
+
+2020-11-10 19:39:03 [32minfo[39m: POST /boards request: {} body: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]} 401 0.462 ms
+
+2020-11-10 19:39:03 [32minfo[39m: POST /login request: {} body: {"login":"admin","password":"admin"} 200 0.819 ms
+
+2020-11-10 19:39:03 [32minfo[39m: POST /boards request: {} body: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]} 401 0.801 ms
+
+2020-11-10 19:39:03 [32minfo[39m: POST /users request: {} body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"} 401 0.517 ms
+
+2020-11-10 19:39:03 [32minfo[39m: POST /boards request: {} body: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]} 401 0.600 ms
+
+2020-11-10 19:39:03 [32minfo[39m: DELETE /boards/12345/tasks/12345 request: {} body: {} 401 0.204 ms
+
+2020-11-10 19:39:03 [32minfo[39m: PUT /boards/12345 request: {} body: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]} 401 0.472 ms
+
+2020-11-10 19:39:03 [32minfo[39m: POST /boards/undefined/tasks request: {"boardId":"undefined"} body: {"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null} 401 0.642 ms
+
+2020-11-10 19:39:03 [32minfo[39m: GET /users request: {} body: {} 401 0.409 ms
+
+2020-11-10 19:39:33 [32minfo[39m: Application status: ✅ Running on http://localhost:4000
+2020-11-10 19:39:34 [32minfo[39m: Database status: ✅ Database connected
+2020-11-10 19:39:44 [32minfo[39m: POST /boards request: {} body: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]} 200 118.258 ms
+
+2020-11-10 19:39:44 [32minfo[39m: POST /boards request: {} body: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]} 200 210.766 ms
+
+2020-11-10 19:39:44 [32minfo[39m: GET /users request: {} body: {} 200 313.917 ms
+
+2020-11-10 19:39:44 [32minfo[39m: POST /boards/5faad05f9628d91304a33444/tasks request: {"boardId":"5faad05f9628d91304a33444"} body: {"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null} 200 282.197 ms
+
+2020-11-10 19:39:44 [32minfo[39m: GET /boards request: {} body: {} 200 242.676 ms
+
+2020-11-10 19:39:44 [32minfo[39m: GET /boards request: {} body: {} 200 95.745 ms
+
+2020-11-10 19:39:44 [32minfo[39m: POST /users request: {} body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"} 200 258.922 ms
+
+2020-11-10 19:39:44 [32minfo[39m: GET /boards/5faad05f9628d91304a33444/tasks request: {"boardId":"5faad05f9628d91304a33444"} body: {} 200 330.584 ms
+
+2020-11-10 19:39:44 [32minfo[39m: GET /boards/5fa151c2b6f24e442cec7b1d request: {"id":"5fa151c2b6f24e442cec7b1d"} body: {} 200 129.560 ms
+
+2020-11-10 19:39:44 [32minfo[39m: GET /users/5faad0609628d91304a3344b request: {"id":"5faad0609628d91304a3344b"} body: {} 200 134.365 ms
+
+2020-11-10 19:39:44 [32minfo[39m: POST /boards request: {} body: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]} 200 85.800 ms
+
+2020-11-10 19:39:44 [32minfo[39m: DELETE /users/5faad0609628d91304a3344b request: {"id":"5faad0609628d91304a3344b"} body: {} 204 154.934 ms
+
+2020-11-10 19:39:44 [32minfo[39m: GET /boards/5faad05f9628d91304a33444/tasks request: {"boardId":"5faad05f9628d91304a33444"} body: {} 200 266.322 ms
+
+2020-11-10 19:39:44 [32minfo[39m: DELETE /boards/5faad0609628d91304a3344c request: {"id":"5faad0609628d91304a3344c"} body: {} 204 182.881 ms
+
+2020-11-10 19:39:45 [32minfo[39m: GET /boards/5fa151c2b6f24e442cec7b20/tasks/5fa151c2b6f24e442cec7b23 request: {"boardId":"5fa151c2b6f24e442cec7b20","id":"5fa151c2b6f24e442cec7b23"} body: {} 200 77.917 ms
+
+2020-11-10 19:39:45 [32minfo[39m: POST /users request: {} body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"} 200 221.747 ms
+
+2020-11-10 19:39:45 [32minfo[39m: POST /boards request: {} body: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]} 200 106.265 ms
+
+2020-11-10 19:39:45 [32minfo[39m: POST /boards/5faad05f9628d91304a33444/tasks request: {"boardId":"5faad05f9628d91304a33444"} body: {"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null} 200 91.568 ms
+
+2020-11-10 19:39:45 [32minfo[39m: PUT /boards/5faad0619628d91304a33450 request: {"id":"5faad0619628d91304a33450"} body: {"id":"5faad0619628d91304a33450","title":"Autotest updated board","columns":[{"_id":"5faad0619628d91304a33451","title":"Backlog","order":1},{"_id":"5faad0619628d91304a33452","title":"Sprint","order":2}]} 200 183.178 ms
+
+2020-11-10 19:39:45 [32minfo[39m: DELETE /users/5faad0609628d91304a3344f request: {"id":"5faad0609628d91304a3344f"} body: {} 204 204.011 ms
+
+2020-11-10 19:39:45 [32minfo[39m: DELETE /boards/5faad05f9628d91304a33444/tasks/5faad0619628d91304a33453 request: {"boardId":"5faad05f9628d91304a33444","id":"5faad0619628d91304a33453"} body: {} 204 96.674 ms
+
+2020-11-10 19:39:45 [32minfo[39m: GET /boards/5faad0619628d91304a33450 request: {"id":"5faad0619628d91304a33450"} body: {} 200 67.988 ms
+
+2020-11-10 19:39:45 [32minfo[39m: POST /boards/5faad05f9628d91304a33444/tasks request: {"boardId":"5faad05f9628d91304a33444"} body: {"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null} 200 75.967 ms
+
+2020-11-10 19:39:45 [32minfo[39m: POST /users request: {} body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"} 200 152.659 ms
+
+2020-11-10 19:39:45 [32minfo[39m: DELETE /boards/5faad0619628d91304a33450 request: {"id":"5faad0619628d91304a33450"} body: {} 204 145.147 ms
+
+2020-11-10 19:39:45 [32minfo[39m: PUT /boards/5faad05f9628d91304a33444/tasks/5faad0619628d91304a33457 request: {"boardId":"5faad05f9628d91304a33444","id":"5faad0619628d91304a33457"} body: {"id":"5faad0619628d91304a33457","title":"Autotest updated task","order":0,"description":"Lorem ipsum","userId":null,"boardId":"5faad05f9628d91304a33444","columnId":null} 200 140.917 ms
+
+2020-11-10 19:39:45 [32minfo[39m: PUT /users/5faad0619628d91304a33456 request: {"id":"5faad0619628d91304a33456"} body: {"name":"Autotest updated TEST_USER","login":"test_user","password":"T35t_P@55w0rd","id":"5faad0619628d91304a33456"} 200 168.952 ms
+
+2020-11-10 19:39:45 [32minfo[39m: POST /boards request: {} body: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]} 200 105.067 ms
+
+2020-11-10 19:39:45 [32minfo[39m: GET /boards/5faad05f9628d91304a33444/tasks/5faad0619628d91304a33457 request: {"boardId":"5faad05f9628d91304a33444","id":"5faad0619628d91304a33457"} body: {} 200 107.647 ms
+
+2020-11-10 19:39:45 [32minfo[39m: GET /users/5faad0619628d91304a33456 request: {"id":"5faad0619628d91304a33456"} body: {} 200 69.669 ms
+
+2020-11-10 19:39:45 [32minfo[39m: GET /boards/5faad05f9628d91304a33444/tasks/5faad0609628d91304a3344a request: {"boardId":"5faad05f9628d91304a33444","id":"5faad0609628d91304a3344a"} body: {} 200 80.388 ms
+
+2020-11-10 19:39:45 [32minfo[39m: DELETE /boards/5faad0619628d91304a33458 request: {"id":"5faad0619628d91304a33458"} body: {} 204 141.034 ms
+
+2020-11-10 19:39:45 [32minfo[39m: DELETE /boards/5faad05f9628d91304a33444/tasks/5faad0609628d91304a3344a request: {"boardId":"5faad05f9628d91304a33444","id":"5faad0609628d91304a3344a"} body: {} 204 72.285 ms
+
+2020-11-10 19:39:45 [32minfo[39m: GET /boards/5faad0619628d91304a33458 request: {"id":"5faad0619628d91304a33458"} body: {} 404 71.326 ms
+
+2020-11-10 19:39:45 [32minfo[39m: DELETE /users/5faad0619628d91304a33456 request: {"id":"5faad0619628d91304a33456"} body: {} 204 153.944 ms
+
+2020-11-10 19:39:45 [32minfo[39m: GET /boards/5faad05f9628d91304a33444/tasks/5faad0609628d91304a3344a request: {"boardId":"5faad05f9628d91304a33444","id":"5faad0609628d91304a3344a"} body: {} 404 68.489 ms
+
+2020-11-10 19:39:46 [32minfo[39m: POST /boards request: {} body: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]} 200 74.022 ms
+
+2020-11-10 19:39:46 [32minfo[39m: POST /users request: {} body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"} 200 138.476 ms
+
+2020-11-10 19:39:46 [32minfo[39m: POST /boards/5faad0619628d91304a3345b/tasks request: {"boardId":"5faad0619628d91304a3345b"} body: {"title":"Task #4","order":4,"description":"Lorem ipsum","boardId":"5faad0619628d91304a3345b","userId":null,"columnId":null} 200 79.117 ms
+
+2020-11-10 19:39:46 [32minfo[39m: POST /boards/5faad0619628d91304a3345b/tasks request: {"boardId":"5faad0619628d91304a3345b"} body: {"title":"Task #5","order":5,"description":"Lorem ipsum","boardId":"5faad0619628d91304a3345b","userId":null,"columnId":null} 200 80.799 ms
+
+2020-11-10 19:39:46 [32minfo[39m: POST /boards/5faad0619628d91304a3345b/tasks request: {"boardId":"5faad0619628d91304a3345b"} body: {"title":"Task #2","order":2,"description":"Lorem ipsum","boardId":"5faad0619628d91304a3345b","userId":null,"columnId":null} 200 90.447 ms
+
+2020-11-10 19:39:46 [32minfo[39m: POST /boards/5faad0619628d91304a3345b/tasks request: {"boardId":"5faad0619628d91304a3345b"} body: {"title":"Task #1","order":1,"description":"Lorem ipsum","boardId":"5faad0619628d91304a3345b","userId":null,"columnId":null} 200 103.652 ms
+
+2020-11-10 19:39:46 [32minfo[39m: POST /boards/5faad0619628d91304a3345b/tasks request: {"boardId":"5faad0619628d91304a3345b"} body: {"title":"Task #3","order":3,"description":"Lorem ipsum","boardId":"5faad0619628d91304a3345b","userId":null,"columnId":null} 200 113.263 ms
+
+2020-11-10 19:39:46 [32minfo[39m: DELETE /boards/5faad05f9628d91304a33444 request: {"id":"5faad05f9628d91304a33444"} body: {} 204 184.143 ms
+
+2020-11-10 19:39:46 [32minfo[39m: GET /boards/5faad0619628d91304a3345b/tasks/5faad0629628d91304a33462 request: {"boardId":"5faad0619628d91304a3345b","id":"5faad0629628d91304a33462"} body: {} 200 70.406 ms
+
+2020-11-10 19:39:46 [32minfo[39m: GET /boards/5faad0619628d91304a3345b/tasks/5faad0629628d91304a33460 request: {"boardId":"5faad0619628d91304a3345b","id":"5faad0629628d91304a33460"} body: {} 200 71.167 ms
+
+2020-11-10 19:39:46 [32minfo[39m: GET /boards/5faad0619628d91304a3345b/tasks/5faad0629628d91304a33463 request: {"boardId":"5faad0619628d91304a3345b","id":"5faad0629628d91304a33463"} body: {} 200 75.899 ms
+
+2020-11-10 19:39:46 [32minfo[39m: GET /boards/5faad0619628d91304a3345b/tasks/5faad0629628d91304a3345f request: {"boardId":"5faad0619628d91304a3345b","id":"5faad0629628d91304a3345f"} body: {} 200 78.215 ms
+
+2020-11-10 19:39:46 [32minfo[39m: GET /boards/5faad0619628d91304a3345b/tasks/5faad0629628d91304a33461 request: {"boardId":"5faad0619628d91304a3345b","id":"5faad0629628d91304a33461"} body: {} 200 80.933 ms
+
+2020-11-10 19:39:46 [32minfo[39m: DELETE /users/5faad0619628d91304a3345e request: {"id":"5faad0619628d91304a3345e"} body: {} 204 146.068 ms
+
+2020-11-10 19:39:46 [32minfo[39m: DELETE /boards/5faad0619628d91304a3345b request: {"id":"5faad0619628d91304a3345b"} body: {} 204 143.435 ms
+
+2020-11-10 19:39:46 [32minfo[39m: POST /users request: {} body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"} 200 147.409 ms
+
+2020-11-10 19:39:46 [32minfo[39m: GET /boards/5faad0619628d91304a3345b/tasks/5faad0629628d91304a33460 request: {"boardId":"5faad0619628d91304a3345b","id":"5faad0629628d91304a33460"} body: {} 404 68.110 ms
+
+2020-11-10 19:39:46 [32minfo[39m: GET /boards/5faad0619628d91304a3345b/tasks/5faad0629628d91304a33462 request: {"boardId":"5faad0619628d91304a3345b","id":"5faad0629628d91304a33462"} body: {} 404 81.286 ms
+
+2020-11-10 19:39:46 [32minfo[39m: GET /boards/5faad0619628d91304a3345b/tasks/5faad0629628d91304a33461 request: {"boardId":"5faad0619628d91304a3345b","id":"5faad0629628d91304a33461"} body: {} 404 86.446 ms
+
+2020-11-10 19:39:46 [32minfo[39m: GET /boards/5faad0619628d91304a3345b/tasks/5faad0629628d91304a3345f request: {"boardId":"5faad0619628d91304a3345b","id":"5faad0629628d91304a3345f"} body: {} 404 95.346 ms
+
+2020-11-10 19:39:46 [32minfo[39m: POST /boards request: {} body: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]} 200 97.889 ms
+
+2020-11-10 19:39:46 [32minfo[39m: GET /boards/5faad0619628d91304a3345b/tasks/5faad0629628d91304a33463 request: {"boardId":"5faad0619628d91304a3345b","id":"5faad0629628d91304a33463"} body: {} 404 129.267 ms
+
+2020-11-10 19:39:46 [32minfo[39m: POST /boards/5faad0629628d91304a33465/tasks request: {"boardId":"5faad0629628d91304a33465"} body: {"title":"Task #1","order":1,"description":"Lorem ipsum","userId":"5faad0629628d91304a33464","boardId":"5faad0629628d91304a33465"} 200 69.932 ms
+
+2020-11-10 19:39:46 [32minfo[39m: POST /boards/5faad0629628d91304a33465/tasks request: {"boardId":"5faad0629628d91304a33465"} body: {"title":"Task #2","order":2,"description":"Lorem ipsum","userId":"5faad0629628d91304a33464","boardId":"5faad0629628d91304a33465"} 200 75.730 ms
+
+2020-11-10 19:39:46 [32minfo[39m: DELETE /boards/5faad05f9628d91304a33447 request: {"id":"5faad05f9628d91304a33447"} body: {} 204 149.460 ms
+
+2020-11-10 19:39:46 [32minfo[39m: DELETE /users/5faad0629628d91304a33464 request: {"id":"5faad0629628d91304a33464"} body: {} 204 157.234 ms
+
+2020-11-10 19:39:46 [32minfo[39m: GET /boards/5faad0629628d91304a33465/tasks/5faad0629628d91304a33469 request: {"boardId":"5faad0629628d91304a33465","id":"5faad0629628d91304a33469"} body: {} 200 71.058 ms
+
+2020-11-10 19:39:46 [32minfo[39m: GET /boards/5faad0629628d91304a33465/tasks/5faad0629628d91304a33468 request: {"boardId":"5faad0629628d91304a33465","id":"5faad0629628d91304a33468"} body: {} 200 67.350 ms
+
+2020-11-10 19:39:47 [32minfo[39m: DELETE /boards/5faad0629628d91304a33465/tasks/5faad0629628d91304a33469 request: {"boardId":"5faad0629628d91304a33465","id":"5faad0629628d91304a33469"} body: {} 204 72.752 ms
+
+2020-11-10 19:39:47 [32minfo[39m: DELETE /boards/5faad0629628d91304a33465/tasks/5faad0629628d91304a33468 request: {"boardId":"5faad0629628d91304a33465","id":"5faad0629628d91304a33468"} body: {} 204 79.698 ms
+
+2020-11-10 19:39:47 [32minfo[39m: DELETE /boards/5faad0629628d91304a33465 request: {"id":"5faad0629628d91304a33465"} body: {} 204 156.004 ms
+
+2020-11-10 19:40:02 [32minfo[39m: Application status: ✅ Running on http://localhost:4000
+2020-11-10 19:40:03 [32minfo[39m: Database status: ✅ Database connected
+2020-11-10 19:40:09 [32minfo[39m: GET /users request: {} body: {} 401 3.924 ms
+
+2020-11-10 19:40:09 [32minfo[39m: GET /boards/12345/tasks request: {} body: {} 401 0.548 ms
+
+2020-11-10 19:40:09 [32minfo[39m: GET /boards request: {} body: {} 401 0.430 ms
+
+2020-11-10 19:40:09 [32minfo[39m: GET /users/123 request: {} body: {} 401 0.244 ms
+
+2020-11-10 19:40:10 [32minfo[39m: GET /boards/12345/tasks/12345 request: {} body: {} 401 0.471 ms
+
+2020-11-10 19:40:10 [32minfo[39m: POST /users request: {} body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"} 401 15.178 ms
+
+2020-11-10 19:40:10 [32minfo[39m: GET /boards/12345 request: {} body: {} 401 0.247 ms
+
+2020-11-10 19:40:10 [32minfo[39m: POST /boards/12345/tasks request: {} body: {"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null} 401 0.595 ms
+
+2020-11-10 19:40:10 [32minfo[39m: POST /login request: {} body: {"login":"admin","password":"admin"} 200 3.847 ms
+
+2020-11-10 19:40:10 [32minfo[39m: PUT /users/12345 request: {} body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"} 401 0.469 ms
+
+2020-11-10 19:40:10 [32minfo[39m: POST /login request: {} body: {"login":"admin","password":"admin"} 200 0.747 ms
+
+2020-11-10 19:40:10 [32minfo[39m: POST /boards request: {} body: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]} 401 0.419 ms
+
+2020-11-10 19:40:10 [32minfo[39m: POST /login request: {} body: {"login":"admin","password":"admin"} 200 0.691 ms
+
+2020-11-10 19:40:10 [32minfo[39m: PUT /boards/12345/tasks/12345 request: {} body: {"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null} 401 0.498 ms
+
+2020-11-10 19:40:10 [32minfo[39m: POST /boards request: {} body: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]} 401 0.748 ms
+
+2020-11-10 19:40:10 [32minfo[39m: DELETE /users/12345 request: {} body: {} 401 0.276 ms
+
+2020-11-10 19:40:10 [32minfo[39m: PUT /boards/12345 request: {} body: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]} 401 0.419 ms
+
+2020-11-10 19:40:10 [32minfo[39m: GET /users request: {} body: {} 401 0.252 ms
+
+2020-11-10 19:40:10 [32minfo[39m: POST /boards request: {} body: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]} 401 0.565 ms
+
+2020-11-10 19:40:10 [32minfo[39m: DELETE /boards/12345/tasks/12345 request: {} body: {} 401 0.232 ms
+
+2020-11-10 19:40:10 [32minfo[39m: GET /boards request: {} body: {} 401 0.305 ms
+
+2020-11-10 19:40:10 [32minfo[39m: DELETE /boards/12345 request: {} body: {} 401 0.221 ms
+
+2020-11-10 19:40:10 [32minfo[39m: POST /users request: {} body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"} 401 0.512 ms
+
+2020-11-10 19:59:07 [32minfo[39m: Application status: ✅ Running on http://localhost:4000
+2020-11-10 19:59:08 [32minfo[39m: Database status: ✅ Database connected
+2020-11-10 19:59:20 [32minfo[39m: Application status: ✅ Running on http://localhost:4000
+2020-11-10 19:59:20 [32minfo[39m: Database status: ✅ Database connected
+2020-11-10 19:59:46 [32minfo[39m: Application status: ✅ Running on http://localhost:4000
+2020-11-10 19:59:47 [32minfo[39m: Database status: ✅ Database connected
+2020-11-10 20:00:15 [32minfo[39m: Application status: ✅ Running on http://localhost:4000
+2020-11-10 20:00:15 [32minfo[39m: Database status: ✅ Database connected
+2020-11-10 20:01:16 [32minfo[39m: Application status: ✅ Running on http://localhost:4000
+2020-11-10 20:01:17 [32minfo[39m: Database status: ✅ Database connected
+2020-11-10 20:01:58 [32minfo[39m: Application status: ✅ Running on http://localhost:4000
+2020-11-10 20:01:59 [32minfo[39m: Database status: ✅ Database connected
+2020-11-10 20:02:55 [32minfo[39m: Application status: ✅ Running on http://localhost:4000
+2020-11-10 20:02:56 [32minfo[39m: Database status: ✅ Database connected
+2020-11-10 20:06:23 [32minfo[39m: GET /boards/12345/tasks request: {} body: {} 401 4.679 ms
+
+2020-11-10 20:06:23 [32minfo[39m: GET /users request: {} body: {} 401 0.278 ms
+
+2020-11-10 20:06:23 [32minfo[39m: GET /boards/12345/tasks/12345 request: {} body: {} 401 0.442 ms
+
+2020-11-10 20:06:23 [32minfo[39m: GET /users/123 request: {} body: {} 401 0.479 ms
+
+2020-11-10 20:06:23 [32minfo[39m: POST /boards/12345/tasks request: {} body: {"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null} 401 15.798 ms
+
+2020-11-10 20:06:23 [32minfo[39m: POST /users request: {} body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"} 401 0.490 ms
+
+2020-11-10 20:06:23 [32minfo[39m: POST /login request: {} body: {"login":"admin","password":"admin"} 200 4.261 ms
+
+2020-11-10 20:06:23 [32minfo[39m: GET /boards request: {} body: {} 401 0.298 ms
+
+2020-11-10 20:06:23 [32minfo[39m: POST /login request: {} body: {"login":"admin","password":"admin"} 200 0.888 ms
+
+2020-11-10 20:06:23 [32minfo[39m: PUT /boards/12345/tasks/12345 request: {} body: {"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null} 401 0.933 ms
+
+2020-11-10 20:06:23 [32minfo[39m: PUT /users/12345 request: {} body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"} 401 0.464 ms
+
+2020-11-10 20:06:23 [32minfo[39m: POST /boards request: {} body: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]} 401 0.782 ms
+
+2020-11-10 20:06:23 [32minfo[39m: POST /login request: {} body: {"login":"admin","password":"admin"} 200 0.836 ms
+
+2020-11-10 20:06:23 [32minfo[39m: GET /boards/12345 request: {} body: {} 401 0.221 ms
+
+2020-11-10 20:06:23 [32minfo[39m: POST /boards request: {} body: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]} 401 0.608 ms
+
+2020-11-10 20:06:23 [32minfo[39m: DELETE /boards/12345/tasks/12345 request: {} body: {} 401 0.211 ms
+
+2020-11-10 20:06:23 [32minfo[39m: DELETE /users/12345 request: {} body: {} 401 0.259 ms
+
+2020-11-10 20:06:23 [32minfo[39m: GET /boards request: {} body: {} 401 0.319 ms
+
+2020-11-10 20:07:39 [32minfo[39m: Application status: ✅ Running on http://localhost:4000
+2020-11-10 20:07:40 [32minfo[39m: Database status: ✅ Database connected
+2020-11-10 20:07:47 [32minfo[39m: GET /boards/12345/tasks request: {} body: {} 401 3.817 ms
+
+2020-11-10 20:07:47 [32minfo[39m: GET /boards request: {} body: {} 401 0.342 ms
+
+2020-11-10 20:07:47 [32minfo[39m: GET /users request: {} body: {} 401 0.423 ms
+
+2020-11-10 20:07:47 [32minfo[39m: GET /boards/12345/tasks/12345 request: {} body: {} 401 0.241 ms
+
+2020-11-10 20:07:47 [32minfo[39m: POST /login request: {} body: {"login":"admin","password":"admin"} 200 18.037 ms
+
+2020-11-10 20:07:47 [32minfo[39m: GET /boards/12345 request: {} body: {} 401 0.285 ms
+
+2020-11-10 20:07:47 [32minfo[39m: POST /login request: {} body: {"login":"admin","password":"admin"} 200 0.886 ms
+
+2020-11-10 20:07:47 [32minfo[39m: POST /boards/12345/tasks request: {} body: {"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null} 401 0.556 ms
+
+2020-11-10 20:07:47 [32minfo[39m: GET /users/123 request: {} body: {} 401 0.269 ms
+
+2020-11-10 20:07:47 [32minfo[39m: POST /boards request: {} body: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]} 401 0.735 ms
+
+2020-11-10 20:07:47 [32minfo[39m: POST /boards request: {} body: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]} 401 0.521 ms
+
+2020-11-10 20:07:47 [32minfo[39m: POST /login request: {} body: {"login":"admin","password":"admin"} 200 0.779 ms
+
+2020-11-10 20:07:47 [32minfo[39m: POST /boards request: {} body: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]} 401 0.622 ms
+
+2020-11-10 20:07:47 [32minfo[39m: PUT /boards/12345/tasks/12345 request: {} body: {"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null} 401 0.492 ms
+
+2020-11-10 20:07:47 [32minfo[39m: POST /users request: {} body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"} 401 0.538 ms
+
+2020-11-10 20:07:47 [32minfo[39m: GET /boards request: {} body: {} 401 0.302 ms
+
+2020-11-10 20:07:47 [32minfo[39m: PUT /boards/12345 request: {} body: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]} 401 0.427 ms
+
+2020-11-10 20:07:47 [32minfo[39m: GET /users request: {} body: {} 401 0.361 ms
+
+2020-11-10 20:07:47 [32minfo[39m: POST /boards/undefined/tasks request: {"boardId":"undefined"} body: {"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null} 401 0.705 ms
+
+2020-11-10 20:13:36 [32minfo[39m: Application status: ✅ Running on http://localhost:4000
+2020-11-10 20:13:36 [32minfo[39m: Database status: ✅ Database connected
+2020-11-10 20:13:44 [32minfo[39m: POST /boards request: {} body: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]} 200 108.183 ms
+
+2020-11-10 20:13:44 [32minfo[39m: POST /boards request: {} body: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]} 200 185.676 ms
+
+2020-11-10 20:13:44 [32minfo[39m: GET /users request: {} body: {} 200 251.766 ms
+
+2020-11-10 20:13:44 [32minfo[39m: POST /boards/5faad8580226dc48a847cf5d/tasks request: {"boardId":"5faad8580226dc48a847cf5d"} body: {"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null} 200 245.730 ms
+
+2020-11-10 20:13:45 [32minfo[39m: GET /boards request: {} body: {} 200 231.898 ms
+
+2020-11-10 20:13:45 [32minfo[39m: GET /boards request: {} body: {} 200 106.668 ms
+
+2020-11-10 20:13:45 [32minfo[39m: POST /users request: {} body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"} 200 276.902 ms
+
+2020-11-10 20:13:45 [32minfo[39m: GET /boards/5faad8580226dc48a847cf5d/tasks request: {"boardId":"5faad8580226dc48a847cf5d"} body: {} 200 252.862 ms
+
+2020-11-10 20:13:45 [32minfo[39m: GET /boards/5fa151c2b6f24e442cec7b1d request: {"id":"5fa151c2b6f24e442cec7b1d"} body: {} 200 65.606 ms
+
+2020-11-10 20:13:45 [32minfo[39m: GET /users/5faad8580226dc48a847cf64 request: {"id":"5faad8580226dc48a847cf64"} body: {} 200 67.551 ms
+
+2020-11-10 20:13:45 [32minfo[39m: POST /boards request: {} body: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]} 200 77.133 ms
+
+2020-11-10 20:13:45 [32minfo[39m: DELETE /users/5faad8580226dc48a847cf64 request: {"id":"5faad8580226dc48a847cf64"} body: {} 204 148.395 ms
+
+2020-11-10 20:13:45 [32minfo[39m: GET /boards/5faad8580226dc48a847cf5d/tasks request: {"boardId":"5faad8580226dc48a847cf5d"} body: {} 200 245.843 ms
+
+2020-11-10 20:13:45 [32minfo[39m: DELETE /boards/5faad8590226dc48a847cf65 request: {"id":"5faad8590226dc48a847cf65"} body: {} 204 148.106 ms
+
+2020-11-10 20:13:45 [32minfo[39m: POST /users request: {} body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"} 200 153.789 ms
+
+2020-11-10 20:13:45 [32minfo[39m: POST /boards request: {} body: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]} 200 74.032 ms
+
+2020-11-10 20:13:45 [32minfo[39m: GET /boards/5fa151c2b6f24e442cec7b20/tasks/5fa151c2b6f24e442cec7b23 request: {"boardId":"5fa151c2b6f24e442cec7b20","id":"5fa151c2b6f24e442cec7b23"} body: {} 200 80.058 ms
+
+2020-11-10 20:13:45 [32minfo[39m: POST /boards/5faad8580226dc48a847cf5d/tasks request: {"boardId":"5faad8580226dc48a847cf5d"} body: {"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null} 200 76.089 ms
+
+2020-11-10 20:13:45 [32minfo[39m: PUT /boards/5faad8590226dc48a847cf69 request: {"id":"5faad8590226dc48a847cf69"} body: {"id":"5faad8590226dc48a847cf69","title":"Autotest updated board","columns":[{"_id":"5faad8590226dc48a847cf6a","title":"Backlog","order":1},{"_id":"5faad8590226dc48a847cf6b","title":"Sprint","order":2}]} 200 149.783 ms
+
+2020-11-10 20:13:45 [32minfo[39m: DELETE /boards/5faad8580226dc48a847cf5d/tasks/5faad8590226dc48a847cf6e request: {"boardId":"5faad8580226dc48a847cf5d","id":"5faad8590226dc48a847cf6e"} body: {} 204 68.056 ms
+
+2020-11-10 20:13:45 [32minfo[39m: DELETE /users/5faad8590226dc48a847cf68 request: {"id":"5faad8590226dc48a847cf68"} body: {} 204 159.223 ms
+
+2020-11-10 20:13:45 [32minfo[39m: GET /boards/5faad8590226dc48a847cf69 request: {"id":"5faad8590226dc48a847cf69"} body: {} 200 68.999 ms
+
+2020-11-10 20:13:45 [32minfo[39m: POST /boards/5faad8580226dc48a847cf5d/tasks request: {"boardId":"5faad8580226dc48a847cf5d"} body: {"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null} 200 78.210 ms
+
+2020-11-10 20:13:45 [32minfo[39m: POST /users request: {} body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"} 200 137.008 ms
+
+2020-11-10 20:13:45 [32minfo[39m: DELETE /boards/5faad8590226dc48a847cf69 request: {"id":"5faad8590226dc48a847cf69"} body: {} 204 139.289 ms
+
+2020-11-10 20:13:45 [32minfo[39m: PUT /boards/5faad8580226dc48a847cf5d/tasks/5faad8590226dc48a847cf6f request: {"boardId":"5faad8580226dc48a847cf5d","id":"5faad8590226dc48a847cf6f"} body: {"id":"5faad8590226dc48a847cf6f","title":"Autotest updated task","order":0,"description":"Lorem ipsum","userId":null,"boardId":"5faad8580226dc48a847cf5d","columnId":null} 200 134.943 ms
+
+2020-11-10 20:13:45 [32minfo[39m: POST /boards request: {} body: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]} 200 72.505 ms
+
+2020-11-10 20:13:46 [32minfo[39m: GET /boards/5faad8580226dc48a847cf5d/tasks/5faad8590226dc48a847cf6f request: {"boardId":"5faad8580226dc48a847cf5d","id":"5faad8590226dc48a847cf6f"} body: {} 200 66.741 ms
+
+2020-11-10 20:13:46 [32minfo[39m: PUT /users/5faad8590226dc48a847cf70 request: {"id":"5faad8590226dc48a847cf70"} body: {"name":"Autotest updated TEST_USER","login":"test_user","password":"T35t_P@55w0rd","id":"5faad8590226dc48a847cf70"} 200 145.803 ms
+
+2020-11-10 20:13:46 [32minfo[39m: GET /users/5faad8590226dc48a847cf70 request: {"id":"5faad8590226dc48a847cf70"} body: {} 200 67.397 ms
+
+2020-11-10 20:13:46 [32minfo[39m: GET /boards/5faad8580226dc48a847cf5d/tasks/5faad8580226dc48a847cf63 request: {"boardId":"5faad8580226dc48a847cf5d","id":"5faad8580226dc48a847cf63"} body: {} 200 71.601 ms
+
+2020-11-10 20:13:46 [32minfo[39m: DELETE /boards/5faad8590226dc48a847cf71 request: {"id":"5faad8590226dc48a847cf71"} body: {} 204 141.503 ms
+
+2020-11-10 20:13:46 [32minfo[39m: DELETE /boards/5faad8580226dc48a847cf5d/tasks/5faad8580226dc48a847cf63 request: {"boardId":"5faad8580226dc48a847cf5d","id":"5faad8580226dc48a847cf63"} body: {} 204 74.827 ms
+
+2020-11-10 20:13:46 [32minfo[39m: GET /boards/5faad8590226dc48a847cf71 request: {"id":"5faad8590226dc48a847cf71"} body: {} 404 84.364 ms
+
+2020-11-10 20:13:46 [32minfo[39m: DELETE /users/5faad8590226dc48a847cf70 request: {"id":"5faad8590226dc48a847cf70"} body: {} 204 163.887 ms
+
+2020-11-10 20:13:46 [32minfo[39m: GET /boards/5faad8580226dc48a847cf5d/tasks/5faad8580226dc48a847cf63 request: {"boardId":"5faad8580226dc48a847cf5d","id":"5faad8580226dc48a847cf63"} body: {} 404 86.888 ms
+
+2020-11-10 20:13:46 [32minfo[39m: POST /boards request: {} body: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]} 200 76.968 ms
+
+2020-11-10 20:13:46 [32minfo[39m: POST /boards/5faad85a0226dc48a847cf74/tasks request: {"boardId":"5faad85a0226dc48a847cf74"} body: {"title":"Task #3","order":3,"description":"Lorem ipsum","boardId":"5faad85a0226dc48a847cf74","userId":null,"columnId":null} 200 72.890 ms
+
+2020-11-10 20:13:46 [32minfo[39m: POST /boards/5faad85a0226dc48a847cf74/tasks request: {"boardId":"5faad85a0226dc48a847cf74"} body: {"title":"Task #1","order":1,"description":"Lorem ipsum","boardId":"5faad85a0226dc48a847cf74","userId":null,"columnId":null} 200 79.534 ms
+
+2020-11-10 20:13:46 [32minfo[39m: POST /boards/5faad85a0226dc48a847cf74/tasks request: {"boardId":"5faad85a0226dc48a847cf74"} body: {"title":"Task #4","order":4,"description":"Lorem ipsum","boardId":"5faad85a0226dc48a847cf74","userId":null,"columnId":null} 200 81.491 ms
+
+2020-11-10 20:13:46 [32minfo[39m: POST /boards/5faad85a0226dc48a847cf74/tasks request: {"boardId":"5faad85a0226dc48a847cf74"} body: {"title":"Task #2","order":2,"description":"Lorem ipsum","boardId":"5faad85a0226dc48a847cf74","userId":null,"columnId":null} 200 95.349 ms
+
+2020-11-10 20:13:46 [32minfo[39m: POST /boards/5faad85a0226dc48a847cf74/tasks request: {"boardId":"5faad85a0226dc48a847cf74"} body: {"title":"Task #5","order":5,"description":"Lorem ipsum","boardId":"5faad85a0226dc48a847cf74","userId":null,"columnId":null} 200 92.658 ms
+
+2020-11-10 20:13:46 [32minfo[39m: DELETE /boards/5faad8580226dc48a847cf5d request: {"id":"5faad8580226dc48a847cf5d"} body: {} 204 144.131 ms
+
+2020-11-10 20:13:46 [32minfo[39m: POST /users request: {} body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"} 200 147.870 ms
+
+2020-11-10 20:13:46 [32minfo[39m: GET /boards/5faad85a0226dc48a847cf74/tasks/5faad85a0226dc48a847cf78 request: {"boardId":"5faad85a0226dc48a847cf74","id":"5faad85a0226dc48a847cf78"} body: {} 200 66.011 ms
+
+2020-11-10 20:13:46 [32minfo[39m: GET /boards/5faad85a0226dc48a847cf74/tasks/5faad85a0226dc48a847cf7a request: {"boardId":"5faad85a0226dc48a847cf74","id":"5faad85a0226dc48a847cf7a"} body: {} 200 68.260 ms
+
+2020-11-10 20:13:46 [32minfo[39m: GET /boards/5faad85a0226dc48a847cf74/tasks/5faad85a0226dc48a847cf79 request: {"boardId":"5faad85a0226dc48a847cf74","id":"5faad85a0226dc48a847cf79"} body: {} 200 73.179 ms
+
+2020-11-10 20:13:46 [32minfo[39m: GET /boards/5faad85a0226dc48a847cf74/tasks/5faad85a0226dc48a847cf7b request: {"boardId":"5faad85a0226dc48a847cf74","id":"5faad85a0226dc48a847cf7b"} body: {} 200 75.914 ms
+
+2020-11-10 20:13:46 [32minfo[39m: GET /boards/5faad85a0226dc48a847cf74/tasks/5faad85a0226dc48a847cf7c request: {"boardId":"5faad85a0226dc48a847cf74","id":"5faad85a0226dc48a847cf7c"} body: {} 200 77.383 ms
+
+2020-11-10 20:13:46 [32minfo[39m: DELETE /users/5faad85a0226dc48a847cf77 request: {"id":"5faad85a0226dc48a847cf77"} body: {} 204 160.402 ms
+
+2020-11-10 20:13:46 [32minfo[39m: DELETE /boards/5faad85a0226dc48a847cf74 request: {"id":"5faad85a0226dc48a847cf74"} body: {} 204 140.819 ms
+
+2020-11-10 20:13:46 [32minfo[39m: GET /boards/5faad85a0226dc48a847cf74/tasks/5faad85a0226dc48a847cf78 request: {"boardId":"5faad85a0226dc48a847cf74","id":"5faad85a0226dc48a847cf78"} body: {} 404 69.827 ms
+
+2020-11-10 20:13:46 [32minfo[39m: GET /boards/5faad85a0226dc48a847cf74/tasks/5faad85a0226dc48a847cf7b request: {"boardId":"5faad85a0226dc48a847cf74","id":"5faad85a0226dc48a847cf7b"} body: {} 404 72.153 ms
+
+2020-11-10 20:13:46 [32minfo[39m: GET /boards/5faad85a0226dc48a847cf74/tasks/5faad85a0226dc48a847cf7a request: {"boardId":"5faad85a0226dc48a847cf74","id":"5faad85a0226dc48a847cf7a"} body: {} 404 77.527 ms
+
+2020-11-10 20:13:46 [32minfo[39m: POST /users request: {} body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"} 200 170.867 ms
+
+2020-11-10 20:13:46 [32minfo[39m: GET /boards/5faad85a0226dc48a847cf74/tasks/5faad85a0226dc48a847cf79 request: {"boardId":"5faad85a0226dc48a847cf74","id":"5faad85a0226dc48a847cf79"} body: {} 404 97.718 ms
+
+2020-11-10 20:13:46 [32minfo[39m: GET /boards/5faad85a0226dc48a847cf74/tasks/5faad85a0226dc48a847cf7c request: {"boardId":"5faad85a0226dc48a847cf74","id":"5faad85a0226dc48a847cf7c"} body: {} 404 97.059 ms
+
+2020-11-10 20:13:46 [32minfo[39m: POST /boards request: {} body: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]} 200 73.564 ms
+
+2020-11-10 20:13:46 [32minfo[39m: DELETE /boards/5faad8580226dc48a847cf60 request: {"id":"5faad8580226dc48a847cf60"} body: {} 204 143.820 ms
+
+2020-11-10 20:13:46 [32minfo[39m: POST /boards/5faad85a0226dc48a847cf7e/tasks request: {"boardId":"5faad85a0226dc48a847cf7e"} body: {"title":"Task #2","order":2,"description":"Lorem ipsum","userId":"5faad85a0226dc48a847cf7d","boardId":"5faad85a0226dc48a847cf7e"} 200 73.091 ms
+
+2020-11-10 20:13:46 [32minfo[39m: POST /boards/5faad85a0226dc48a847cf7e/tasks request: {"boardId":"5faad85a0226dc48a847cf7e"} body: {"title":"Task #1","order":1,"description":"Lorem ipsum","userId":"5faad85a0226dc48a847cf7d","boardId":"5faad85a0226dc48a847cf7e"} 200 76.582 ms
+
+2020-11-10 20:13:47 [32minfo[39m: DELETE /users/5faad85a0226dc48a847cf7d request: {"id":"5faad85a0226dc48a847cf7d"} body: {} 204 157.745 ms
+
+2020-11-10 20:13:47 [32minfo[39m: GET /boards/5faad85a0226dc48a847cf7e/tasks/5faad85a0226dc48a847cf81 request: {"boardId":"5faad85a0226dc48a847cf7e","id":"5faad85a0226dc48a847cf81"} body: {} 200 69.207 ms
+
+2020-11-10 20:13:47 [32minfo[39m: GET /boards/5faad85a0226dc48a847cf7e/tasks/5faad85a0226dc48a847cf82 request: {"boardId":"5faad85a0226dc48a847cf7e","id":"5faad85a0226dc48a847cf82"} body: {} 200 70.425 ms
+
+2020-11-10 20:13:47 [32minfo[39m: DELETE /boards/5faad85a0226dc48a847cf7e/tasks/5faad85a0226dc48a847cf81 request: {"boardId":"5faad85a0226dc48a847cf7e","id":"5faad85a0226dc48a847cf81"} body: {} 204 68.388 ms
+
+2020-11-10 20:13:47 [32minfo[39m: DELETE /boards/5faad85a0226dc48a847cf7e/tasks/5faad85a0226dc48a847cf82 request: {"boardId":"5faad85a0226dc48a847cf7e","id":"5faad85a0226dc48a847cf82"} body: {} 204 73.589 ms
+
+2020-11-10 20:13:47 [32minfo[39m: DELETE /boards/5faad85a0226dc48a847cf7e request: {"id":"5faad85a0226dc48a847cf7e"} body: {} 204 137.611 ms
+
+2020-11-10 20:13:57 [32minfo[39m: Application status: ✅ Running on http://localhost:4000
+2020-11-10 20:13:58 [32minfo[39m: Database status: ✅ Database connected
+2020-11-10 20:14:05 [32minfo[39m: GET /users request: {} body: {} 401 4.741 ms
+
+2020-11-10 20:14:05 [32minfo[39m: GET /users/123 request: {} body: {} 401 0.305 ms
+
+2020-11-10 20:14:05 [32minfo[39m: POST /users request: {} body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"} 401 19.353 ms
+
+2020-11-10 20:14:05 [32minfo[39m: GET /boards request: {} body: {} 401 0.525 ms
+
+2020-11-10 20:14:05 [32minfo[39m: GET /boards/12345/tasks request: {} body: {} 401 0.308 ms
+
+2020-11-10 20:14:05 [32minfo[39m: PUT /users/12345 request: {} body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"} 401 0.523 ms
+
+2020-11-10 20:14:05 [32minfo[39m: POST /login request: {} body: {"login":"admin","password":"admin"} 200 4.314 ms
+
+2020-11-10 20:14:05 [32minfo[39m: GET /boards/12345 request: {} body: {} 401 0.318 ms
+
+2020-11-10 20:14:05 [32minfo[39m: DELETE /users/12345 request: {} body: {} 401 0.248 ms
+
+2020-11-10 20:14:05 [32minfo[39m: POST /login request: {} body: {"login":"admin","password":"admin"} 200 0.757 ms
+
+2020-11-10 20:14:05 [32minfo[39m: GET /boards/12345/tasks/12345 request: {} body: {} 401 0.231 ms
+
+2020-11-10 20:14:05 [32minfo[39m: POST /login request: {} body: {"login":"admin","password":"admin"} 200 0.862 ms
+
+2020-11-10 20:14:05 [32minfo[39m: POST /boards request: {} body: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]} 401 0.781 ms
+
+2020-11-10 20:14:05 [32minfo[39m: POST /boards request: {} body: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]} 401 0.550 ms
+
+2020-11-10 20:14:05 [32minfo[39m: POST /boards/12345/tasks request: {} body: {"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null} 401 0.561 ms
+
+2020-11-10 20:14:05 [32minfo[39m: GET /users request: {} body: {} 401 0.283 ms
+
+2020-11-10 20:14:05 [32minfo[39m: POST /boards request: {} body: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]} 401 1.108 ms
+
+2020-11-10 20:14:05 [32minfo[39m: POST /boards/undefined/tasks request: {"boardId":"undefined"} body: {"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null} 401 0.560 ms
+
+2020-11-10 20:14:15 [32minfo[39m: Application status: ✅ Running on http://localhost:4000
+2020-11-10 20:14:16 [32minfo[39m: Database status: ✅ Database connected
+2020-11-10 20:14:24 [32minfo[39m: GET /boards/12345/tasks request: {} body: {} 401 3.247 ms
+
+2020-11-10 20:14:24 [32minfo[39m: GET /users request: {} body: {} 401 0.441 ms
+
+2020-11-10 20:14:24 [32minfo[39m: POST /login request: {} body: {"login":"admin","password":"admin"} 200 20.297 ms
+
+2020-11-10 20:14:24 [32minfo[39m: GET /boards request: {} body: {} 401 0.259 ms
+
+2020-11-10 20:14:24 [32minfo[39m: GET /boards/12345/tasks/12345 request: {} body: {} 401 0.249 ms
+
+2020-11-10 20:14:24 [32minfo[39m: GET /users/123 request: {} body: {} 401 0.267 ms
+
+2020-11-10 20:14:24 [32minfo[39m: POST /login request: {} body: {"login":"admin","password":"admin"} 200 0.812 ms
+
+2020-11-10 20:14:25 [32minfo[39m: POST /boards request: {} body: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]} 401 1.253 ms
+
+2020-11-10 20:14:25 [32minfo[39m: POST /login request: {} body: {"login":"admin","password":"admin"} 200 0.872 ms
+
+2020-11-10 20:14:25 [32minfo[39m: POST /boards/12345/tasks request: {} body: {"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null} 401 0.520 ms
+
+2020-11-10 20:14:25 [32minfo[39m: GET /boards/12345 request: {} body: {} 401 0.223 ms
+
+2020-11-10 20:14:25 [32minfo[39m: POST /users request: {} body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"} 401 0.447 ms
+
+2020-11-10 20:14:25 [32minfo[39m: GET /users request: {} body: {} 401 0.312 ms
+
+2020-11-10 20:14:25 [32minfo[39m: POST /boards/undefined/tasks request: {"boardId":"undefined"} body: {"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null} 401 0.529 ms
+
+2020-11-10 20:17:32 [32minfo[39m: Application status: ✅ Running on http://localhost:4000
+2020-11-10 20:17:33 [32minfo[39m: Database status: ✅ Database connected
+2020-11-10 20:17:40 [32minfo[39m: GET /boards/12345/tasks request: {} body: {} 401 3.559 ms
+
+2020-11-10 20:17:40 [32minfo[39m: GET /boards/12345/tasks/12345 request: {} body: {} 401 0.292 ms
+
+2020-11-10 20:17:40 [32minfo[39m: POST /boards/12345/tasks request: {} body: {"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null} 401 20.252 ms
+
+2020-11-10 20:17:40 [32minfo[39m: PUT /boards/12345/tasks/12345 request: {} body: {"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null} 401 0.827 ms
+
+2020-11-10 20:17:40 [32minfo[39m: DELETE /boards/12345/tasks/12345 request: {} body: {} 401 0.298 ms
+
+2020-11-10 20:17:40 [32minfo[39m: POST /login request: {} body: {"login":"admin","password":"admin"} 200 6.419 ms
+
+2020-11-10 20:17:40 [32minfo[39m: GET /boards request: {} body: {} 401 0.298 ms
+
+2020-11-10 20:17:40 [32minfo[39m: POST /login request: {} body: {"login":"admin","password":"admin"} 200 0.859 ms
+
+2020-11-10 20:17:40 [32minfo[39m: POST /boards request: undefined body: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]} 500 2.931 ms
+
+2020-11-10 20:17:40 [32minfo[39m: GET /users request: {} body: {} 401 0.276 ms
+
+2020-11-10 20:17:40 [32minfo[39m: POST /login request: {} body: {"login":"admin","password":"admin"} 200 0.792 ms
+
+2020-11-10 20:17:40 [32minfo[39m: GET /boards/12345 request: {} body: {} 401 0.264 ms
+
+2020-11-10 20:18:51 [32minfo[39m: Application status: ✅ Running on http://localhost:4000
+2020-11-10 20:18:52 [32minfo[39m: Database status: ✅ Database connected
+2020-11-10 20:18:58 [32minfo[39m: GET /boards request: {} body: {} 401 4.943 ms
+
+2020-11-10 20:18:58 [32minfo[39m: GET /boards/12345 request: {} body: {} 401 0.270 ms
+
+2020-11-10 20:18:58 [32minfo[39m: POST /boards request: {} body: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]} 401 20.277 ms
+
+2020-11-10 20:18:58 [32minfo[39m: GET /users request: {} body: {} 401 0.262 ms
+
+2020-11-10 20:18:58 [32minfo[39m: PUT /boards/12345 request: {} body: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]} 401 0.878 ms
+
+2020-11-10 20:18:58 [32minfo[39m: DELETE /boards/12345 request: {} body: {} 401 0.334 ms
+
+2020-11-10 20:18:59 [32minfo[39m: GET /users/123 request: {} body: {} 401 0.680 ms
+
+2020-11-10 20:18:59 [32minfo[39m: POST /login request: {} body: {"login":"admin","password":"admin"} 200 4.211 ms
+
+2020-11-10 20:18:59 [32minfo[39m: POST /users request: {} body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"} 401 0.531 ms
+
+2020-11-10 20:18:59 [32minfo[39m: POST /login request: {} body: {"login":"admin","password":"admin"} 200 0.791 ms
+
+2020-11-10 20:18:59 [32minfo[39m: GET /boards/12345/tasks request: {} body: {} 401 0.207 ms
+
+2020-11-10 20:18:59 [32minfo[39m: PUT /users/12345 request: {} body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"} 401 0.457 ms
+
+2020-11-10 20:18:59 [32minfo[39m: POST /boards request: undefined body: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]} 500 13.929 ms
+
+2020-11-10 20:18:59 [32minfo[39m: POST /login request: {} body: {"login":"admin","password":"admin"} 200 0.969 ms
+
+2020-11-10 20:18:59 [32minfo[39m: DELETE /users/12345 request: {} body: {} 401 0.321 ms
+
+2020-11-10 20:18:59 [32minfo[39m: GET /users request: undefined body: {} 500 0.739 ms
+
+2020-11-10 20:18:59 [32minfo[39m: GET /boards/12345/tasks/12345 request: {} body: {} 401 0.338 ms
+
+2020-11-10 20:20:43 [32minfo[39m: Application status: ✅ Running on http://localhost:4000
+2020-11-10 20:20:44 [32minfo[39m: Database status: ✅ Database connected
+2020-11-10 20:20:55 [32minfo[39m: GET /boards/12345/tasks request: {} body: {} 401 4.359 ms
+
+2020-11-10 20:20:55 [32minfo[39m: GET /users request: {} body: {} 401 0.370 ms
+
+2020-11-10 20:20:55 [32minfo[39m: POST /login request: {} body: {"login":"admin","password":"admin"} 200 18.853 ms
+
+2020-11-10 20:20:55 [32minfo[39m: GET /boards/12345/tasks/12345 request: {} body: {} 401 0.269 ms
+
+2020-11-10 20:20:55 [32minfo[39m: GET /boards request: {} body: {} 401 0.306 ms
+
+2020-11-10 20:20:55 [32minfo[39m: GET /users/123 request: {} body: {} 401 0.475 ms
+
+2020-11-10 20:20:55 [32minfo[39m: POST /login request: {} body: {"login":"admin","password":"admin"} 200 0.905 ms
+
+2020-11-10 20:20:55 [32minfo[39m: POST /boards request: {} body: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]} 401 0.815 ms
+
+2020-11-10 20:20:55 [32minfo[39m: POST /boards/12345/tasks request: {} body: {"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null} 401 1.490 ms
+
+2020-11-10 20:20:55 [32minfo[39m: POST /users request: {} body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"} 401 0.488 ms
+
+2020-11-10 20:20:55 [32minfo[39m: GET /boards/12345 request: {} body: {} 401 0.226 ms
+
+2020-11-10 20:20:55 [32minfo[39m: POST /login request: {} body: {"login":"admin","password":"admin"} 200 0.822 ms
+
+2020-11-10 20:20:55 [32minfo[39m: POST /boards/undefined/tasks request: {"boardId":"undefined"} body: {"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null} 401 0.515 ms
+
+2020-11-10 20:20:55 [32minfo[39m: GET /users request: {} body: {} 401 0.355 ms
+
+2020-11-10 20:20:55 [32minfo[39m: PUT /boards/12345/tasks/12345 request: {} body: {"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null} 401 0.498 ms
+
+2020-11-10 20:20:55 [32minfo[39m: PUT /users/12345 request: {} body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"} 401 0.426 ms
+
+2020-11-10 20:20:55 [32minfo[39m: POST /boards request: {} body: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]} 401 0.549 ms
+
+2020-11-10 20:27:13 [32minfo[39m: Application status: ✅ Running on http://localhost:4000
+2020-11-10 20:27:14 [32minfo[39m: Database status: ✅ Database connected
+2020-11-10 20:27:22 [32minfo[39m: GET /users request: {} body: {} 401 3.148 ms
+
+2020-11-10 20:27:22 [32minfo[39m: GET /boards/12345/tasks request: {} body: {} 401 0.413 ms
+
+2020-11-10 20:27:22 [32minfo[39m: GET /boards request: {} body: {} 401 0.299 ms
+
+2020-11-10 20:27:22 [32minfo[39m: GET /users/123 request: {} body: {} 401 0.237 ms
+
+2020-11-10 20:27:22 [32minfo[39m: GET /boards/12345/tasks/12345 request: {} body: {} 401 0.278 ms
+
+2020-11-10 20:27:22 [32minfo[39m: POST /users request: {} body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"} 401 15.324 ms
+
+2020-11-10 20:27:22 [32minfo[39m: GET /boards/12345 request: {} body: {} 401 0.343 ms
+
+2020-11-10 20:27:22 [32minfo[39m: POST /boards/12345/tasks request: {} body: {"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null} 401 1.442 ms
+
+2020-11-10 20:30:20 [32minfo[39m: Application status: ✅ Running on http://localhost:4000
+2020-11-10 20:30:21 [32minfo[39m: Database status: ✅ Database connected
+2020-11-10 20:30:25 [32minfo[39m: GET /boards request: {} body: {} 401 5.121 ms
+
+2020-11-10 20:30:25 [32minfo[39m: GET /users request: {} body: {} 401 0.465 ms
+
+2020-11-10 20:30:25 [32minfo[39m: GET /boards/12345 request: {} body: {} 401 0.514 ms
+
+2020-11-10 20:30:25 [32minfo[39m: POST /boards request: {} body: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]} 401 21.003 ms
+
+2020-11-10 20:30:25 [32minfo[39m: GET /users/123 request: {} body: {} 401 0.617 ms
+
+2020-11-10 20:35:24 [32minfo[39m: Application status: ✅ Running on http://localhost:4000
+2020-11-10 20:35:25 [32minfo[39m: Database status: ✅ Database connected
+2020-11-10 20:35:33 [32minfo[39m: GET /boards/12345/tasks request: {} body: {} 401 3.196 ms
+
+2020-11-10 20:35:33 [32minfo[39m: GET /boards request: {} body: {} 401 0.479 ms
+
+2020-11-10 20:35:33 [31merror[39m: unhandledRejection data and hash arguments required
+2020-11-10 20:36:13 [32minfo[39m: Application status: ✅ Running on http://localhost:4000
+2020-11-10 20:36:13 [32minfo[39m: Database status: ✅ Database connected
+2020-11-10 20:36:22 [32minfo[39m: GET /boards request: {} body: {} 401 3.250 ms
+
+2020-11-10 20:36:22 [32minfo[39m: GET /users request: {} body: {} 401 0.412 ms
+
+2020-11-10 20:36:22 [32minfo[39m: GET /boards/12345 request: {} body: {} 401 0.300 ms
+
+2020-11-10 20:36:22 [32minfo[39m: POST /boards request: {} body: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]} 401 16.446 ms
+
+2020-11-10 20:36:22 [32minfo[39m: GET /users/123 request: {} body: {} 401 0.306 ms
+
+2020-11-10 20:37:24 [32minfo[39m: Application status: ✅ Running on http://localhost:4000
+2020-11-10 20:37:25 [32minfo[39m: Database status: ✅ Database connected
+2020-11-10 20:37:38 [32minfo[39m: GET /boards/12345/tasks request: {} body: {} 401 3.698 ms
+
+2020-11-10 20:37:38 [32minfo[39m: GET /boards request: {} body: {} 401 0.372 ms
+
+2020-11-10 20:37:38 [32minfo[39m: GET /boards/12345/tasks/12345 request: {} body: {} 401 0.293 ms
+
+2020-11-10 20:37:38 [32minfo[39m: GET /boards/12345 request: {} body: {} 401 0.388 ms
+
+2020-11-10 20:37:38 [32minfo[39m: POST /boards/12345/tasks request: {} body: {"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null} 401 14.200 ms
+
+2020-11-10 20:37:38 [32minfo[39m: GET /users request: {} body: {} 401 0.267 ms
+
+2020-11-10 20:42:33 [32minfo[39m: Application status: ✅ Running on http://localhost:4000
+2020-11-10 20:42:34 [32minfo[39m: Database status: ✅ Database connected
+2020-11-10 20:46:40 [32minfo[39m: Application status: ✅ Running on http://localhost:4000
+2020-11-10 20:46:42 [32minfo[39m: Application status: ✅ Running on http://localhost:4000
+2020-11-10 20:46:43 [32minfo[39m: Database status: ✅ Database connected
+2020-11-10 20:46:50 [32minfo[39m: GET /boards/12345/tasks request: {} body: {} 401 3.179 ms
+
+2020-11-10 20:46:51 [32minfo[39m: GET /boards/12345/tasks/12345 request: {} body: {} 401 0.423 ms
+
+2020-11-10 20:46:51 [32minfo[39m: POST /boards/12345/tasks request: {} body: {"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null} 401 16.878 ms
+
+2020-11-10 20:46:51 [32minfo[39m: GET /boards request: {} body: {} 401 0.436 ms
+
+2020-11-10 21:38:21 [32minfo[39m: Application status: ✅ Running on http://localhost:4000
+2020-11-10 21:38:22 [32minfo[39m: Database status: ✅ Database connected
+2020-11-10 21:38:31 [32minfo[39m: GET /boards request: {} body: {} 401 4.718 ms
+
+2020-11-10 21:38:31 [32minfo[39m: GET /boards/12345/tasks request: {} body: {} 401 0.287 ms
+
+2020-11-10 21:38:31 [32minfo[39m: GET /users request: {} body: {} 401 0.295 ms
+
+2020-11-10 21:38:31 [32minfo[39m: GET /boards/12345 request: {} body: {} 401 0.427 ms
+
+2020-11-10 21:38:31 [32minfo[39m: GET /boards/12345/tasks/12345 request: {} body: {} 401 0.482 ms
+
+2020-11-10 21:38:31 [32minfo[39m: POST /boards request: {} body: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]} 401 14.818 ms
+
+2020-11-10 21:38:31 [32minfo[39m: GET /users/123 request: {} body: {} 401 0.252 ms
+
+2020-11-10 21:38:52 [32minfo[39m: Application status: ✅ Running on http://localhost:4000
+2020-11-10 21:38:53 [32minfo[39m: Database status: ✅ Database connected
+2020-11-10 21:39:00 [32minfo[39m: POST /boards request: {} body: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]} 200 123.905 ms
+
+2020-11-10 21:39:00 [32minfo[39m: GET /users request: {} body: {} 200 196.984 ms
+
+2020-11-10 21:39:00 [32minfo[39m: POST /boards request: {} body: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]} 200 268.601 ms
+
+2020-11-10 21:39:00 [32minfo[39m: POST /boards/5faaec546f40cf129c0f1e44/tasks request: {"boardId":"5faaec546f40cf129c0f1e44"} body: {"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null} 200 224.890 ms
+
+2020-11-10 21:39:00 [32minfo[39m: GET /boards request: {} body: {} 200 173.100 ms
+
+2020-11-10 21:39:01 [32minfo[39m: GET /boards request: {} body: {} 200 92.157 ms
+
+2020-11-10 21:39:01 [32minfo[39m: POST /users request: {} body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"} 200 394.589 ms
+
+2020-11-10 21:39:01 [32minfo[39m: GET /boards/5fa151c2b6f24e442cec7b1d request: {"id":"5fa151c2b6f24e442cec7b1d"} body: {} 200 75.267 ms
+
+2020-11-10 21:39:01 [32minfo[39m: GET /boards/5faaec546f40cf129c0f1e44/tasks request: {"boardId":"5faaec546f40cf129c0f1e44"} body: {} 200 348.328 ms
+
+2020-11-10 21:39:01 [32minfo[39m: GET /users/5faaec546f40cf129c0f1e4b request: {"id":"5faaec546f40cf129c0f1e4b"} body: {} 200 91.674 ms
+
+2020-11-10 21:39:01 [32minfo[39m: POST /boards request: {} body: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]} 200 78.763 ms
+
+2020-11-10 21:39:01 [32minfo[39m: DELETE /users/5faaec546f40cf129c0f1e4b request: {"id":"5faaec546f40cf129c0f1e4b"} body: {} 204 149.319 ms
+
+2020-11-10 21:39:01 [32minfo[39m: DELETE /boards/5faaec556f40cf129c0f1e4c request: {"id":"5faaec556f40cf129c0f1e4c"} body: {} 204 153.502 ms
+
+2020-11-10 21:39:01 [32minfo[39m: GET /boards/5faaec546f40cf129c0f1e44/tasks request: {"boardId":"5faaec546f40cf129c0f1e44"} body: {} 200 234.218 ms
+
+2020-11-10 21:39:01 [32minfo[39m: POST /boards request: {} body: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]} 200 85.973 ms
+
+2020-11-10 21:39:01 [32minfo[39m: GET /boards/5fa151c2b6f24e442cec7b20/tasks/5fa151c2b6f24e442cec7b23 request: {"boardId":"5fa151c2b6f24e442cec7b20","id":"5fa151c2b6f24e442cec7b23"} body: {} 200 69.061 ms
+
+2020-11-10 21:39:01 [32minfo[39m: POST /users request: {} body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"} 200 231.452 ms
+
+2020-11-10 21:39:01 [32minfo[39m: POST /boards/5faaec546f40cf129c0f1e44/tasks request: {"boardId":"5faaec546f40cf129c0f1e44"} body: {"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null} 200 77.203 ms
+
+2020-11-10 21:39:01 [32minfo[39m: PUT /boards/5faaec556f40cf129c0f1e4f request: {"id":"5faaec556f40cf129c0f1e4f"} body: {"id":"5faaec556f40cf129c0f1e4f","title":"Autotest updated board","columns":[{"_id":"5faaec556f40cf129c0f1e50","title":"Backlog","order":1},{"_id":"5faaec556f40cf129c0f1e51","title":"Sprint","order":2}]} 200 150.330 ms
+
+2020-11-10 21:39:01 [32minfo[39m: DELETE /boards/5faaec546f40cf129c0f1e44/tasks/5faaec556f40cf129c0f1e55 request: {"boardId":"5faaec546f40cf129c0f1e44","id":"5faaec556f40cf129c0f1e55"} body: {} 204 74.091 ms
+
+2020-11-10 21:39:01 [32minfo[39m: GET /boards/5faaec556f40cf129c0f1e4f request: {"id":"5faaec556f40cf129c0f1e4f"} body: {} 200 70.583 ms
+
+2020-11-10 21:39:01 [32minfo[39m: DELETE /users/5faaec556f40cf129c0f1e52 request: {"id":"5faaec556f40cf129c0f1e52"} body: {} 204 141.119 ms
+
+2020-11-10 21:39:01 [32minfo[39m: POST /boards/5faaec546f40cf129c0f1e44/tasks request: {"boardId":"5faaec546f40cf129c0f1e44"} body: {"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null} 200 79.210 ms
+
+2020-11-10 21:39:01 [32minfo[39m: DELETE /boards/5faaec556f40cf129c0f1e4f request: {"id":"5faaec556f40cf129c0f1e4f"} body: {} 204 144.792 ms
+
+2020-11-10 21:39:01 [32minfo[39m: PUT /boards/5faaec546f40cf129c0f1e44/tasks/5faaec556f40cf129c0f1e56 request: {"boardId":"5faaec546f40cf129c0f1e44","id":"5faaec556f40cf129c0f1e56"} body: {"id":"5faaec556f40cf129c0f1e56","title":"Autotest updated task","order":0,"description":"Lorem ipsum","userId":null,"boardId":"5faaec546f40cf129c0f1e44","columnId":null} 200 144.169 ms
+
+2020-11-10 21:39:01 [32minfo[39m: POST /boards request: {} body: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]} 200 74.139 ms
+
+2020-11-10 21:39:02 [32minfo[39m: POST /users request: {} body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"} 200 229.761 ms
+
+2020-11-10 21:39:02 [32minfo[39m: GET /boards/5faaec546f40cf129c0f1e44/tasks/5faaec556f40cf129c0f1e56 request: {"boardId":"5faaec546f40cf129c0f1e44","id":"5faaec556f40cf129c0f1e56"} body: {} 200 70.431 ms
+
+2020-11-10 21:39:02 [32minfo[39m: DELETE /boards/5faaec556f40cf129c0f1e58 request: {"id":"5faaec556f40cf129c0f1e58"} body: {} 204 140.454 ms
+
+2020-11-10 21:39:02 [32minfo[39m: GET /boards/5faaec546f40cf129c0f1e44/tasks/5faaec546f40cf129c0f1e4a request: {"boardId":"5faaec546f40cf129c0f1e44","id":"5faaec546f40cf129c0f1e4a"} body: {} 200 72.593 ms
+
+2020-11-10 21:39:02 [32minfo[39m: PUT /users/5faaec556f40cf129c0f1e57 request: {"id":"5faaec556f40cf129c0f1e57"} body: {"name":"Autotest updated TEST_USER","login":"test_user","password":"T35t_P@55w0rd","id":"5faaec556f40cf129c0f1e57"} 200 146.683 ms
+
+2020-11-10 21:39:02 [32minfo[39m: GET /boards/5faaec556f40cf129c0f1e58 request: {"id":"5faaec556f40cf129c0f1e58"} body: {} 404 69.651 ms
+
+2020-11-10 21:39:02 [32minfo[39m: DELETE /boards/5faaec546f40cf129c0f1e44/tasks/5faaec546f40cf129c0f1e4a request: {"boardId":"5faaec546f40cf129c0f1e44","id":"5faaec546f40cf129c0f1e4a"} body: {} 204 71.345 ms
+
+2020-11-10 21:39:02 [32minfo[39m: GET /users/5faaec556f40cf129c0f1e57 request: {"id":"5faaec556f40cf129c0f1e57"} body: {} 200 69.254 ms
+
+2020-11-10 21:39:02 [32minfo[39m: GET /boards/5faaec546f40cf129c0f1e44/tasks/5faaec546f40cf129c0f1e4a request: {"boardId":"5faaec546f40cf129c0f1e44","id":"5faaec546f40cf129c0f1e4a"} body: {} 404 68.295 ms
+
+2020-11-10 21:39:02 [32minfo[39m: POST /boards request: {} body: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]} 200 77.464 ms
+
+2020-11-10 21:39:02 [32minfo[39m: POST /boards/5faaec566f40cf129c0f1e5b/tasks request: {"boardId":"5faaec566f40cf129c0f1e5b"} body: {"title":"Task #3","order":3,"description":"Lorem ipsum","boardId":"5faaec566f40cf129c0f1e5b","userId":null,"columnId":null} 200 74.267 ms
+
+2020-11-10 21:39:02 [32minfo[39m: POST /boards/5faaec566f40cf129c0f1e5b/tasks request: {"boardId":"5faaec566f40cf129c0f1e5b"} body: {"title":"Task #2","order":2,"description":"Lorem ipsum","boardId":"5faaec566f40cf129c0f1e5b","userId":null,"columnId":null} 200 80.205 ms
+
+2020-11-10 21:39:02 [32minfo[39m: POST /boards/5faaec566f40cf129c0f1e5b/tasks request: {"boardId":"5faaec566f40cf129c0f1e5b"} body: {"title":"Task #1","order":1,"description":"Lorem ipsum","boardId":"5faaec566f40cf129c0f1e5b","userId":null,"columnId":null} 200 91.042 ms
+
+2020-11-10 21:39:02 [32minfo[39m: POST /boards/5faaec566f40cf129c0f1e5b/tasks request: {"boardId":"5faaec566f40cf129c0f1e5b"} body: {"title":"Task #5","order":5,"description":"Lorem ipsum","boardId":"5faaec566f40cf129c0f1e5b","userId":null,"columnId":null} 200 81.524 ms
+
+2020-11-10 21:39:02 [32minfo[39m: POST /boards/5faaec566f40cf129c0f1e5b/tasks request: {"boardId":"5faaec566f40cf129c0f1e5b"} body: {"title":"Task #4","order":4,"description":"Lorem ipsum","boardId":"5faaec566f40cf129c0f1e5b","userId":null,"columnId":null} 200 85.774 ms
+
+2020-11-10 21:39:02 [32minfo[39m: DELETE /users/5faaec556f40cf129c0f1e57 request: {"id":"5faaec556f40cf129c0f1e57"} body: {} 204 145.829 ms
+
+2020-11-10 21:39:02 [32minfo[39m: DELETE /boards/5faaec546f40cf129c0f1e44 request: {"id":"5faaec546f40cf129c0f1e44"} body: {} 204 141.434 ms
+
+2020-11-10 21:39:02 [32minfo[39m: GET /boards/5faaec566f40cf129c0f1e5b/tasks/5faaec566f40cf129c0f1e5e request: {"boardId":"5faaec566f40cf129c0f1e5b","id":"5faaec566f40cf129c0f1e5e"} body: {} 200 74.201 ms
+
+2020-11-10 21:39:02 [32minfo[39m: GET /boards/5faaec566f40cf129c0f1e5b/tasks/5faaec566f40cf129c0f1e5f request: {"boardId":"5faaec566f40cf129c0f1e5b","id":"5faaec566f40cf129c0f1e5f"} body: {} 200 75.490 ms
+
+2020-11-10 21:39:02 [32minfo[39m: GET /boards/5faaec566f40cf129c0f1e5b/tasks/5faaec566f40cf129c0f1e60 request: {"boardId":"5faaec566f40cf129c0f1e5b","id":"5faaec566f40cf129c0f1e60"} body: {} 200 82.740 ms
+
+2020-11-10 21:39:02 [32minfo[39m: GET /boards/5faaec566f40cf129c0f1e5b/tasks/5faaec566f40cf129c0f1e62 request: {"boardId":"5faaec566f40cf129c0f1e5b","id":"5faaec566f40cf129c0f1e62"} body: {} 200 90.693 ms
+
+2020-11-10 21:39:02 [32minfo[39m: GET /boards/5faaec566f40cf129c0f1e5b/tasks/5faaec566f40cf129c0f1e61 request: {"boardId":"5faaec566f40cf129c0f1e5b","id":"5faaec566f40cf129c0f1e61"} body: {} 200 93.531 ms
+
+2020-11-10 21:39:02 [32minfo[39m: POST /users request: {} body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"} 200 231.289 ms
+
+2020-11-10 21:39:02 [32minfo[39m: DELETE /boards/5faaec566f40cf129c0f1e5b request: {"id":"5faaec566f40cf129c0f1e5b"} body: {} 204 138.345 ms
+
+2020-11-10 21:39:02 [32minfo[39m: GET /boards/5faaec566f40cf129c0f1e5b/tasks/5faaec566f40cf129c0f1e61 request: {"boardId":"5faaec566f40cf129c0f1e5b","id":"5faaec566f40cf129c0f1e61"} body: {} 404 67.013 ms
+
+2020-11-10 21:39:02 [32minfo[39m: GET /boards/5faaec566f40cf129c0f1e5b/tasks/5faaec566f40cf129c0f1e5e request: {"boardId":"5faaec566f40cf129c0f1e5b","id":"5faaec566f40cf129c0f1e5e"} body: {} 404 73.374 ms
+
+2020-11-10 21:39:02 [32minfo[39m: GET /boards/5faaec566f40cf129c0f1e5b/tasks/5faaec566f40cf129c0f1e60 request: {"boardId":"5faaec566f40cf129c0f1e5b","id":"5faaec566f40cf129c0f1e60"} body: {} 404 85.153 ms
+
+2020-11-10 21:39:02 [32minfo[39m: GET /boards/5faaec566f40cf129c0f1e5b/tasks/5faaec566f40cf129c0f1e62 request: {"boardId":"5faaec566f40cf129c0f1e5b","id":"5faaec566f40cf129c0f1e62"} body: {} 404 88.867 ms
+
+2020-11-10 21:39:02 [32minfo[39m: GET /boards/5faaec566f40cf129c0f1e5b/tasks/5faaec566f40cf129c0f1e5f request: {"boardId":"5faaec566f40cf129c0f1e5b","id":"5faaec566f40cf129c0f1e5f"} body: {} 404 94.271 ms
+
+2020-11-10 21:39:02 [32minfo[39m: DELETE /users/5faaec566f40cf129c0f1e63 request: {"id":"5faaec566f40cf129c0f1e63"} body: {} 204 168.909 ms
+
+2020-11-10 21:39:02 [32minfo[39m: DELETE /boards/5faaec546f40cf129c0f1e47 request: {"id":"5faaec546f40cf129c0f1e47"} body: {} 204 144.162 ms
+
+2020-11-10 21:39:03 [32minfo[39m: POST /users request: {} body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"} 200 231.433 ms
+
+2020-11-10 21:39:03 [32minfo[39m: POST /boards request: {} body: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]} 200 77.068 ms
+
+2020-11-10 21:39:03 [32minfo[39m: POST /boards/5faaec576f40cf129c0f1e65/tasks request: {"boardId":"5faaec576f40cf129c0f1e65"} body: {"title":"Task #1","order":1,"description":"Lorem ipsum","userId":"5faaec566f40cf129c0f1e64","boardId":"5faaec576f40cf129c0f1e65"} 200 78.567 ms
+
+2020-11-10 21:39:03 [32minfo[39m: POST /boards/5faaec576f40cf129c0f1e65/tasks request: {"boardId":"5faaec576f40cf129c0f1e65"} body: {"title":"Task #2","order":2,"description":"Lorem ipsum","userId":"5faaec566f40cf129c0f1e64","boardId":"5faaec576f40cf129c0f1e65"} 200 76.932 ms
+
+2020-11-10 21:39:03 [32minfo[39m: DELETE /users/5faaec566f40cf129c0f1e64 request: {"id":"5faaec566f40cf129c0f1e64"} body: {} 204 155.860 ms
+
+2020-11-10 21:39:03 [32minfo[39m: GET /boards/5faaec576f40cf129c0f1e65/tasks/5faaec576f40cf129c0f1e68 request: {"boardId":"5faaec576f40cf129c0f1e65","id":"5faaec576f40cf129c0f1e68"} body: {} 200 75.689 ms
+
+2020-11-10 21:39:03 [32minfo[39m: GET /boards/5faaec576f40cf129c0f1e65/tasks/5faaec576f40cf129c0f1e69 request: {"boardId":"5faaec576f40cf129c0f1e65","id":"5faaec576f40cf129c0f1e69"} body: {} 200 74.473 ms
+
+2020-11-10 21:39:03 [32minfo[39m: DELETE /boards/5faaec576f40cf129c0f1e65/tasks/5faaec576f40cf129c0f1e68 request: {"boardId":"5faaec576f40cf129c0f1e65","id":"5faaec576f40cf129c0f1e68"} body: {} 204 73.481 ms
+
+2020-11-10 21:39:03 [32minfo[39m: DELETE /boards/5faaec576f40cf129c0f1e65/tasks/5faaec576f40cf129c0f1e69 request: {"boardId":"5faaec576f40cf129c0f1e65","id":"5faaec576f40cf129c0f1e69"} body: {} 204 74.547 ms
+
+2020-11-10 21:39:03 [32minfo[39m: DELETE /boards/5faaec576f40cf129c0f1e65 request: {"id":"5faaec576f40cf129c0f1e65"} body: {} 204 140.077 ms
+
+2020-11-10 21:39:13 [32minfo[39m: Application status: ✅ Running on http://localhost:4000
+2020-11-10 21:39:14 [32minfo[39m: Database status: ✅ Database connected
+2020-11-10 21:39:19 [32minfo[39m: GET /boards/12345/tasks request: {} body: {} 401 5.009 ms
+
+2020-11-10 21:39:19 [32minfo[39m: GET /boards request: {} body: {} 401 0.361 ms
+
+2020-11-10 21:39:19 [32minfo[39m: GET /users request: {} body: {} 401 0.239 ms
+
+2020-11-10 21:39:19 [32minfo[39m: GET /boards/12345/tasks/12345 request: {} body: {} 401 0.439 ms
+
+2020-11-10 21:39:19 [32minfo[39m: GET /boards/12345 request: {} body: {} 401 0.288 ms
+
+2020-11-10 21:39:19 [32minfo[39m: POST /boards/12345/tasks request: {} body: {"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null} 401 13.923 ms
+
+2020-11-10 21:39:19 [32minfo[39m: GET /users/123 request: {} body: {} 401 0.252 ms
+
+2020-11-10 21:44:23 [32minfo[39m: Application status: ✅ Running on http://localhost:4000
+2020-11-10 21:44:24 [32minfo[39m: Database status: ✅ Database connected
+2020-11-10 21:44:25 [32minfo[39m: Application status: ✅ Running on http://localhost:4000
+2020-11-10 21:44:26 [32minfo[39m: Database status: ✅ Database connected
+2020-11-10 21:44:39 [32minfo[39m: GET /users request: {} body: {} 403 4.269 ms
+
+2020-11-10 21:44:39 [32minfo[39m: GET /users/123 request: {} body: {} 403 0.437 ms
+
+2020-11-10 21:44:40 [32minfo[39m: GET /boards request: {} body: {} 403 0.797 ms
+
+2020-11-10 21:44:40 [32minfo[39m: POST /users request: {} body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"} 403 18.695 ms
+
+2020-11-10 21:47:33 [32minfo[39m: Application status: ✅ Running on http://localhost:4000
+2020-11-10 21:47:34 [32minfo[39m: Database status: ✅ Database connected
+2020-11-10 21:47:44 [32minfo[39m: GET /users request: {} body: {} 401 5.226 ms
+
+2020-11-10 21:47:44 [32minfo[39m: GET /boards request: {} body: {} 401 0.549 ms
+
+2020-11-10 21:47:44 [32minfo[39m: GET /boards/12345/tasks request: {} body: {} 401 0.531 ms
+
+2020-11-10 21:47:44 [32minfo[39m: GET /users/123 request: {} body: {} 401 0.378 ms
+
+2020-11-10 21:47:44 [32minfo[39m: GET /boards/12345 request: {} body: {} 401 0.410 ms
+
+2020-11-10 21:47:44 [32minfo[39m: POST /users request: {} body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"} 401 19.723 ms
+
+2020-11-10 21:47:44 [32minfo[39m: GET /boards/12345/tasks/12345 request: {} body: {} 401 0.546 ms
+
+2020-11-10 21:47:44 [32minfo[39m: POST /boards request: {} body: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]} 401 0.583 ms
+
+2020-11-10 21:47:44 [32minfo[39m: PUT /users/12345 request: {} body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"} 401 0.632 ms
+
+2020-11-10 21:47:44 [32minfo[39m: POST /boards/12345/tasks request: {} body: {"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null} 401 0.585 ms
+
+2020-11-10 21:47:44 [32minfo[39m: PUT /boards/12345 request: {} body: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]} 401 0.817 ms
+
+2020-11-10 21:47:44 [32minfo[39m: DELETE /users/12345 request: {} body: {} 401 0.350 ms
+
+2020-11-10 21:47:44 [32minfo[39m: PUT /boards/12345/tasks/12345 request: {} body: {"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null} 401 0.751 ms
+
+2020-11-10 21:47:44 [32minfo[39m: DELETE /boards/12345 request: {} body: {} 401 0.414 ms
+
+2020-11-10 21:47:45 [32minfo[39m: DELETE /boards/12345/tasks/12345 request: {} body: {} 401 0.364 ms
+
+2020-11-10 21:47:45 [31merror[39m: uncaughtException Cannot read property 'login' of null
+2020-11-10 21:49:50 [32minfo[39m: Application status: ✅ Running on http://localhost:4000
+2020-11-10 21:49:51 [32minfo[39m: Database status: ✅ Database connected
+2020-11-10 21:49:59 [32minfo[39m: GET /users request: {} body: {} 403 4.757 ms
+
+2020-11-10 21:49:59 [32minfo[39m: GET /boards/12345/tasks request: {} body: {} 403 0.708 ms
+
+2020-11-10 21:49:59 [32minfo[39m: GET /users/123 request: {} body: {} 403 0.423 ms
+
+2020-11-10 21:49:59 [32minfo[39m: GET /boards request: {} body: {} 403 0.593 ms
+
+2020-11-10 21:49:59 [32minfo[39m: POST /users request: {} body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"} 403 18.124 ms
+
+2020-11-10 21:49:59 [32minfo[39m: GET /boards/12345/tasks/12345 request: {} body: {} 403 0.346 ms
+
+2020-11-10 21:49:59 [32minfo[39m: GET /boards/12345 request: {} body: {} 403 0.284 ms
+
+2020-11-10 21:49:59 [32minfo[39m: PUT /users/12345 request: {} body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"} 403 0.482 ms
+
+2020-11-10 21:49:59 [32minfo[39m: POST /boards/12345/tasks request: {} body: {"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null} 403 0.614 ms
+
+2020-11-10 21:49:59 [32minfo[39m: POST /boards request: {} body: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]} 403 0.552 ms
+
+2020-11-10 21:49:59 [32minfo[39m: DELETE /users/12345 request: {} body: {} 403 0.217 ms
+
+2020-11-10 21:49:59 [32minfo[39m: PUT /boards/12345/tasks/12345 request: {} body: {"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null} 403 0.490 ms
+
+2020-11-10 21:49:59 [32minfo[39m: PUT /boards/12345 request: {} body: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]} 403 0.797 ms
+
+2020-11-10 21:49:59 [32minfo[39m: DELETE /boards/12345/tasks/12345 request: {} body: {} 403 0.279 ms
+
+2020-11-10 21:49:59 [32minfo[39m: DELETE /boards/12345 request: {} body: {} 403 0.285 ms
+
+2020-11-10 21:50:08 [32minfo[39m: Application status: ✅ Running on http://localhost:4000
+2020-11-10 21:50:08 [32minfo[39m: Database status: ✅ Database connected
+2020-11-10 21:50:16 [32minfo[39m: GET /users request: {} body: {} 401 3.772 ms
+
+2020-11-10 21:50:16 [32minfo[39m: GET /boards/12345/tasks request: {} body: {} 401 0.631 ms
+
+2020-11-10 21:50:16 [32minfo[39m: GET /boards request: {} body: {} 401 0.270 ms
+
+2020-11-10 21:50:16 [32minfo[39m: GET /users/123 request: {} body: {} 401 0.267 ms
+
+2020-11-10 21:50:16 [32minfo[39m: GET /boards/12345 request: {} body: {} 401 0.470 ms
+
+2020-11-10 21:50:16 [32minfo[39m: GET /boards/12345/tasks/12345 request: {} body: {} 401 0.332 ms
+
+2020-11-10 21:50:16 [32minfo[39m: POST /users request: {} body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"} 401 0.590 ms
+
+2020-11-10 21:50:16 [32minfo[39m: POST /boards request: {} body: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]} 401 0.490 ms
+
+2020-11-10 21:50:16 [32minfo[39m: POST /boards/12345/tasks request: {} body: {"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null} 401 0.458 ms
+
+2020-11-10 21:50:16 [32minfo[39m: PUT /users/12345 request: {} body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"} 401 0.690 ms
+
+2020-11-10 21:50:16 [32minfo[39m: PUT /boards/12345 request: {} body: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]} 401 0.430 ms
+
+2020-11-10 21:50:16 [32minfo[39m: PUT /boards/12345/tasks/12345 request: {} body: {"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null} 401 0.495 ms
+
+2020-11-10 21:50:16 [32minfo[39m: DELETE /users/12345 request: {} body: {} 401 0.268 ms
+
+2020-11-10 21:50:16 [32minfo[39m: DELETE /boards/12345 request: {} body: {} 401 0.260 ms
+
+2020-11-10 21:50:16 [32minfo[39m: DELETE /boards/12345/tasks/12345 request: {} body: {} 401 0.228 ms
+
+2020-11-10 21:50:16 [31merror[39m: uncaughtException Cannot read property 'login' of null
+2020-11-10 21:51:01 [32minfo[39m: Application status: ✅ Running on http://localhost:4000
+2020-11-10 21:51:02 [32minfo[39m: Database status: ✅ Database connected
+2020-11-10 21:51:05 [32minfo[39m: Application status: ✅ Running on http://localhost:4000
+2020-11-10 21:51:06 [32minfo[39m: Database status: ✅ Database connected
+2020-11-10 21:51:52 [32minfo[39m: Application status: ✅ Running on http://localhost:4000
+2020-11-10 21:51:53 [32minfo[39m: Database status: ✅ Database connected
+2020-11-10 21:52:00 [32minfo[39m: GET /boards/12345/tasks request: undefined body: {} 500 3.596 ms
+
+2020-11-10 21:52:00 [32minfo[39m: GET /users request: undefined body: {} 500 0.474 ms
+
+2020-11-10 21:52:00 [32minfo[39m: GET /boards/12345/tasks/12345 request: undefined body: {} 500 35.210 ms
+
+2020-11-10 21:52:00 [32minfo[39m: GET /boards request: undefined body: {} 500 40.811 ms
+
+2020-11-10 21:52:00 [32minfo[39m: GET /users/123 request: undefined body: {} 500 0.618 ms
+
+2020-11-10 21:52:26 [32minfo[39m: Application status: ✅ Running on http://localhost:4000
+2020-11-10 21:52:26 [32minfo[39m: Database status: ✅ Database connected
+2020-11-10 21:52:35 [32minfo[39m: GET /boards/12345/tasks request: {} body: {} 401 4.757 ms
+
+2020-11-10 21:52:35 [32minfo[39m: GET /boards/12345/tasks/12345 request: {} body: {} 401 0.313 ms
+
+2020-11-10 21:52:35 [32minfo[39m: POST /boards/12345/tasks request: {} body: {"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null} 401 17.642 ms
+
+2020-11-10 21:52:35 [32minfo[39m: PUT /boards/12345/tasks/12345 request: {} body: {"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null} 401 1.478 ms
+
+2020-11-10 21:52:35 [32minfo[39m: DELETE /boards/12345/tasks/12345 request: {} body: {} 401 0.427 ms
+
+2020-11-10 21:52:35 [32minfo[39m: GET /boards request: {} body: {} 200 127.826 ms
+
+2020-11-10 21:52:35 [32minfo[39m: GET /boards/12345 request: {} body: {} 401 0.826 ms
+
+2020-11-10 21:52:35 [32minfo[39m: GET /users request: {} body: {} 200 160.626 ms
+
+2020-11-10 21:52:35 [32minfo[39m: GET /users/123 request: {} body: {} 401 0.518 ms
+
+2020-11-10 21:52:35 [32minfo[39m: POST /login request: {} body: {"login":"admin","password":"admin"} 200 174.860 ms
+
+2020-11-10 21:52:36 [32minfo[39m: POST /login request: {} body: {"login":"admin","password":"admin"} 200 151.178 ms
+
+2020-11-10 21:52:36 [32minfo[39m: POST /login request: {} body: {"login":"admin","password":"admin"} 200 159.495 ms
+
+2020-11-10 21:52:36 [31merror[39m: uncaughtException Cannot read property 'login' of null
+2020-11-10 21:54:45 [32minfo[39m: Application status: ✅ Running on http://localhost:4000
+2020-11-10 21:54:46 [32minfo[39m: Database status: ✅ Database connected
+2020-11-10 21:57:56 [32minfo[39m: Application status: ✅ Running on http://localhost:4000
+2020-11-10 21:57:57 [32minfo[39m: Database status: ✅ Database connected
+2020-11-10 21:58:04 [32minfo[39m: GET /boards/12345/tasks request: {} body: {} 401 1.827 ms
+
+2020-11-10 21:58:04 [32minfo[39m: GET /boards/12345/tasks/12345 request: {} body: {} 401 0.261 ms
+
+2020-11-10 21:58:04 [32minfo[39m: POST /boards/12345/tasks request: {} body: {"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null} 401 0.594 ms
+
+2020-11-10 21:58:04 [32minfo[39m: GET /boards request: {} body: {} 200 82.152 ms
+
+2020-11-10 21:58:04 [32minfo[39m: PUT /boards/12345/tasks/12345 request: {} body: {"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null} 401 0.947 ms
+
+2020-11-10 21:58:04 [32minfo[39m: DELETE /boards/12345/tasks/12345 request: {} body: {} 401 0.240 ms
+
+2020-11-10 21:58:04 [32minfo[39m: GET /boards/12345 request: {} body: {} 401 0.349 ms
+
+2020-11-10 21:58:04 [31merror[39m: uncaughtException Cannot read property 'login' of null
+2020-11-10 22:13:22 [32minfo[39m: Application status: ✅ Running on http://localhost:4000
+2020-11-10 22:13:23 [32minfo[39m: Database status: ✅ Database connected
+2020-11-10 22:13:30 [32minfo[39m: GET /boards/12345/tasks request: {} body: {} 401 3.037 ms
+
+2020-11-10 22:13:30 [32minfo[39m: GET /boards/12345/tasks/12345 request: {} body: {} 401 0.278 ms
+
+2020-11-10 22:13:30 [32minfo[39m: POST /boards/12345/tasks request: {} body: {"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null} 401 0.666 ms
+
+2020-11-10 22:13:30 [32minfo[39m: PUT /boards/12345/tasks/12345 request: {} body: {"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null} 401 0.523 ms
+
+2020-11-10 22:13:30 [32minfo[39m: DELETE /boards/12345/tasks/12345 request: {} body: {} 401 0.244 ms
+
+2020-11-10 22:13:30 [32minfo[39m: GET /users request: {} body: {} 200 105.246 ms
+
+2020-11-10 22:13:30 [32minfo[39m: GET /users/123 request: {} body: {} 401 0.403 ms
+
+2020-11-10 22:13:30 [32minfo[39m: GET /boards request: {} body: {} 200 164.328 ms
+
+2020-11-10 22:13:30 [32minfo[39m: GET /boards/12345 request: {} body: {} 401 0.275 ms
+
+2020-11-10 22:13:30 [32minfo[39m: POST /login request: {} body: {"login":"admin","password":"admin"} 200 161.839 ms
+
+2020-11-10 22:13:30 [32minfo[39m: POST /login request: {} body: {"login":"admin","password":"admin"} 200 144.792 ms
+
+2020-11-10 22:13:30 [32minfo[39m: POST /login request: {} body: {"login":"admin","password":"admin"} 200 140.010 ms
+
+2020-11-10 22:13:30 [31merror[39m: uncaughtException Cannot read property 'login' of null
+2020-11-10 22:24:10 [32minfo[39m: Application status: ✅ Running on http://localhost:4000
+2020-11-10 22:24:10 [32minfo[39m: Database status: ✅ Database connected
+2020-11-10 22:24:18 [32minfo[39m: GET /boards/12345/tasks request: {} body: {} 401 4.879 ms
+
+2020-11-10 22:24:18 [32minfo[39m: GET /boards/12345/tasks/12345 request: {} body: {} 401 0.248 ms
+
+2020-11-10 22:24:18 [32minfo[39m: POST /boards/12345/tasks request: {} body: {"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null} 401 0.520 ms
+
+2020-11-10 22:24:18 [32minfo[39m: PUT /boards/12345/tasks/12345 request: {} body: {"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null} 401 0.485 ms
+
+2020-11-10 22:24:18 [32minfo[39m: DELETE /boards/12345/tasks/12345 request: {} body: {} 401 0.237 ms
+
+2020-11-10 22:24:18 [32minfo[39m: GET /boards request: {} body: {} 200 79.471 ms
+
+2020-11-10 22:24:18 [32minfo[39m: GET /boards/12345 request: {} body: {} 401 0.343 ms
+
+2020-11-10 22:24:18 [32minfo[39m: GET /users request: {} body: {} 200 151.341 ms
+
+2020-11-10 22:24:18 [32minfo[39m: GET /users/123 request: {} body: {} 401 0.481 ms
+
+2020-11-10 22:24:18 [32minfo[39m: POST /login request: {} body: {"login":"admin","password":"admin"} 200 173.621 ms
+
+2020-11-10 22:24:18 [32minfo[39m: POST /login request: {} body: {"login":"admin","password":"admin"} 200 159.356 ms
+
+2020-11-10 22:24:18 [32minfo[39m: POST /login request: {} body: {"login":"admin","password":"admin"} 200 157.286 ms
+
+2020-11-10 22:24:18 [31merror[39m: uncaughtException Cannot read property 'login' of null
+2020-11-10 22:24:27 [32minfo[39m: Application status: ✅ Running on http://localhost:4000
+2020-11-10 22:24:28 [32minfo[39m: Database status: ✅ Database connected
+2020-11-10 22:25:31 [32minfo[39m: Application status: ✅ Running on http://localhost:4000
+2020-11-10 22:25:31 [32minfo[39m: Database status: ✅ Database connected
+2020-11-10 22:26:17 [32minfo[39m: Application status: ✅ Running on http://localhost:4000
+2020-11-10 22:26:18 [32minfo[39m: Database status: ✅ Database connected
+2020-11-10 22:26:25 [32minfo[39m: GET /boards/12345/tasks request: {} body: {} 401 2.310 ms
+
+2020-11-10 22:26:25 [32minfo[39m: GET /boards/12345/tasks/12345 request: {} body: {} 401 0.289 ms
+
+2020-11-10 22:26:25 [32minfo[39m: POST /boards/12345/tasks request: {} body: {"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null} 401 14.554 ms
+
+2020-11-10 22:26:25 [32minfo[39m: PUT /boards/12345/tasks/12345 request: {} body: {"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null} 401 0.529 ms
+
+2020-11-10 22:26:25 [32minfo[39m: DELETE /boards/12345/tasks/12345 request: {} body: {} 401 0.282 ms
+
+2020-11-10 22:26:25 [32minfo[39m: POST /login request: undefined body: {"login":"admin","password":"admin"} 500 3.194 ms
+
+2020-11-10 22:26:25 [32minfo[39m: GET /users request: {} body: {} 200 139.511 ms
+
+2020-11-10 22:26:26 [32minfo[39m: POST /login request: undefined body: {"login":"admin","password":"admin"} 500 2.156 ms
+
+2020-11-10 22:26:26 [32minfo[39m: POST /login request: undefined body: {"login":"admin","password":"admin"} 500 3.116 ms
+
+2020-11-10 22:26:26 [32minfo[39m: GET /users/123 request: {} body: {} 401 0.512 ms
+
+2020-11-10 22:26:26 [32minfo[39m: GET /boards request: {} body: {} 200 237.533 ms
+
+2020-11-10 22:26:26 [32minfo[39m: GET /boards/12345 request: {} body: {} 401 0.310 ms
+
+2020-11-10 22:26:26 [32minfo[39m: POST /boards request: {} body: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]} 200 236.669 ms
+
+2020-11-10 22:26:26 [32minfo[39m: POST /boards/5faaf771d00cc30660941477/tasks request: {"boardId":"5faaf771d00cc30660941477"} body: {"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null} 401 1.231 ms
+
+2020-11-10 22:26:26 [32minfo[39m: GET /boards/5faaf771d00cc30660941477/tasks request: {"boardId":"5faaf771d00cc30660941477"} body: {} 401 0.413 ms
+
+2020-11-10 22:26:26 [32minfo[39m: GET /boards/5faaf771d00cc30660941477/tasks request: {"boardId":"5faaf771d00cc30660941477"} body: {} 401 0.362 ms
+
+2020-11-10 22:26:26 [32minfo[39m: POST /boards/5faaf771d00cc30660941477/tasks request: {"boardId":"5faaf771d00cc30660941477"} body: {"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null} 401 0.639 ms
+
+2020-11-10 22:26:26 [32minfo[39m: POST /boards/5faaf771d00cc30660941477/tasks request: {"boardId":"5faaf771d00cc30660941477"} body: {"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null} 401 0.639 ms
+
+2020-11-10 22:26:26 [32minfo[39m: PUT /boards/undefined/tasks/undefined request: {"boardId":"undefined"} body: {"title":"Autotest updated task"} 401 0.545 ms
+
+2020-11-10 22:26:26 [32minfo[39m: GET /boards/5faaf771d00cc30660941477/tasks/undefined request: {"boardId":"5faaf771d00cc30660941477"} body: {} 401 0.385 ms
+
+2020-11-10 22:26:26 [32minfo[39m: GET /users request: {} body: {} 200 207.922 ms
+
+2020-11-10 22:26:26 [32minfo[39m: DELETE /boards/5faaf771d00cc30660941477 request: {"id":"5faaf771d00cc30660941477"} body: {} 401 0.384 ms
+
+2020-11-10 22:26:26 [32minfo[39m: POST /boards request: {} body: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]} 200 322.556 ms
+
+2020-11-10 22:26:26 [32minfo[39m: POST /boards request: {} body: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]} 200 330.921 ms
+
+2020-11-10 22:26:26 [32minfo[39m: PUT /boards/12345 request: {} body: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]} 401 0.527 ms
+
+2020-11-10 22:26:26 [32minfo[39m: DELETE /boards/12345 request: {} body: {} 401 0.252 ms
+
+2020-11-10 22:26:26 [31merror[39m: unhandledRejection Cannot set headers after they are sent to the client
+2020-11-10 22:27:35 [32minfo[39m: Application status: ✅ Running on http://localhost:4000
+2020-11-10 22:27:36 [32minfo[39m: Database status: ✅ Database connected
+2020-11-10 22:27:44 [32minfo[39m: POST /login request: undefined body: {"login":"admin","password":"admin"} 500 15.424 ms
+
+2020-11-10 22:27:44 [32minfo[39m: POST /login request: undefined body: {"login":"admin","password":"admin"} 500 1.191 ms
+
+2020-11-10 22:27:45 [32minfo[39m: GET /boards request: {} body: {} 200 137.327 ms
+
+2020-11-10 22:27:45 [32minfo[39m: POST /login request: undefined body: {"login":"admin","password":"admin"} 500 52.670 ms
+
+2020-11-10 22:27:51 [32minfo[39m: Application status: ✅ Running on http://localhost:4000
+2020-11-10 22:27:52 [32minfo[39m: Database status: ✅ Database connected
+2020-11-10 22:28:00 [32minfo[39m: Application status: ✅ Running on http://localhost:4000
+2020-11-10 22:28:01 [32minfo[39m: Database status: ✅ Database connected
+2020-11-10 22:28:07 [32minfo[39m: GET /boards request: {} body: {} 401 3.352 ms
+
+2020-11-10 22:28:07 [32minfo[39m: GET /boards/12345 request: {} body: {} 401 0.436 ms
+
+2020-11-10 22:28:07 [32minfo[39m: GET /boards/12345/tasks request: {} body: {} 401 0.285 ms
+
+2020-11-10 22:28:07 [32minfo[39m: GET /users request: {} body: {} 401 0.413 ms
+
+2020-11-10 22:28:07 [32minfo[39m: POST /boards request: {} body: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]} 401 14.995 ms
+
+2020-11-10 22:28:07 [32minfo[39m: GET /boards/12345/tasks/12345 request: {} body: {} 401 0.269 ms
+
+2020-11-10 22:28:07 [32minfo[39m: GET /users/123 request: {} body: {} 401 0.539 ms
+
+2020-11-10 22:28:07 [32minfo[39m: POST /login request: undefined body: {"login":"admin","password":"admin"} 500 3.129 ms
+
+2020-11-10 22:28:07 [32minfo[39m: PUT /boards/12345 request: {} body: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]} 401 0.569 ms
+
+2020-11-10 22:28:07 [32minfo[39m: POST /boards/12345/tasks request: {} body: {"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null} 401 0.541 ms
+
+2020-11-10 22:28:07 [32minfo[39m: POST /users request: {} body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"} 401 0.550 ms
+
+2020-11-10 22:28:07 [32minfo[39m: POST /login request: undefined body: {"login":"admin","password":"admin"} 500 1.477 ms
+
+2020-11-10 22:28:07 [32minfo[39m: DELETE /boards/12345 request: {} body: {} 401 0.226 ms
+
+2020-11-10 22:28:07 [32minfo[39m: POST /boards request: {} body: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]} 401 1.086 ms
+
+2020-11-10 22:28:07 [32minfo[39m: PUT /boards/12345/tasks/12345 request: {} body: {"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null} 401 0.467 ms
+
+2020-11-10 22:28:07 [32minfo[39m: POST /login request: undefined body: {"login":"admin","password":"admin"} 500 49.862 ms
+
+2020-11-10 22:28:07 [32minfo[39m: PUT /users/12345 request: {} body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"} 401 0.535 ms
+
+2020-11-10 22:28:07 [32minfo[39m: GET /users request: {} body: {} 401 0.411 ms
+
+2020-11-10 22:28:07 [32minfo[39m: POST /boards/undefined/tasks request: {"boardId":"undefined"} body: {"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null} 401 0.608 ms
+
+2020-11-10 22:28:07 [32minfo[39m: DELETE /boards/12345/tasks/12345 request: {} body: {} 401 0.261 ms
+
+2020-11-10 22:29:55 [32minfo[39m: Application status: ✅ Running on http://localhost:4000
+2020-11-10 22:29:56 [32minfo[39m: Database status: ✅ Database connected
+2020-11-10 22:30:04 [32minfo[39m: GET /users request: {} body: {} 401 3.889 ms
+
+2020-11-10 22:30:04 [32minfo[39m: GET /users/123 request: {} body: {} 401 0.257 ms
+
+2020-11-10 22:30:04 [32minfo[39m: POST /users request: {} body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"} 401 15.743 ms
+
+2020-11-10 22:30:04 [32minfo[39m: POST /login request: undefined body: {"login":"admin","password":"admin"} 500 1.629 ms
+
+2020-11-10 22:30:05 [32minfo[39m: PUT /users/12345 request: {} body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"} 401 0.596 ms
+
+2020-11-10 22:30:05 [32minfo[39m: GET /boards/12345/tasks request: {"boardId":"12345"} body: {} 200 150.585 ms
+
+2020-11-10 22:30:05 [32minfo[39m: DELETE /users/12345 request: {} body: {} 401 0.252 ms
+
+2020-11-10 22:30:05 [32minfo[39m: POST /login request: undefined body: {"login":"admin","password":"admin"} 500 4.307 ms
+
+2020-11-10 22:30:05 [32minfo[39m: POST /login request: undefined body: {"login":"admin","password":"admin"} 500 6.213 ms
+
+2020-11-10 22:30:14 [32minfo[39m: Application status: ✅ Running on http://localhost:4000
+2020-11-10 22:30:15 [32minfo[39m: Database status: ✅ Database connected
+2020-11-10 22:30:58 [32minfo[39m: Application status: ✅ Running on http://localhost:4000
+2020-11-10 22:30:58 [32minfo[39m: Database status: ✅ Database connected
+2020-11-10 22:31:06 [32minfo[39m: GET /users request: undefined body: {} 500 4.755 ms
+
+2020-11-10 22:31:06 [32minfo[39m: GET /boards request: undefined body: {} 500 1.829 ms
+
+2020-11-10 22:31:06 [32minfo[39m: GET /users/123 request: undefined body: {} 500 0.592 ms
+
+2020-11-10 22:31:07 [32minfo[39m: GET /boards/12345/tasks request: undefined body: {} 500 87.164 ms
+
+2020-11-10 22:31:07 [32minfo[39m: POST /login request: undefined body: {"login":"admin","password":"admin"} 500 95.242 ms
+
+2020-11-10 22:31:07 [32minfo[39m: POST /users request: undefined body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"} 500 0.782 ms
+
+2020-11-10 22:31:07 [32minfo[39m: GET /boards/12345 request: undefined body: {} 500 36.691 ms
+
+2020-11-10 22:31:07 [32minfo[39m: POST /login request: undefined body: {"login":"admin","password":"admin"} 500 45.042 ms
+
+2020-11-10 22:31:07 [32minfo[39m: POST /login request: undefined body: {"login":"admin","password":"admin"} 500 48.240 ms
+
+2020-11-10 22:31:07 [32minfo[39m: GET /boards/12345/tasks/12345 request: undefined body: {} 500 128.055 ms
+
+2020-11-10 22:31:07 [32minfo[39m: PUT /users/12345 request: undefined body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"} 500 0.868 ms
+
+2020-11-10 22:31:07 [32minfo[39m: POST /boards request: undefined body: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]} 500 49.541 ms
+
+2020-11-10 22:31:07 [32minfo[39m: POST /boards request: undefined body: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]} 500 38.130 ms
+
+2020-11-10 22:31:07 [32minfo[39m: POST /boards request: undefined body: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]} 500 48.612 ms
+
+2020-11-10 22:31:07 [32minfo[39m: GET /users request: undefined body: {} 500 1.001 ms
+
+2020-11-10 22:31:07 [32minfo[39m: DELETE /users/12345 request: undefined body: {} 500 0.548 ms
+
+2020-11-10 22:31:07 [32minfo[39m: POST /boards/12345/tasks request: undefined body: {"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null} 500 179.001 ms
+
+2020-11-10 22:31:07 [32minfo[39m: POST /boards/undefined/tasks request: undefined body: {"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null} 500 38.909 ms
+
+2020-11-10 22:31:07 [32minfo[39m: POST /users request: undefined body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"} 500 0.613 ms
+
+2020-11-10 22:31:07 [32minfo[39m: PUT /boards/12345 request: undefined body: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]} 500 46.585 ms
+
+2020-11-10 22:31:07 [32minfo[39m: GET /boards request: undefined body: {} 500 56.511 ms
+
+2020-11-10 22:31:07 [32minfo[39m: PUT /boards/12345/tasks/12345 request: undefined body: {"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null} 500 82.717 ms
+
+2020-11-10 22:31:07 [32minfo[39m: POST /users request: undefined body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"} 500 0.537 ms
+
+2020-11-10 22:31:08 [32minfo[39m: GET /boards/undefined/tasks request: undefined body: {} 500 44.227 ms
+
+2020-11-10 22:31:08 [32minfo[39m: DELETE /boards/12345 request: undefined body: {} 500 59.696 ms
+
+2020-11-10 22:31:08 [32minfo[39m: GET /boards request: undefined body: {} 500 62.617 ms
+
+2020-11-10 22:31:08 [32minfo[39m: DELETE /boards/12345/tasks/12345 request: undefined body: {} 500 115.618 ms
+
+2020-11-10 22:31:08 [32minfo[39m: POST /users request: undefined body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"} 500 0.695 ms
+
+2020-11-10 22:31:08 [32minfo[39m: GET /boards/undefined/tasks request: undefined body: {} 500 141.627 ms
+
+2020-11-10 22:31:08 [32minfo[39m: POST /boards request: undefined body: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]} 500 37.842 ms
+
+2020-11-10 22:31:08 [32minfo[39m: PUT /users/undefined request: undefined body: {"name":"Autotest updated TEST_USER","login":"test_user","password":"T35t_P@55w0rd"} 500 1.513 ms
+
+2020-11-10 22:31:08 [32minfo[39m: POST /boards/undefined/tasks request: undefined body: {"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null} 500 0.987 ms
+
+2020-11-10 22:31:08 [32minfo[39m: POST /boards request: undefined body: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]} 500 47.091 ms
+
+2020-11-10 22:31:08 [32minfo[39m: POST /users request: undefined body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"} 500 1.038 ms
+
+2020-11-10 22:31:08 [32minfo[39m: POST /boards/undefined/tasks request: undefined body: {"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null} 500 1.155 ms
+
+2020-11-10 22:31:08 [32minfo[39m: DELETE /users/undefined request: undefined body: {} 500 0.547 ms
+
+2020-11-10 22:31:08 [32minfo[39m: PUT /boards/undefined request: undefined body: {"title":"Autotest updated board"} 500 46.150 ms
+
+2020-11-10 22:31:08 [32minfo[39m: PUT /boards/undefined/tasks/undefined request: undefined body: {"title":"Autotest updated task"} 500 1.379 ms
+
+2020-11-10 22:31:08 [32minfo[39m: POST /users request: undefined body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"} 500 0.956 ms
+
+2020-11-10 22:31:08 [32minfo[39m: POST /boards request: undefined body: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]} 500 133.035 ms
+
+2020-11-10 22:31:08 [32minfo[39m: GET /boards/undefined/tasks/undefined request: undefined body: {} 500 0.877 ms
+
+2020-11-10 22:31:09 [32minfo[39m: POST /boards request: undefined body: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]} 500 34.894 ms
+
+2020-11-10 22:31:09 [32minfo[39m: DELETE /boards/undefined request: undefined body: {} 500 0.999 ms
+
+2020-11-10 22:31:09 [32minfo[39m: DELETE /boards/undefined request: undefined body: {} 500 68.483 ms
+
+2020-11-10 22:31:31 [32minfo[39m: Application status: ✅ Running on http://localhost:4000
+2020-11-10 22:31:32 [32minfo[39m: Database status: ✅ Database connected
+2020-11-10 22:31:43 [32minfo[39m: GET /boards request: undefined body: {} 500 4.018 ms
+
+2020-11-10 22:31:43 [32minfo[39m: GET /users request: undefined body: {} 500 0.518 ms
+
+2020-11-10 22:31:43 [32minfo[39m: GET /boards/12345 request: undefined body: {} 500 20.127 ms
+
+2020-11-10 22:31:43 [32minfo[39m: GET /boards/12345/tasks request: undefined body: {} 500 28.368 ms
+
+2020-11-10 22:31:43 [32minfo[39m: POST /login request: undefined body: {"login":"admin","password":"admin"} 500 30.904 ms
+
+2020-11-10 22:31:43 [32minfo[39m: POST /login request: undefined body: {"login":"admin","password":"admin"} 500 25.498 ms
+
+2020-11-10 22:31:43 [32minfo[39m: GET /users/123 request: undefined body: {} 500 1.168 ms
+
+2020-11-10 22:31:43 [32minfo[39m: POST /login request: undefined body: {"login":"admin","password":"admin"} 500 12.558 ms
+
+2020-11-10 22:31:43 [32minfo[39m: POST /boards request: undefined body: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]} 500 13.493 ms
+
+2020-11-10 22:31:43 [32minfo[39m: GET /boards/12345/tasks/12345 request: undefined body: {} 500 43.124 ms
+
+2020-11-10 22:31:43 [32minfo[39m: POST /boards request: undefined body: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]} 500 51.112 ms
+
+2020-11-10 22:31:43 [32minfo[39m: POST /boards request: undefined body: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]} 500 53.649 ms
+
+2020-11-10 22:31:44 [32minfo[39m: POST /users request: undefined body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"} 500 0.804 ms
+
+2020-11-10 22:31:44 [32minfo[39m: GET /users request: undefined body: {} 500 0.527 ms
+
+2020-11-10 22:31:44 [32minfo[39m: PUT /boards/12345 request: undefined body: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]} 500 4.252 ms
+
+2020-11-10 22:31:44 [32minfo[39m: POST /boards/12345/tasks request: undefined body: {"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null} 500 45.582 ms
+
+2020-11-10 22:31:44 [32minfo[39m: POST /boards/undefined/tasks request: undefined body: {"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null} 500 49.393 ms
+
+2020-11-10 22:31:44 [32minfo[39m: GET /boards request: undefined body: {} 500 51.870 ms
+
+2020-11-10 22:31:44 [32minfo[39m: PUT /users/12345 request: undefined body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"} 500 0.802 ms
+
+2020-11-10 22:31:44 [32minfo[39m: POST /users request: undefined body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"} 500 0.730 ms
+
+2020-11-10 22:31:44 [32minfo[39m: DELETE /boards/12345 request: undefined body: {} 500 36.039 ms
+
+2020-11-10 22:31:44 [32minfo[39m: PUT /boards/12345/tasks/12345 request: undefined body: {"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null} 500 46.646 ms
+
+2020-11-10 22:31:44 [32minfo[39m: GET /boards/undefined/tasks request: undefined body: {} 500 48.725 ms
+
+2020-11-10 22:31:44 [32minfo[39m: GET /boards request: undefined body: {} 500 51.221 ms
+
+2020-11-10 22:31:44 [32minfo[39m: DELETE /users/12345 request: undefined body: {} 500 0.571 ms
+
+2020-11-10 22:31:44 [32minfo[39m: POST /users request: undefined body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"} 500 0.954 ms
+
+2020-11-10 22:31:44 [32minfo[39m: DELETE /boards/12345/tasks/12345 request: undefined body: {} 500 1.856 ms
+
+2020-11-10 22:31:44 [32minfo[39m: POST /boards request: undefined body: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]} 500 3.110 ms
+
+2020-11-10 22:31:44 [32minfo[39m: GET /boards/undefined/tasks request: undefined body: {} 500 15.694 ms
+
+2020-11-10 22:31:44 [32minfo[39m: POST /users request: undefined body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"} 500 0.901 ms
+
+2020-11-10 22:31:45 [32minfo[39m: PUT /users/undefined request: undefined body: {"name":"Autotest updated TEST_USER","login":"test_user","password":"T35t_P@55w0rd"} 500 0.564 ms
+
+2020-11-10 22:31:45 [32minfo[39m: POST /boards request: undefined body: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]} 500 6.891 ms
+
+2020-11-10 22:31:45 [32minfo[39m: POST /boards/undefined/tasks request: undefined body: {"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null} 500 9.588 ms
+
+2020-11-10 22:31:45 [32minfo[39m: POST /users request: undefined body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"} 500 0.723 ms
+
+2020-11-10 22:31:45 [32minfo[39m: PUT /boards/undefined request: undefined body: {"title":"Autotest updated board"} 500 2.150 ms
+
+2020-11-10 22:31:45 [32minfo[39m: POST /boards/undefined/tasks request: undefined body: {"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null} 500 8.737 ms
+
+2020-11-10 22:31:45 [32minfo[39m: DELETE /users/undefined request: undefined body: {} 500 0.909 ms
+
+2020-11-10 22:31:45 [32minfo[39m: POST /boards request: undefined body: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]} 500 1.449 ms
+
+2020-11-10 22:31:45 [32minfo[39m: PUT /boards/undefined/tasks/undefined request: undefined body: {"title":"Autotest updated task"} 500 2.570 ms
+
+2020-11-10 22:31:45 [32minfo[39m: POST /users request: undefined body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"} 500 0.934 ms
+
+2020-11-10 22:31:45 [32minfo[39m: POST /boards request: undefined body: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]} 500 1.096 ms
+
+2020-11-10 22:31:45 [32minfo[39m: GET /boards/undefined/tasks/undefined request: undefined body: {} 500 9.507 ms
+
+2020-11-10 22:31:45 [32minfo[39m: DELETE /boards/undefined request: undefined body: {} 500 0.952 ms
+
+2020-11-10 22:31:45 [32minfo[39m: DELETE /boards/undefined request: undefined body: {} 500 3.096 ms
+
+2020-11-10 22:32:13 [32minfo[39m: Application status: ✅ Running on http://localhost:4000
+2020-11-10 22:32:14 [32minfo[39m: Database status: ✅ Database connected
+2020-11-10 22:32:21 [32minfo[39m: GET /boards/12345/tasks request: {} body: {} 401 5.589 ms
+
+2020-11-10 22:32:21 [32minfo[39m: GET /boards request: {} body: {} 401 0.539 ms
+
+2020-11-10 22:32:21 [32minfo[39m: POST /login request: undefined body: {"login":"admin","password":"admin"} 500 16.928 ms
+
+2020-11-10 22:32:21 [32minfo[39m: GET /boards/12345/tasks/12345 request: {} body: {} 401 0.387 ms
+
+2020-11-10 22:32:21 [32minfo[39m: GET /users request: {} body: {} 401 0.318 ms
+
+2020-11-10 22:32:21 [32minfo[39m: GET /boards/12345 request: {} body: {} 401 0.331 ms
+
+2020-11-10 22:32:21 [32minfo[39m: POST /login request: undefined body: {"login":"admin","password":"admin"} 500 16.000 ms
+
+2020-11-10 22:32:21 [32minfo[39m: POST /login request: undefined body: {"login":"admin","password":"admin"} 500 2.716 ms
+
+2020-11-10 22:32:22 [32minfo[39m: GET /users request: {} body: {} 401 0.686 ms
+
+2020-11-10 22:32:22 [32minfo[39m: POST /boards/12345/tasks request: {} body: {"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null} 401 0.674 ms
+
+2020-11-10 22:32:22 [32minfo[39m: POST /boards request: {} body: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]} 401 0.598 ms
+
+2020-11-10 22:32:22 [32minfo[39m: GET /users/123 request: {} body: {} 401 0.276 ms
+
+2020-11-10 22:32:22 [32minfo[39m: POST /boards request: {} body: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]} 401 0.637 ms
+
+2020-11-10 22:32:22 [32minfo[39m: POST /boards request: {} body: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]} 401 0.538 ms
+
+2020-11-10 22:32:22 [32minfo[39m: POST /users request: {} body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"} 401 0.532 ms
+
+2020-11-10 22:32:22 [32minfo[39m: PUT /boards/12345/tasks/12345 request: {} body: {"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null} 401 0.837 ms
+
+2020-11-10 22:32:22 [32minfo[39m: PUT /boards/12345 request: {} body: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]} 401 0.510 ms
+
+2020-11-10 22:32:22 [32minfo[39m: POST /users request: {} body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"} 401 1.100 ms
+
+2020-11-10 22:32:22 [32minfo[39m: POST /boards/undefined/tasks request: {} body: {"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null} 401 0.852 ms
+
+2020-11-10 22:32:22 [32minfo[39m: GET /boards request: {} body: {} 401 0.361 ms
+
+2020-11-10 22:32:22 [32minfo[39m: POST /users request: {} body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"} 401 0.526 ms
+
+2020-11-10 22:32:22 [32minfo[39m: DELETE /boards/12345/tasks/12345 request: {} body: {} 401 0.320 ms
+
+2020-11-10 22:32:22 [32minfo[39m: DELETE /boards/12345 request: {} body: {} 401 0.304 ms
+
+2020-11-10 22:32:22 [32minfo[39m: PUT /users/12345 request: {} body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"} 401 0.634 ms
+
+2020-11-10 22:32:22 [32minfo[39m: GET /boards/undefined/tasks request: {} body: {} 401 0.279 ms
+
+2020-11-10 22:32:22 [32minfo[39m: GET /boards request: {} body: {} 401 0.340 ms
+
+2020-11-10 22:32:22 [32minfo[39m: POST /users request: {} body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"} 401 1.302 ms
+
+2020-11-10 22:32:22 [32minfo[39m: DELETE /users/12345 request: {} body: {} 401 0.395 ms
+
+2020-11-10 22:32:22 [32minfo[39m: GET /boards/undefined/tasks request: {} body: {} 401 0.376 ms
+
+2020-11-10 22:32:22 [32minfo[39m: POST /boards request: {} body: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]} 401 0.654 ms
+
+2020-11-10 22:32:22 [32minfo[39m: PUT /users/undefined request: {} body: {"name":"Autotest updated TEST_USER","login":"test_user","password":"T35t_P@55w0rd"} 401 0.851 ms
+
+2020-11-10 22:32:22 [32minfo[39m: POST /boards/undefined/tasks request: {} body: {"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null} 401 0.586 ms
+
+2020-11-10 22:32:22 [32minfo[39m: POST /boards request: {} body: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]} 401 0.634 ms
+
+2020-11-10 22:32:22 [32minfo[39m: POST /users request: {} body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"} 401 0.547 ms
+
+2020-11-10 22:32:22 [32minfo[39m: POST /boards/undefined/tasks request: {} body: {"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null} 401 0.525 ms
+
+2020-11-10 22:32:22 [32minfo[39m: PUT /boards/undefined request: {} body: {"title":"Autotest updated board"} 401 0.651 ms
+
+2020-11-10 22:32:22 [32minfo[39m: DELETE /users/undefined request: {} body: {} 401 0.268 ms
+
+2020-11-10 22:32:22 [32minfo[39m: PUT /boards/undefined/tasks/undefined request: {} body: {"title":"Autotest updated task"} 401 0.463 ms
+
+2020-11-10 22:32:22 [32minfo[39m: POST /boards request: {} body: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]} 401 1.639 ms
+
+2020-11-10 22:32:22 [32minfo[39m: GET /boards/undefined/tasks/undefined request: {} body: {} 401 0.322 ms
+
+2020-11-10 22:32:22 [32minfo[39m: POST /users request: {} body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"} 401 0.505 ms
+
+2020-11-10 22:32:22 [32minfo[39m: POST /boards request: {} body: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]} 401 0.446 ms
+
+2020-11-10 22:32:22 [32minfo[39m: DELETE /boards/undefined request: {} body: {} 401 0.324 ms
+
+2020-11-10 22:32:22 [32minfo[39m: DELETE /boards/undefined request: {} body: {} 401 0.240 ms
+
+2020-11-10 22:32:31 [32minfo[39m: Application status: ✅ Running on http://localhost:4000
+2020-11-10 22:32:32 [32minfo[39m: Database status: ✅ Database connected
+2020-11-10 22:33:42 [32minfo[39m: Application status: ✅ Running on http://localhost:4000
+2020-11-10 22:33:43 [32minfo[39m: Database status: ✅ Database connected
+2020-11-10 22:33:55 [32minfo[39m: Application status: ✅ Running on http://localhost:4000
+2020-11-10 22:33:56 [32minfo[39m: Database status: ✅ Database connected
+2020-11-10 22:37:22 [32minfo[39m: Application status: ✅ Running on http://localhost:4000
+2020-11-10 22:37:23 [32minfo[39m: Database status: ✅ Database connected
+2020-11-10 22:37:30 [32minfo[39m: GET /boards/12345/tasks request: {} body: {} 401 2.153 ms
+
+2020-11-10 22:37:30 [32minfo[39m: GET /boards/12345/tasks/12345 request: {} body: {} 401 0.428 ms
+
+2020-11-10 22:37:30 [32minfo[39m: POST /login request: undefined body: {"login":"admin","password":"admin"} 500 16.820 ms
+
+2020-11-10 22:37:30 [32minfo[39m: POST /boards/12345/tasks request: {} body: {"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null} 401 0.580 ms
+
+2020-11-10 22:37:30 [32minfo[39m: GET /boards request: {} body: {} 200 131.910 ms
+
+2020-11-10 22:37:30 [32minfo[39m: POST /login request: undefined body: {"login":"admin","password":"admin"} 500 14.927 ms
+
+2020-11-10 22:37:30 [32minfo[39m: PUT /boards/12345/tasks/12345 request: {} body: {"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null} 401 1.425 ms
+
+2020-11-10 22:37:30 [32minfo[39m: POST /login request: undefined body: {"login":"admin","password":"admin"} 500 51.243 ms
+
+2020-11-10 22:37:30 [32minfo[39m: GET /boards/12345 request: {} body: {} 401 0.299 ms
+
+2020-11-10 22:37:30 [32minfo[39m: DELETE /boards/12345/tasks/12345 request: {} body: {} 401 0.258 ms
+
+2020-11-10 22:37:30 [32minfo[39m: GET /users request: {} body: {} 200 228.063 ms
+
+2020-11-10 22:37:30 [32minfo[39m: GET /users/123 request: {} body: {} 401 0.238 ms
+
+2020-11-10 22:37:31 [32minfo[39m: GET /users request: {} body: {} 200 199.356 ms
+
+2020-11-10 22:37:31 [32minfo[39m: POST /boards request: {} body: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]} 200 200.972 ms
+
+2020-11-10 22:37:31 [32minfo[39m: POST /boards request: {} body: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]} 200 255.309 ms
+
+2020-11-10 22:37:31 [32minfo[39m: POST /boards/5faafa0a5132df1f248089f2/tasks request: {"boardId":"5faafa0a5132df1f248089f2"} body: {"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null} 401 2.208 ms
+
+2020-11-10 22:37:31 [32minfo[39m: GET /boards/5faafa0a5132df1f248089f2/tasks request: {"boardId":"5faafa0a5132df1f248089f2"} body: {} 401 0.393 ms
+
+2020-11-10 22:37:31 [32minfo[39m: GET /boards/5faafa0a5132df1f248089f2/tasks request: {"boardId":"5faafa0a5132df1f248089f2"} body: {} 401 0.501 ms
+
+2020-11-10 22:37:31 [32minfo[39m: POST /boards/5faafa0a5132df1f248089f2/tasks request: {"boardId":"5faafa0a5132df1f248089f2"} body: {"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null} 401 0.963 ms
+
+2020-11-10 22:37:31 [32minfo[39m: POST /boards/5faafa0a5132df1f248089f2/tasks request: {"boardId":"5faafa0a5132df1f248089f2"} body: {"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null} 401 0.608 ms
+
+2020-11-10 22:37:31 [32minfo[39m: PUT /boards/undefined/tasks/undefined request: {"boardId":"undefined"} body: {"title":"Autotest updated task"} 401 0.554 ms
+
+2020-11-10 22:37:31 [32minfo[39m: POST /boards request: {} body: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]} 200 299.204 ms
+
+2020-11-10 22:37:31 [32minfo[39m: GET /boards/5faafa0a5132df1f248089f2/tasks/undefined request: {"boardId":"5faafa0a5132df1f248089f2"} body: {} 401 0.295 ms
+
+2020-11-10 22:37:31 [32minfo[39m: PUT /boards/12345 request: {} body: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]} 401 0.552 ms
+
+2020-11-10 22:37:31 [32minfo[39m: DELETE /boards/5faafa0a5132df1f248089f2 request: {"id":"5faafa0a5132df1f248089f2"} body: {} 401 0.380 ms
+
+2020-11-10 22:37:31 [32minfo[39m: DELETE /boards/12345 request: {} body: {} 401 0.286 ms
+
+2020-11-10 22:37:31 [32minfo[39m: GET /boards request: {} body: {} 200 270.875 ms
+
+2020-11-10 22:37:31 [31merror[39m: unhandledRejection Cannot set headers after they are sent to the client
+2020-11-10 22:37:49 [32minfo[39m: Application status: ✅ Running on http://localhost:4000
+2020-11-10 22:37:49 [32minfo[39m: Database status: ✅ Database connected
+2020-11-10 22:37:58 [32minfo[39m: POST /login request: undefined body: {"login":"admin","password":"admin"} 500 18.232 ms
+
+2020-11-10 22:37:58 [32minfo[39m: POST /login request: undefined body: {"login":"admin","password":"admin"} 500 1.378 ms
+
+2020-11-10 22:37:58 [32minfo[39m: GET /boards/12345/tasks request: {} body: {} 401 1.639 ms
+
+2020-11-10 22:37:58 [32minfo[39m: GET /users request: {} body: {} 200 161.175 ms
+
+2020-11-10 22:37:58 [32minfo[39m: POST /login request: undefined body: {"login":"admin","password":"admin"} 500 55.707 ms
+
+2020-11-10 22:37:58 [32minfo[39m: GET /boards/12345/tasks/12345 request: {} body: {} 401 0.262 ms
+
+2020-11-10 22:37:58 [32minfo[39m: GET /users/123 request: {} body: {} 401 0.325 ms
+
+2020-11-10 22:37:58 [32minfo[39m: POST /boards/12345/tasks request: {} body: {"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null} 401 0.661 ms
+
+2020-11-10 22:37:58 [32minfo[39m: GET /boards request: {} body: {} 200 276.413 ms
+
+2020-11-10 22:37:58 [32minfo[39m: PUT /boards/12345/tasks/12345 request: {} body: {"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null} 401 0.717 ms
+
+2020-11-10 22:37:58 [32minfo[39m: DELETE /boards/12345/tasks/12345 request: {} body: {} 401 0.345 ms
+
+2020-11-10 22:37:58 [32minfo[39m: GET /boards/12345 request: {} body: {} 401 0.238 ms
+
+2020-11-10 22:37:58 [32minfo[39m: POST /boards request: {} body: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]} 200 169.251 ms
+
+2020-11-10 22:37:58 [32minfo[39m: GET /users request: {} body: {} 200 186.431 ms
+
+2020-11-10 22:37:58 [32minfo[39m: POST /boards request: {} body: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]} 200 251.629 ms
+
+2020-11-10 22:37:58 [32minfo[39m: POST /boards/5faafa269670a75468c36f2b/tasks request: {"boardId":"5faafa269670a75468c36f2b"} body: {"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null} 401 0.934 ms
+
+2020-11-10 22:37:58 [32minfo[39m: GET /boards/5faafa269670a75468c36f2b/tasks request: {"boardId":"5faafa269670a75468c36f2b"} body: {} 401 0.640 ms
+
+2020-11-10 22:37:58 [32minfo[39m: GET /boards/5faafa269670a75468c36f2b/tasks request: {"boardId":"5faafa269670a75468c36f2b"} body: {} 401 0.515 ms
+
+2020-11-10 22:37:58 [32minfo[39m: POST /boards/5faafa269670a75468c36f2b/tasks request: {"boardId":"5faafa269670a75468c36f2b"} body: {"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null} 401 0.685 ms
+
+2020-11-10 22:37:58 [32minfo[39m: POST /boards/5faafa269670a75468c36f2b/tasks request: {"boardId":"5faafa269670a75468c36f2b"} body: {"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null} 401 0.681 ms
+
+2020-11-10 22:37:58 [32minfo[39m: PUT /boards/undefined/tasks/undefined request: {"boardId":"undefined"} body: {"title":"Autotest updated task"} 401 0.957 ms
+
+2020-11-10 22:37:58 [32minfo[39m: POST /boards request: {} body: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]} 200 313.759 ms
+
+2020-11-10 22:37:58 [32minfo[39m: GET /boards/5faafa269670a75468c36f2b/tasks/undefined request: {"boardId":"5faafa269670a75468c36f2b"} body: {} 401 0.541 ms
+
+2020-11-10 22:37:58 [32minfo[39m: PUT /boards/12345 request: {} body: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]} 401 0.546 ms
+
+2020-11-10 22:37:58 [32minfo[39m: GET /boards request: {} body: {} 200 285.866 ms
+
+2020-11-10 22:37:58 [32minfo[39m: DELETE /boards/5faafa269670a75468c36f2b request: {"id":"5faafa269670a75468c36f2b"} body: {} 401 0.350 ms
+
+2020-11-10 22:37:58 [32minfo[39m: DELETE /boards/12345 request: {} body: {} 401 0.321 ms
+

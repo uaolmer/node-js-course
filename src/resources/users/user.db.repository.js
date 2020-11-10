@@ -20,4 +20,12 @@ const remove = async id => {
   return await User.deleteOne({ _id: id });
 };
 
-module.exports = { getAll, create, read, update, remove };
+const getByProps = async props => await User.find(user => {
+  const matches = Object.entries(props).map(elem => {
+      const [prop, value] = elem;
+      return user[prop] === value;
+  });
+  return matches.every(elem => elem === true);
+});
+
+module.exports = { getAll, create, read, update, remove, getByProps };
